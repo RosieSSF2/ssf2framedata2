@@ -1,5 +1,5 @@
 {
-    "1": {  
+    "Jab": {  
         "Jab 1": {"angle": 50, "damage": 2},
         "Rapid Jab": {"angle": 75, "damage": 0.7},
         "Jab Finisher": {"angle": 10, "damage": 8},
