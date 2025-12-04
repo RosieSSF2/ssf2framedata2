@@ -1,0 +1,202 @@
+{
+    "Jab": {
+        "Hitboxes": {  
+
+        },
+        "Images": {
+            "Full Speed": {},
+            "Slowmo": {}
+        }        
+    },
+    "Dash Attack": {
+        "Hitboxes": {
+
+        },
+        "Images": {
+            "Full Speed": {},
+            "Slowmo": {}
+        }
+    },
+    "Forward Tilt": {
+        "Hitboxes": {
+
+        },
+        "Images": {
+            "Full Speed": {},
+            "Slowmo": {}
+        } 
+    },
+    "Up Tilt": {
+        "Hitboxes": {
+
+        },
+        "Images": {
+            "Full Speed": {},
+            "Slowmo": {}
+        } 
+    },
+    "Down Tilt": {
+        "Hitboxes": {
+
+        },
+        "Images": {
+            "Full Speed": {},
+            "Slowmo": {}
+        } 
+    },
+    "Forward Smash": {
+        "Hitboxes": {
+
+        },
+        "Images": {
+            "Full Speed": {},
+            "Slowmo": {}
+        } 
+    },
+    "Up Smash": {
+        "Hitboxes": {
+
+        },
+        "Images": {
+            "Full Speed": {},
+            "Slowmo": {}
+        } 
+    },
+    "Down Smash": {
+        "Hitboxes": {
+
+        },
+        "Images": {
+            "Full Speed": {},
+            "Slowmo": {}
+        } 
+    },
+    "Neutral Air": {
+        "Hitboxes": {
+
+        },
+        "Images": {
+            "Full Speed": {},
+            "Slowmo": {}
+        } 
+    },
+    "Forward Air": {
+        "Hitboxes": {
+
+        },
+        "Images": {
+            "Full Speed": {},
+            "Slowmo": {}
+        } 
+    },
+    "Back Air": {
+        "Hitboxes": {
+
+        },
+        "Images": {
+            "Full Speed": {},
+            "Slowmo": {}
+        } 
+    },
+    "Up Air": {
+        "Hitboxes": {
+
+        },
+        "Images": {
+            "Full Speed": {},
+            "Slowmo": {}
+        } 
+    },
+    "Down Air": {
+        "Hitboxes": {
+
+        },
+        "Images": {
+            "Full Speed": {},
+            "Slowmo": {}
+        } 
+    },
+    "Neutral Special": {
+        "Hitboxes": {
+
+        },
+        "Images": {
+            "Full Speed": {},
+            "Slowmo": {}
+        } 
+    },
+    "Side Special": {
+        "Hitboxes": {
+
+        },
+        "Images": {
+            "Full Speed": {},
+            "Slowmo": {}
+        } 
+    },
+    "Up Special": {
+        "Hitboxes": {
+
+        },
+        "Images": {
+            "Full Speed": {},
+            "Slowmo": {}
+        } 
+    },
+    "Down Special": {
+        "Hitboxes": {
+
+        },
+        "Images": {
+            "Full Speed": {},
+            "Slowmo": {}
+        } 
+    },
+    "Grab": {
+        "Hitboxes": {
+            "Standing Grab": {},
+            "Dash Grab": {},
+            "Pummel": {}
+        },
+        "Images": {
+            "Full Speed": {"Standing Grab": "", "Dash Grab": "", "Pummel": ""},
+            "Slowmo": {"Standing Grab": "", "Dash Grab": "", "Pummel": ""}
+        } 
+    },
+    "Forward Throw": {
+        "Hitboxes": {
+
+        },
+        "Images": {
+            "Full Speed": {},
+            "Slowmo": {}
+        } 
+    },
+    "Back Throw": {
+        "Hitboxes": {
+
+        },
+        "Images": {
+            "Full Speed": {},
+            "Slowmo": {}
+        } 
+    },
+    "Up Throw": {
+        "Hitboxes": {
+
+        },
+        "Images": {
+            "Full Speed": {},
+            "Slowmo": {}
+        } 
+    },
+    "Down Throw": {
+        "Hitboxes": {
+
+        },
+        "Images": {
+            "Full Speed": {},
+            "Slowmo": {}
+        } 
+    }
+}

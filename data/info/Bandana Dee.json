@@ -10,5 +10,175 @@
             "Full Speed": {"Jab 1": "https://i.imgur.com/eKG5NPh.gif", "Rapid Jab": "https://i.imgur.com/HRDx4qa.gif", "Jab Finisher": "https://i.imgur.com/j5eU1JL.gif", "Jab Combo": "https://i.imgur.com/CuMWdXH.gif"},
             "Slowmo": {"Jab 1": "https://i.imgur.com/KKXzxMe.gif", "Rapid Jab": "https://i.imgur.com/pTdqkCZ.gif", "Jab Finisher": "https://i.imgur.com/Iu3QfDu.gif", "Jab Combo": "https://i.imgur.com/TyQsawQ.gif"}
         }        
+    },
+    "Dash Attack": {
+        "Hitboxes": {
+
+        },
+        "Images":{
+
+        }
+    },
+    "Forward Tilt": {
+        "Hitboxes": {
+
+        },
+        "Images":{
+            
+        }
+    },
+    "Up Tilt": {
+        "Hitboxes": {
+
+        },
+        "Images":{
+            
+        }
+    },
+    "Down Tilt": {
+        "Hitboxes": {
+
+        },
+        "Images":{
+            
+        }
+    },
+    "Forward Smash": {
+        "Hitboxes": {
+
+        },
+        "Images":{
+            
+        }
+    },
+    "Up Smash": {
+        "Hitboxes": {
+
+        },
+        "Images":{
+            
+        }
+    },
+    "Down Smash": {
+        "Hitboxes": {
+
+        },
+        "Images":{
+            
+        }
+    },
+    "Neutral Air": {
+        "Hitboxes": {
+
+        },
+        "Images":{
+            
+        }
+    },
+    "Forward Air": {
+        "Hitboxes": {
+
+        },
+        "Images":{
+            
+        }
+    },
+    "Back Air": {
+        "Hitboxes": {
+
+        },
+        "Images":{
+            
+        }
+    },
+    "Up Air": {
+        "Hitboxes": {
+
+        },
+        "Images":{
+            
+        }
+    },
+    "Down Air": {
+        "Hitboxes": {
+
+        },
+        "Images":{
+            
+        }
+    },
+    "Neutral Special": {
+        "Hitboxes": {
+
+        },
+        "Images":{
+            
+        }
+    },
+    "Side Special": {
+        "Hitboxes": {
+
+        },
+        "Images":{
+            
+        }
+    },
+    "Up Special": {
+        "Hitboxes": {
+
+        },
+        "Images":{
+            
+        }
+    },
+    "Down Special": {
+        "Hitboxes": {
+
+        },
+        "Images":{
+            
+        }
+    },
+    "Grab": {
+        "Hitboxes": {
+            "Standing Grab": {},
+            "Dash Grab": {},
+            "Pummel": {}
+        },
+        "Images":{
+            
+        }
+    },
+    "Forward Throw": {
+        "Hitboxes": {
+
+        },
+        "Images":{
+            
+        }
+    },
+    "Back Throw": {
+        "Hitboxes": {
+
+        },
+        "Images":{
+            
+        }
+    },
+    "Up Throw": {
+        "Hitboxes": {
+
+        },
+        "Images":{
+            
+        }
+    },
+    "Down Throw": {
+        "Hitboxes": {
+
+        },
+        "Images":{
+            
+        }
     }
 }
