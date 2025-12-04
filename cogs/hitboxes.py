@@ -66,16 +66,6 @@ class MoveSelect(Button):
         embed.set_image(url=self.custom_view.get_current_gif(slowmo=False))
         await interaction.response.edit_message(embed=embed, view=self.custom_view)
 
-
-### Embeds and info ###
-
-with open('data/info/Bandana Dee.json', 'r') as f:
-    charinfo = json.load(f)
-    
-
-    
-# print(charinfo['1'])
-
 def ssf2_hitbox(char: str, move: str, user: discord.User):
     
     with open('data/characters.json', 'r') as c:
@@ -87,6 +77,7 @@ def ssf2_hitbox(char: str, move: str, user: discord.User):
     embeds = []
     gif_pairs = []  # (fullspeed_url, slowmo_url)
     hits = []
+    desc = ""
          
     # Move info for embed description    
     for i, hit in enumerate(charinfo[move]["Hitboxes"]):
@@ -95,10 +86,10 @@ def ssf2_hitbox(char: str, move: str, user: discord.User):
         
         # For every value listed in each hit prints the value name and value value
         for idx, info in enumerate(charinfo[move]["Hitboxes"][f'{hit}']):
-            desc = "\n".join(f'{info}: {charinfo[move]["Hitboxes"][f'{hit}'][f'{info}']}')
+            desc += f'{info}: {charinfo[move]["Hitboxes"][f'{hit}'][f'{info}']}\n'
             
         embed = discord.Embed(description=f'```\n{desc}```', color=int(charidentifier[char]["color"], 16))
-        hit_text = hit # not sure what to do here yet
+        hit_text = "placeholder" # not sure what to do here yet
         embed.set_author(name=f'{char} {move}{hit_text}', icon_url=charidentifier[char]["icon"])
         embed.set_footer(text='Up to date as of patch 1.4.0.1')
         embed.set_image(url=f'{charinfo[move]["Images"]["Full Speed"][f"{hit}"]}')  # Default to fullspeed       
@@ -130,7 +121,7 @@ class Hitboxes(commands.Cog):
     async def bandanadee(self, interaction: discord.Interaction, attack: moves):
         """Bandana Dee frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Bandana Dee', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
         
 async def setup(bot: commands.Bot):
     await bot.add_cog(Hitboxes(bot))

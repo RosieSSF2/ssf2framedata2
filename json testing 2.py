@@ -12,6 +12,7 @@ with open(f'data/info/{char}.json', 'r') as f:
 embeds = []
 gif_pairs = []  # (fullspeed_url, slowmo_url)
 hits = []
+desc = ''
 
 # Character info for embed title, author, etc
 for idx, identifier in enumerate(charidentifier[char]):
@@ -27,11 +28,11 @@ for i, hit in enumerate(charinfo[move]["Hitboxes"]):
     
     # For every value listed in each hit prints the value name and value value
     for idx, info in enumerate(charinfo[move]["Hitboxes"][f'{hit}']):
-        desc = "".join(f'{info}: {charinfo[move]["Hitboxes"][f'{hit}'][f'{info}']}')
-        print(desc)
+        desc += f'{info}: {charinfo[move]["Hitboxes"][f'{hit}'][f'{info}']}\n'
+        
     
     # Extract images
     print(f'Image: {charinfo[move]["Images"]["Full Speed"][f"{hit}"]}')
     print(f'Slowmo: {charinfo[move]["Images"]["Slowmo"][f"{hit}"]}')
     
-print(color)
+print(desc)
