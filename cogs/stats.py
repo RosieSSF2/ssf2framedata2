@@ -1,12 +1,8 @@
-from ast import Str
-
-from typing import Literal
-
 import discord
 from discord import app_commands
-from discord.ui import Button, View
 from discord.ext import commands
 
+import json
 import sqlite3
 
 def ssf2_charinfo(char: str):
@@ -16,43 +12,21 @@ def ssf2_charinfo(char: str):
     Returns:
         A discord embed
     '''
-    con = sqlite3.connect("data/academy.db")
-    cur = con.cursor()
-
-    db_char_id = cur.execute("SELECT id FROM characters WHERE name=?", (char,)).fetchone()[0]
-    character_data = cur.execute("SELECT color, icon FROM characters WHERE name=?", (char,)).fetchone()
-    color = int(character_data[0], 16)
-    icon = character_data[1]
-
-    char_info = cur.execute("""
-        SELECT height, width, 
-               weight, gravity, fall_speed, jumpsquat,
-               g2a, dash_length, initial_dash, run_speed,
-               idle_hurtbox,
-               air_speed, air_accel
-        FROM stats 
-        WHERE char_id=?
-    """, (db_char_id,)).fetchall()
-
-    con.close()
-
-    info = []
-
-    for idx, row in enumerate(char_info):
-        
-        info = {
-            'Height': row[0], 'Width': row[1], 
-            'Weight': row[2], 'Gravity': row[3], 'Fall Speed': row[4], 'Max Airspeed': row[11], 'Air Acceleration': row[12], 'Jumpsquat': row[5],
-            'Ground-to-Air': row[6], 'Dash Length': row[7], 'Dash Speed': row[8], 'Run Speed': row[9]
-        }
-
-        desc = "\n".join(f"{k}: {v}" for k, v in info.items() if v is not None)
-        embed = discord.Embed(description=f'```py\n{desc}```', color=color)
-        embed.set_image(url=row[10])
-        embed.set_author(name=f'{char} Information', icon_url=icon)
+    with open('data//stats/stats.json', 'r') as i:
+        charinfo = json.load(i)
+    
+    desc = ''
+             
+    for idx, info in enumerate(charinfo[char]["Stats"]):
+        desc += f'{info}: {charinfo[char]["Stats"][info]}\n'       
+    
+        embed = discord.Embed(description=f'```py\n{desc}```', color=int(charinfo[char]['Embed Info']['color'], 16))
+        embed.set_image(url=charinfo[char]['Embed Info']['image'])
+        embed.set_author(name=f'{char} Information', icon_url=charinfo[char]['Embed Info']['icon'])
         embed.set_footer(text='Up to date as of patch 1.4.0.1')
+        
+    return embed        
 
-    return embed
 
 class Stats(commands.Cog):
     """Send displays of idle stance, and character stats."""

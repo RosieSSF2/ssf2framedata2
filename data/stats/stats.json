@@ -1,770 +1,989 @@
-{    
-    "Bandana Dee": {
-		"id": "1",
-		"height": "41",
-		"width": "30",
-		"weight": "76",
-		"gravity": "1.2",
-		"fallspeed": "10",
-		"airspeed": "6.8",
-		"airaccel": "1.4",
-		"jumpsquat": "2",
-		"g2a": "0.87",
-		"dashlength": "5",
-		"initialdash": "12.0225",
-		"runspeed": "10.5",
-		"idlehurtbox": "https://i.imgur.com/Yi5xSE1.png"
+{
+		"Bandana Dee": {
+		"Stats":{
+			"Height": "41",
+			"Width": "30",
+			"Weight": "76",
+			"Gravity": "1.2",
+			"Fall Speed": "10",
+			"Max Airspeed": "6.8",
+			"Air Acceleration": "1.4",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.87",
+			"Dash Length": "5",
+			"Dash Speed": "12.0225",
+			"Run Speed": "10.5"
+		},
+		"Embed Info": {
+			"color": "FF8738",
+			"icon": "https://i.imgur.com/KHXxpZP.png",
+			"image": "https://i.imgur.com/Yi5xSE1.png"
+		}
 	},
 	"Black Mage": {
-		"id": "2",
-		"height": "47",
-		"width": "41",
-		"weight": "92",
-		"gravity": "1.1",
-		"fallspeed": "11",
-		"airspeed": "6.5",
-		"airaccel": "1.2",
-		"jumpsquat": "2",
-		"g2a": "0.75",
-		"dashlength": "6",
-		"initialdash": "10.45",
-		"runspeed": "9.5",
-		"idlehurtbox": "https://i.imgur.com/dWwYDsU.png"
+		"Stats":{
+			"Height": "47",
+			"Width": "41",
+			"Weight": "92",
+			"Gravity": "1.1",
+			"Fall Speed": "11",
+			"Max Airspeed": "6.5",
+			"Air Acceleration": "1.2",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.75",
+			"Dash Length": "6",
+			"Dash Speed": "10.45",
+			"Run Speed": "9.5"
+		},
+		"Embed Info": {
+			"color": "000000",
+			"icon": "https://i.imgur.com/57zC54h.png",
+			"image": "https://i.imgur.com/dWwYDsU.png"
+		}
 	},
 	"Bomberman": {
-		"id": "3",
-		"height": "52",
-		"width": "20",
-		"weight": "97",
-		"gravity": "1.7",
-		"fallspeed": "15.1",
-		"airspeed": "6.5",
-		"airaccel": "2.5",
-		"jumpsquat": "2",
-		"g2a": "0.86",
-		"dashlength": "6",
-		"initialdash": "15.301",
-		"runspeed": "10.7",
-		"idlehurtbox": "https://i.imgur.com/E6B5uSv.png"
+		"Stats":{
+			"Height": "52",
+			"Width": "20",
+			"Weight": "97",
+			"Gravity": "1.7",
+			"Fall Speed": "15.1",
+			"Max Airspeed": "6.5",
+			"Air Acceleration": "2.5",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.86",
+			"Dash Length": "6",
+			"Dash Speed": "15.301",
+			"Run Speed": "10.7"
+		},
+		"Embed Info": {
+			"color": "F87EB6",
+			"icon": "https://i.imgur.com/3T7Jv3j.png",
+			"image": "https://i.imgur.com/E6B5uSv.png"
+		}
 	},
 	"Bowser": {
-		"id": "4",
-		"height": "71",
-		"width": "60",
-		"weight": "120",
-		"gravity": "1.56",
-		"fallspeed": "13.6",
-		"airspeed": "5",
-		"airaccel": "1.8",
-		"jumpsquat": "4",
-		"g2a": "0.937",
-		"dashlength": "7",
-		"initialdash": "11.375",
-		"runspeed": "8.75",
-		"idlehurtbox": "https://i.imgur.com/QKkFDZ4.png"
+		"Stats":{
+			"Height": "71",
+			"Width": "60",
+			"Weight": "120",
+			"Gravity": "1.56",
+			"Fall Speed": "13.6",
+			"Max Airspeed": "5",
+			"Air Acceleration": "1.8",
+			"Jumpsquat": "4",
+			"Ground-to-Air": "0.937",
+			"Dash Length": "7",
+			"Dash Speed": "11.375",
+			"Run Speed": "8.75"
+		},
+		"Embed Info": {
+			"color": "698738",
+			"icon": "https://i.imgur.com/EZcfC8W.png",
+			"image": "https://i.imgur.com/QKkFDZ4.png"
+		}
 	},
 	"Captain Falcon": {
-		"id": "5",
-		"height": "58",
-		"width": "20",
-		"weight": "104",
-		"gravity": "1.65",
-		"fallspeed": "15",
-		"airspeed": "8",
-		"airaccel": "0.85",
-		"jumpsquat": "2",
-		"g2a": "0.929",
-		"dashlength": "9",
-		"initialdash": "15.4",
-		"runspeed": "14",
-		"idlehurtbox": "https://i.imgur.com/E1CvJO0.png"
+		"Stats":{
+			"Height": "58",
+			"Width": "20",
+			"Weight": "104",
+			"Gravity": "1.65",
+			"Fall Speed": "15",
+			"Max Airspeed": "8",
+			"Air Acceleration": "0.85",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.929",
+			"Dash Length": "9",
+			"Dash Speed": "15.4",
+			"Run Speed": "14"
+		},
+		"Embed Info": {
+			"color": "35387E",
+			"icon": "https://i.imgur.com/mtkIsox.png",
+			"image": "https://i.imgur.com/E1CvJO0.png"
+		}
 	},
 	"Chibi-Robo": {
-		"id": "6",
-		"height": "45",
-		"width": "31",
-		"weight": "82",
-		"gravity": "1.6",
-		"fallspeed": "13.5",
-		"airspeed": "6.5",
-		"airaccel": "0.7",
-		"jumpsquat": "2",
-		"g2a": "0.8",
-		"dashlength": "6",
-		"initialdash": "15.7",
-		"runspeed": "10",
-		"idlehurtbox": "https://i.imgur.com/aBLa3Vq.png"
+		"Stats":{
+			"Height": "45",
+			"Width": "31",
+			"Weight": "82",
+			"Gravity": "1.6",
+			"Fall Speed": "13.5",
+			"Max Airspeed": "6.5",
+			"Air Acceleration": "0.7",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.8",
+			"Dash Length": "6",
+			"Dash Speed": "15.7",
+			"Run Speed": "10"
+		},
+		"Embed Info": {
+			"color": "C8C5CB",
+			"icon": "https://i.imgur.com/3wTiivd.png",
+			"image": "https://i.imgur.com/aBLa3Vq.png"
+		}
 	},
 	"Donkey Kong": {
-		"id": "7",
-		"height": "66",
-		"width": "66",
-		"weight": "114",
-		"gravity": "1.37",
-		"fallspeed": "16",
-		"airspeed": "8",
-		"airaccel": "1.8",
-		"jumpsquat": "3",
-		"g2a": "1",
-		"dashlength": "7",
-		"initialdash": "10.14",
-		"runspeed": "10",
-		"idlehurtbox": "https://i.imgur.com/dSElqsG.png"
+		"Stats":{
+			"Height": "66",
+			"Width": "66",
+			"Weight": "114",
+			"Gravity": "1.37",
+			"Fall Speed": "16",
+			"Max Airspeed": "8",
+			"Air Acceleration": "1.8",
+			"Jumpsquat": "3",
+			"Ground-to-Air": "1",
+			"Dash Length": "7",
+			"Dash Speed": "10.14",
+			"Run Speed": "10"
+		},
+		"Embed Info": {
+			"color": "824A29",
+			"icon": "https://i.imgur.com/27JKh2O.png",
+			"image": "https://i.imgur.com/dSElqsG.png"
+		}
 	},
 	"Falco": {
-		"id": "8",
-		"height": "51",
-		"width": "31",
-		"weight": "80",
-		"gravity": "2.05",
-		"fallspeed": "18.5",
-		"airspeed": "7",
-		"airaccel": "0.7",
-		"jumpsquat": "2",
-		"g2a": "0.99",
-		"dashlength": "6",
-		"initialdash": "12.12",
-		"runspeed": "10.1",
-		"idlehurtbox": "https://i.imgur.com/iuP8fwn.png"
+		"Stats":{
+			"Height": "51",
+			"Width": "31",
+			"Weight": "80",
+			"Gravity": "2.05",
+			"Fall Speed": "18.5",
+			"Max Airspeed": "7",
+			"Air Acceleration": "0.7",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.99",
+			"Dash Length": "6",
+			"Dash Speed": "12.12",
+			"Run Speed": "10.1"
+		},
+		"Embed Info": {
+			"color": "5261E9",
+			"icon": "https://i.imgur.com/8zBRmDx.png",
+			"image": "https://i.imgur.com/iuP8fwn.png"
+		}
 	},
 	"Fox": {
-		"id": "9",
-		"height": "48",
-		"width": "31",
-		"weight": "80",
-		"gravity": "2.3",
-		"fallspeed": "17",
-		"airspeed": "7.3",
-		"airaccel": "0.7",
-		"jumpsquat": "2",
-		"g2a": "0.949",
-		"dashlength": "8",
-		"initialdash": "15.344",
-		"runspeed": "13.7",
-		"idlehurtbox": "https://i.imgur.com/J9uwzw6.png"
+		"Stats":{
+			"Height": "48",
+			"Width": "31",
+			"Weight": "80",
+			"Gravity": "2.3",
+			"Fall Speed": "17",
+			"Max Airspeed": "7.3",
+			"Air Acceleration": "0.7",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.949",
+			"Dash Length": "8",
+			"Dash Speed": "15.344",
+			"Run Speed": "13.7"
+		},
+		"Embed Info": {
+			"color": "BD946B",
+			"icon": "https://i.imgur.com/OQfd4W0.png",
+			"image": "https://i.imgur.com/J9uwzw6.png"
+		}
 	},
 	"Ganondorf": {
-		"id": "10",
-		"height": "64",
-		"width": "20",
-		"weight": "113",
-		"gravity": "1.6",
-		"fallspeed": "13.8",
-		"airspeed": "8",
-		"airaccel": "0.9",
-		"jumpsquat": "2",
-		"g2a": "0.833",
-		"dashlength": "11",
-		"initialdash": "12.6",
-		"runspeed": "9",
-		"idlehurtbox": "https://i.imgur.com/fM6sP3R.png"
+		"Stats":{
+			"Height": "64",
+			"Width": "20",
+			"Weight": "113",
+			"Gravity": "1.6",
+			"Fall Speed": "13.8",
+			"Max Airspeed": "8",
+			"Air Acceleration": "0.9",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.833",
+			"Dash Length": "11",
+			"Dash Speed": "12.6",
+			"Run Speed": "9"
+		},
+		"Embed Info": {
+			"color": "B33A1D",
+			"icon": "https://i.imgur.com/UjuerZE.png",
+			"image": "https://i.imgur.com/fM6sP3R.png"
+		}
 	},
 	"Goku": {
-		"id": "11",
-		"height": "60",
-		"width": "60",
-		"weight": "103",
-		"gravity": "1.3",
-		"fallspeed": "14.6",
-		"airspeed": "9.3",
-		"airaccel": "0.7",
-		"jumpsquat": "3",
-		"g2a": "0.94",
-		"dashlength": "5 (3 KK)",
-		"initialdash": "11.7 (14.5 KK)",
-		"runspeed": "11.7 (14.5 KK)",
-		"idlehurtbox": "https://i.imgur.com/TSEBHPB.png"
+		"Stats":{
+			"Height": "60",
+			"Width": "60",
+			"Weight": "103",
+			"Gravity": "1.3",
+			"Fall Speed": "14.6",
+			"Max Airspeed": "9.3",
+			"Air Acceleration": "0.7",
+			"Jumpsquat": "3",
+			"Ground-to-Air": "0.94",
+			"Dash Length": "5 (3 KK)",
+			"Dash Speed": "11.7 (14.5 KK)",
+			"Run Speed": "11.7 (14.5 KK)"
+		},
+		"Embed Info": {
+			"color": "F27401",
+			"icon": "https://i.imgur.com/0OJhrEZ.png",
+			"image": "https://i.imgur.com/TSEBHPB.png"
+		}
 	},
 	"Ichigo": {
-		"id": "12",
-		"height": "52",
-		"width": "31",
-		"weight": "100",
-		"gravity": "1.4",
-		"fallspeed": "15.4",
-		"airspeed": "7.3",
-		"airaccel": "1.1",
-		"jumpsquat": "2",
-		"g2a": "0.917",
-		"dashlength": "7",
-		"initialdash": "9.6",
-		"runspeed": "12",
-		"idlehurtbox": "https://i.imgur.com/fAgTUcy.png"
+		"Stats":{
+			"Height": "52",
+			"Width": "31",
+			"Weight": "100",
+			"Gravity": "1.4",
+			"Fall Speed": "15.4",
+			"Max Airspeed": "7.3",
+			"Air Acceleration": "1.1",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.917",
+			"Dash Length": "7",
+			"Dash Speed": "9.6",
+			"Run Speed": "12"
+		},
+		"Embed Info": {
+			"color": "404040",
+			"icon": "https://i.imgur.com/mMqKFNK.png",
+			"image": "https://i.imgur.com/fAgTUcy.png"
+		}
 	},
 	"Isaac": {
-		"id": "13",
-		"height": "55",
-		"width": "30",
-		"weight": "102",
-		"gravity": "1.56",
-		"fallspeed": "10.5",
-		"airspeed": "7.5",
-		"airaccel": "0.7",
-		"jumpsquat": "2",
-		"g2a": "0.85",
-		"dashlength": "6",
-		"initialdash": "15.5",
-		"runspeed": "10",
-		"idlehurtbox": "https://i.imgur.com/Nq3GjUN.png"
+		"Stats":{
+			"Height": "55",
+			"Width": "30",
+			"Weight": "102",
+			"Gravity": "1.56",
+			"Fall Speed": "10.5",
+			"Max Airspeed": "7.5",
+			"Air Acceleration": "0.7",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.85",
+			"Dash Length": "6",
+			"Dash Speed": "15.5",
+			"Run Speed": "10"
+		},
+		"Embed Info": {
+			"color": "F7A922",
+			"icon": "https://i.imgur.com/WCt7Mbi.png",
+			"image": "https://i.imgur.com/Nq3GjUN.png"
+		}
 	},
 	"Jigglypuff": {
-		"id": "14",
-		"height": "40",
-		"width": "30",
-		"weight": "72",
-		"gravity": "0.8",
-		"fallspeed": "7.5",
-		"airspeed": "9.5",
-		"airaccel": "2.2",
-		"jumpsquat": "2",
-		"g2a": "1",
-		"dashlength": "9",
-		"initialdash": "8.47",
-		"runspeed": "7.7",
-		"idlehurtbox": "https://i.imgur.com/qJZ1tGG.png"
+		"Stats":{
+			"Height": "40",
+			"Width": "30",
+			"Weight": "72",
+			"Gravity": "0.8",
+			"Fall Speed": "7.5",
+			"Max Airspeed": "9.5",
+			"Air Acceleration": "2.2",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "1",
+			"Dash Length": "9",
+			"Dash Speed": "8.47",
+			"Run Speed": "7.7"
+		},
+		"Embed Info": {
+			"color": "FFCCE1",
+			"icon": "https://i.imgur.com/dzQ1TWa.png",
+			"image": "https://i.imgur.com/qJZ1tGG.png"
+		}
 	},
 	"Kirby": {
-		"id": "15",
-		"height": "40",
-		"width": "30",
-		"weight": "76",
-		"gravity": "0.85",
-		"fallspeed": "10",
-		"airspeed": "6.2",
-		"airaccel": "1.5",
-		"jumpsquat": "2",
-		"g2a": "0.833",
-		"dashlength": "6",
-		"initialdash": "11.6235",
-		"runspeed": "9.45",
-		"idlehurtbox": "https://i.imgur.com/RbQMD6h.png"
+		"Stats":{
+			"Height": "40",
+			"Width": "30",
+			"Weight": "76",
+			"Gravity": "0.85",
+			"Fall Speed": "10",
+			"Max Airspeed": "6.2",
+			"Air Acceleration": "1.5",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.833",
+			"Dash Length": "6",
+			"Dash Speed": "11.6235",
+			"Run Speed": "9.45"
+		},
+		"Embed Info": {
+			"color": "FF60A0",
+			"icon": "https://i.imgur.com/gYznF5F.png",
+			"image": "https://i.imgur.com/RbQMD6h.png"
+		}
 	},
 	"Krystal": {
-		"id": "16",
-		"height": "50",
-		"width": "31",
-		"weight": "77",
-		"gravity": "1.85",
-		"fallspeed": "15.5",
-		"airspeed": "7.8",
-		"airaccel": "0.72",
-		"jumpsquat": "2",
-		"g2a": "0.85",
-		"dashlength": "7",
-		"initialdash": "13.44",
-		"runspeed": "12",
-		"idlehurtbox": "https://i.imgur.com/Hdb0M6N.png"
+		"Stats":{
+			"Height": "50",
+			"Width": "31",
+			"Weight": "77",
+			"Gravity": "1.85",
+			"Fall Speed": "15.5",
+			"Max Airspeed": "7.8",
+			"Air Acceleration": "0.72",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.85",
+			"Dash Length": "7",
+			"Dash Speed": "13.44",
+			"Run Speed": "12"
+		},
+		"Embed Info": {
+			"color": "2C54E1",
+			"icon": "https://i.imgur.com/X4sXzSA.png",
+			"image": "https://i.imgur.com/Hdb0M6N.png"
+		}
 	},
 	"Link": {
-		"id": "17",
-		"height": "52",
-		"width": "41",
-		"weight": "104",
-		"gravity": "1.35",
-		"fallspeed": "14.5",
-		"airspeed": "7.5",
-		"airaccel": "0.7",
-		"jumpsquat": "2",
-		"g2a": "0.917",
-		"dashlength": "8",
-		"initialdash": "8.5",
-		"runspeed": "8.5",
-		"idlehurtbox": "https://i.imgur.com/jVJIWja.png"
+		"Stats":{
+			"Height": "52",
+			"Width": "41",
+			"Weight": "104",
+			"Gravity": "1.35",
+			"Fall Speed": "14.5",
+			"Max Airspeed": "7.5",
+			"Air Acceleration": "0.7",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.917",
+			"Dash Length": "8",
+			"Dash Speed": "8.5",
+			"Run Speed": "8.5"
+		},
+		"Embed Info": {
+			"color": "6DA661",
+			"icon": "https://i.imgur.com/9HaFo3A.png",
+			"image": "https://i.imgur.com/jVJIWja.png"
+		}
 	},
 	"Lloyd": {
-		"id": "18",
-		"height": "50",
-		"width": "24",
-		"weight": "81",
-		"gravity": "1.2",
-		"fallspeed": "14",
-		"airspeed": "6.5",
-		"airaccel": "1.1",
-		"jumpsquat": "2",
-		"g2a": "0.941",
-		"dashlength": "7",
-		"initialdash": "13.5",
-		"runspeed": "10",
-		"idlehurtbox": "https://i.imgur.com/0uqW4Kb.png"
+		"Stats":{
+			"Height": "50",
+			"Width": "24",
+			"Weight": "81",
+			"Gravity": "1.2",
+			"Fall Speed": "14",
+			"Max Airspeed": "6.5",
+			"Air Acceleration": "1.1",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.941",
+			"Dash Length": "7",
+			"Dash Speed": "13.5",
+			"Run Speed": "10"
+		},
+		"Embed Info": {
+			"color": "D62228",
+			"icon": "https://i.imgur.com/VJUZBFD.png",
+			"image": "https://i.imgur.com/0uqW4Kb.png"
+		}
 	},
 	"Lucario": {
-		"id": "19",
-		"height": "52",
-		"width": "30",
-		"weight": "96",
-		"gravity": "1.4",
-		"fallspeed": "12",
-		"airspeed": "9",
-		"airaccel": "0.8",
-		"jumpsquat": "3",
-		"g2a": "0.9",
-		"dashlength": "7",
-		"initialdash": "10.67",
-		"runspeed": "11",
-		"idlehurtbox": "https://i.imgur.com/u0UCJEC.png"
+		"Stats":{
+			"Height": "52",
+			"Width": "30",
+			"Weight": "96",
+			"Gravity": "1.4",
+			"Fall Speed": "12",
+			"Max Airspeed": "9",
+			"Air Acceleration": "0.8",
+			"Jumpsquat": "3",
+			"Ground-to-Air": "0.9",
+			"Dash Length": "7",
+			"Dash Speed": "10.67",
+			"Run Speed": "11"
+		},
+		"Embed Info": {
+			"color": "2B86C8",
+			"icon": "https://i.imgur.com/rU8f6cG.png",
+			"image": "https://i.imgur.com/u0UCJEC.png"
+		}
 	},
 	"Luffy": {
-		"id": "20",
-		"height": "52",
-		"width": "31",
-		"weight": "98",
-		"gravity": "1.13",
-		"fallspeed": "14.5",
-		"airspeed": "7.8",
-		"airaccel": "0.7",
-		"jumpsquat": "2",
-		"g2a": "1",
-		"dashlength": "5",
-		"initialdash": "15",
-		"runspeed": "10",
-		"idlehurtbox": "https://i.imgur.com/cKKRux6.png"
+		"Stats":{
+			"Height": "52",
+			"Width": "31",
+			"Weight": "98",
+			"Gravity": "1.13",
+			"Fall Speed": "14.5",
+			"Max Airspeed": "7.8",
+			"Air Acceleration": "0.7",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "1",
+			"Dash Length": "5",
+			"Dash Speed": "15",
+			"Run Speed": "10"
+		},
+		"Embed Info": {
+			"color": "BC1619",
+			"icon": "https://i.imgur.com/FuM2uoG.png",
+			"image": "https://i.imgur.com/cKKRux6.png"
+		}
 	},
 	"Luigi": {
-		"id": "21",
-		"height": "52",
-		"width": "26",
-		"weight": "100",
-		"gravity": "0.95",
-		"fallspeed": "8",
-		"airspeed": "6.2437",
-		"airaccel": "0.96",
-		"jumpsquat": "2",
-		"g2a": "0.825",
-		"dashlength": "5",
-		"initialdash": "10.67",
-		"runspeed": "9.7",
-		"idlehurtbox": "https://i.imgur.com/M0bCMyD.png"
+		"Stats":{
+			"Height": "52",
+			"Width": "26",
+			"Weight": "100",
+			"Gravity": "0.95",
+			"Fall Speed": "8",
+			"Max Airspeed": "6.2437",
+			"Air Acceleration": "0.96",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.825",
+			"Dash Length": "5",
+			"Dash Speed": "10.67",
+			"Run Speed": "9.7"
+		},
+		"Embed Info": {
+			"color": "75B957",
+			"icon": "https://i.imgur.com/YJLEs3j.png",
+			"image": "https://i.imgur.com/M0bCMyD.png"
+		}
 	},
 	"Mario": {
-		"id": "22",
-		"height": "46",
-		"width": "26",
-		"weight": "100",
-		"gravity": "1.3",
-		"fallspeed": "13",
-		"airspeed": "7",
-		"airaccel": "0.7",
-		"jumpsquat": "2",
-		"g2a": "0.909",
-		"dashlength": "5",
-		"initialdash": "12.1",
-		"runspeed": "11",
-		"idlehurtbox": "https://i.imgur.com/vLj1Iuv.png"
+		"Stats":{
+			"Height": "46",
+			"Width": "26",
+			"Weight": "100",
+			"Gravity": "1.3",
+			"Fall Speed": "13",
+			"Max Airspeed": "7",
+			"Air Acceleration": "0.7",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.909",
+			"Dash Length": "5",
+			"Dash Speed": "12.1",
+			"Run Speed": "11"
+		},
+		"Embed Info": {
+			"color": "EA2123",
+			"icon": "https://i.imgur.com/B35KZlq.png",
+			"image": "https://i.imgur.com/vLj1Iuv.png"
+		}
 	},
 	"Marth": {
-		"id": "23",
-		"height": "55",
-		"width": "26",
-		"weight": "87",
-		"gravity": "0.95",
-		"fallspeed": "13",
-		"airspeed": "7.4",
-		"airaccel": "0.7",
-		"jumpsquat": "2",
-		"g2a": "0.826",
-		"dashlength": "10",
-		"initialdash": "14.95",
-		"runspeed": "11.5",
-		"idlehurtbox": "https://i.imgur.com/3QQMEwO.png"
+		"Stats":{
+			"Height": "55",
+			"Width": "26",
+			"Weight": "87",
+			"Gravity": "0.95",
+			"Fall Speed": "13",
+			"Max Airspeed": "7.4",
+			"Air Acceleration": "0.7",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.826",
+			"Dash Length": "10",
+			"Dash Speed": "14.95",
+			"Run Speed": "11.5"
+		},
+		"Embed Info": {
+			"color": "627CB7",
+			"icon": "https://i.imgur.com/tSNtcAb.png",
+			"image": "https://i.imgur.com/3QQMEwO.png"
+		}
 	},
 	"Mega Man": {
-		"id": "24",
-		"height": "52",
-		"width": "38",
-		"weight": "104",
-		"gravity": "1.32",
-		"fallspeed": "13.5",
-		"airspeed": "8",
-		"airaccel": "1.6",
-		"jumpsquat": "3",
-		"g2a": "0.889",
-		"dashlength": "9",
-		"initialdash": "10.386",
-		"runspeed": "9",
-		"idlehurtbox": "https://i.imgur.com/pKMvG5M.png"
+		"Stats":{
+			"Height": "52",
+			"Width": "38",
+			"Weight": "104",
+			"Gravity": "1.32",
+			"Fall Speed": "13.5",
+			"Max Airspeed": "8",
+			"Air Acceleration": "1.6",
+			"Jumpsquat": "3",
+			"Ground-to-Air": "0.889",
+			"Dash Length": "9",
+			"Dash Speed": "10.386",
+			"Run Speed": "9"
+		},
+		"Embed Info": {
+			"color": "0B6DDB",
+			"icon": "https://i.imgur.com/81ONLZP.png",
+			"image": "https://i.imgur.com/pKMvG5M.png"
+		}
 	},
 	"Meta Knight": {
-		"id": "25",
-		"height": "48",
-		"width": "38",
-		"weight": "79",
-		"gravity": "1",
-		"fallspeed": "12.8",
-		"airspeed": "6",
-		"airaccel": "0.7",
-		"jumpsquat": "2",
-		"g2a": "0.849",
-		"dashlength": "10",
-		"initialdash": "16.245",
-		"runspeed": "10.83",
-		"idlehurtbox": "https://i.imgur.com/6vNjuMK.png"
+		"Stats":{
+			"Height": "48",
+			"Width": "38",
+			"Weight": "79",
+			"Gravity": "1",
+			"Fall Speed": "12.8",
+			"Max Airspeed": "6",
+			"Air Acceleration": "0.7",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.849",
+			"Dash Length": "10",
+			"Dash Speed": "16.245",
+			"Run Speed": "10.83"
+		},
+		"Embed Info": {
+			"color": "2656AE",
+			"icon": "https://i.imgur.com/Xq3aWh9.png",
+			"image": "https://i.imgur.com/6vNjuMK.png"
+		}
 	},
 	"Mr. Game and Watch": {
-		"id": "26",
-		"height": "48",
-		"width": "38",
-		"weight": "76",
-		"gravity": "1.3",
-		"fallspeed": "9.2",
-		"airspeed": "8.1",
-		"airaccel": "0.75",
-		"jumpsquat": "3",
-		"g2a": "0.817",
-		"dashlength": "5",
-		"initialdash": "11.44",
-		"runspeed": "10.4",
-		"idlehurtbox": "https://i.imgur.com/K05ugTU.png"
+		"Stats":{
+			"Height": "48",
+			"Width": "38",
+			"Weight": "76",
+			"Gravity": "1.3",
+			"Fall Speed": "9.2",
+			"Max Airspeed": "8.1",
+			"Air Acceleration": "0.75",
+			"Jumpsquat": "3",
+			"Ground-to-Air": "0.817",
+			"Dash Length": "5",
+			"Dash Speed": "11.44",
+			"Run Speed": "10.4"
+		},
+		"Embed Info": {
+			"color": "000000",
+			"icon": "https://i.imgur.com/zKhXX8c.png",
+			"image": "https://i.imgur.com/K05ugTU.png"
+		}
 	},
 	"Naruto": {
-		"id": "27",
-		"height": "52",
-		"width": "29",
-		"weight": "85",
-		"gravity": "1.5",
-		"fallspeed": "12",
-		"airspeed": "6.9",
-		"airaccel": "1.35",
-		"jumpsquat": "2",
-		"g2a": "0.95",
-		"dashlength": "8",
-		"initialdash": "14.5",
-		"runspeed": "10",
-		"idlehurtbox": "https://i.imgur.com/FdCNj4A.png"
+		"Stats":{
+			"Height": "52",
+			"Width": "29",
+			"Weight": "85",
+			"Gravity": "1.5",
+			"Fall Speed": "12",
+			"Max Airspeed": "6.9",
+			"Air Acceleration": "1.35",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.95",
+			"Dash Length": "8",
+			"Dash Speed": "14.5",
+			"Run Speed": "10"
+		},
+		"Embed Info": {
+			"color": "F76B00",
+			"icon": "https://i.imgur.com/bCwL06W.png",
+			"image": "https://i.imgur.com/FdCNj4A.png"
+		}
 	},
 	"Ness": {
-		"id": "28",
-		"height": "48",
-		"width": "20",
-		"weight": "94",
-		"gravity": "1.08",
-		"fallspeed": "11.9",
-		"airspeed": "7",
-		"airaccel": "0.83",
-		"jumpsquat": "2",
-		"g2a": "0.87",
-		"dashlength": "9",
-		"initialdash": "10.212",
-		"runspeed": "9.2",
-		"idlehurtbox": "https://i.imgur.com/96JIXTr.png"
+		"Stats":{
+			"Height": "48",
+			"Width": "20",
+			"Weight": "94",
+			"Gravity": "1.08",
+			"Fall Speed": "11.9",
+			"Max Airspeed": "7",
+			"Air Acceleration": "0.83",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.87",
+			"Dash Length": "9",
+			"Dash Speed": "10.212",
+			"Run Speed": "9.2"
+		},
+		"Embed Info": {
+			"color": "4671D1",
+			"icon": "https://i.imgur.com/pq2PkM6.png",
+			"image": "https://i.imgur.com/96JIXTr.png"
+		}
 	},
 	"PAC-MAN": {
-		"id": "29",
-		"height": "48",
-		"width": "38",
-		"weight": "95",
-		"gravity": "1.1",
-		"fallspeed": "10",
-		"airspeed": "7.5",
-		"airaccel": "0.98",
-		"jumpsquat": "2",
-		"g2a": "0.806",
-		"dashlength": "5",
-		"initialdash": "11.625",
-		"runspeed": "9.3",
-		"idlehurtbox": "https://i.imgur.com/eNzZz6k.png"
+		"Stats":{
+			"Height": "48",
+			"Width": "38",
+			"Weight": "95",
+			"Gravity": "1.1",
+			"Fall Speed": "10",
+			"Max Airspeed": "7.5",
+			"Air Acceleration": "0.98",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.806",
+			"Dash Length": "5",
+			"Dash Speed": "11.625",
+			"Run Speed": "9.3"
+		},
+		"Embed Info": {
+			"color": "FFE13D",
+			"icon": "https://i.imgur.com/JEnBKW9.png",
+			"image": "https://i.imgur.com/eNzZz6k.png"
+		}
 	},
 	"Peach": {
-		"id": "30",
-		"height": "52",
-		"width": "37",
-		"weight": "90",
-		"gravity": "1.07",
-		"fallspeed": "10.45",
-		"airspeed": "9.1",
-		"airaccel": "0.89",
-		"jumpsquat": "2",
-		"g2a": "0.713",
-		"dashlength": "9",
-		"initialdash": "10.44",
-		"runspeed": "8.7",
-		"idlehurtbox": "https://i.imgur.com/W3wm39P.png"
+		"Stats":{
+			"Height": "52",
+			"Width": "37",
+			"Weight": "90",
+			"Gravity": "1.07",
+			"Fall Speed": "10.45",
+			"Max Airspeed": "9.1",
+			"Air Acceleration": "0.89",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.713",
+			"Dash Length": "9",
+			"Dash Speed": "10.44",
+			"Run Speed": "8.7"
+		},
+		"Embed Info": {
+			"color": "FF99BF",
+			"icon": "https://i.imgur.com/9q8bhW6.png",
+			"image": "https://i.imgur.com/W3wm39P.png"
+		}
 	},
 	"Pichu": {
-		"id": "31",
-		"height": "40",
-		"width": "16",
-		"weight": "74",
-		"gravity": "1.4",
-		"fallspeed": "11.7",
-		"airspeed": "8.2",
-		"airaccel": "0.7",
-		"jumpsquat": "2",
-		"g2a": "0.912",
-		"dashlength": "7",
-		"initialdash": "16.44",
-		"runspeed": "13.7",
-		"idlehurtbox": "https://i.imgur.com/wbbHQav.png"
+		"Stats":{
+			"Height": "40",
+			"Width": "16",
+			"Weight": "74",
+			"Gravity": "1.4",
+			"Fall Speed": "11.7",
+			"Max Airspeed": "8.2",
+			"Air Acceleration": "0.7",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.912",
+			"Dash Length": "7",
+			"Dash Speed": "16.44",
+			"Run Speed": "13.7"
+		},
+		"Embed Info": {
+			"color": "FFFF4A",
+			"icon": "https://i.imgur.com/LNQl0Zg.png",
+			"image": "https://i.imgur.com/wbbHQav.png"
+		}
 	},
 	"Pikachu": {
-		"id": "32",
-		"height": "48",
-		"width": "20",
-		"weight": "80",
-		"gravity": "1.35",
-		"fallspeed": "11.7",
-		"airspeed": "7.8",
-		"airaccel": "0.77",
-		"jumpsquat": "2",
-		"g2a": "0.82",
-		"dashlength": "7",
-		"initialdash": "16.348",
-		"runspeed": "12.2",
-		"idlehurtbox": "https://i.imgur.com/aNA7wiy.png"
+		"Stats":{
+			"Height": "48",
+			"Width": "20",
+			"Weight": "80",
+			"Gravity": "1.35",
+			"Fall Speed": "11.7",
+			"Max Airspeed": "7.8",
+			"Air Acceleration": "0.77",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.82",
+			"Dash Length": "7",
+			"Dash Speed": "16.348",
+			"Run Speed": "12.2"
+		},
+		"Embed Info": {
+			"color": "FEDD4A",
+			"icon": "https://i.imgur.com/0g5BcHr.png",
+			"image": "https://i.imgur.com/aNA7wiy.png"
+		}
 	},
 	"Pit": {
-		"id": "33",
-		"height": "52",
-		"width": "38",
-		"weight": "88",
-		"gravity": "1.22",
-		"fallspeed": "13.5",
-		"airspeed": "7",
-		"airaccel": "0.95",
-		"jumpsquat": "2",
-		"g2a": "0.978",
-		"dashlength": "5",
-		"initialdash": "11.868",
-		"runspeed": "9.2",
-		"idlehurtbox": "https://i.imgur.com/QryAN52.png"
+		"Stats":{
+			"Height": "52",
+			"Width": "38",
+			"Weight": "88",
+			"Gravity": "1.22",
+			"Fall Speed": "13.5",
+			"Max Airspeed": "7",
+			"Air Acceleration": "0.95",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.978",
+			"Dash Length": "5",
+			"Dash Speed": "11.868",
+			"Run Speed": "9.2"
+		},
+		"Embed Info": {
+			"color": "B8BED6",
+			"icon": "https://i.imgur.com/baO0Yzh.png",
+			"image": "https://i.imgur.com/QryAN52.png"
+		}
 	},
 	"Rayman": {
-		"id": "34",
-		"height": "52",
-		"width": "38",
-		"weight": "90",
-		"gravity": "1.21",
-		"fallspeed": "11",
-		"airspeed": "7",
-		"airaccel": "0.8",
-		"jumpsquat": "3",
-		"g2a": "0.75",
-		"dashlength": "7",
-		"initialdash": "12.48",
-		"runspeed": "12",
-		"idlehurtbox": "https://i.imgur.com/5QQ2dHy.png"
+		"Stats":{
+			"Height": "52",
+			"Width": "38",
+			"Weight": "90",
+			"Gravity": "1.21",
+			"Fall Speed": "11",
+			"Max Airspeed": "7",
+			"Air Acceleration": "0.8",
+			"Jumpsquat": "3",
+			"Ground-to-Air": "0.75",
+			"Dash Length": "7",
+			"Dash Speed": "12.48",
+			"Run Speed": "12"
+		},
+		"Embed Info": {
+			"color": "B47DB9",
+			"icon": "https://i.imgur.com/zLDPiCC.png",
+			"image": "https://i.imgur.com/5QQ2dHy.png"
+		}
 	},
 	"Ryu": {
-		"id": "35",
-		"height": "52",
-		"width": "31",
-		"weight": "104",
-		"gravity": "1.35",
-		"fallspeed": "15.4",
-		"airspeed": "7.5",
-		"airaccel": "1",
-		"jumpsquat": "2",
-		"g2a": "0.864",
-		"dashlength": "7",
-		"initialdash": "13.75",
-		"runspeed": "11",
-		"idlehurtbox": "https://i.imgur.com/2fWbijA.png"
+		"Stats":{
+			"Height": "52",
+			"Width": "31",
+			"Weight": "104",
+			"Gravity": "1.35",
+			"Fall Speed": "15.4",
+			"Max Airspeed": "7.5",
+			"Air Acceleration": "1",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.864",
+			"Dash Length": "7",
+			"Dash Speed": "13.75",
+			"Run Speed": "11"
+		},
+		"Embed Info": {
+			"color": "D5D5B7",
+			"icon": "https://i.imgur.com/FMgrS2H.png",
+			"image": "https://i.imgur.com/2fWbijA.png"
+		}
 	},
 	"Samus": {
-		"id": "36",
-		"height": "58",
-		"width": "31",
-		"weight": "110",
-		"gravity": "1.15",
-		"fallspeed": "8.5",
-		"airspeed": "7.1",
-		"airaccel": "0.9",
-		"jumpsquat": "2",
-		"g2a": "0.815",
-		"dashlength": "5",
-		"initialdash": "10.6168",
-		"runspeed": "9.2",
-		"idlehurtbox": "https://i.imgur.com/FLQQTqG.png"
+		"Stats":{
+			"Height": "58",
+			"Width": "31",
+			"Weight": "110",
+			"Gravity": "1.15",
+			"Fall Speed": "8.5",
+			"Max Airspeed": "7.1",
+			"Air Acceleration": "0.9",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.815",
+			"Dash Length": "5",
+			"Dash Speed": "10.6168",
+			"Run Speed": "9.2"
+		},
+		"Embed Info": {
+			"color": "D3650C",
+			"icon": "https://i.imgur.com/Qk8v6Qr.png",
+			"image": "https://i.imgur.com/FLQQTqG.png"
+		}
 	},
 	"Sandbag": {
-		"id": "37",
-		"height": "52",
-		"width": "24",
-		"weight": "100",
-		"gravity": "1.2",
-		"fallspeed": "14",
-		"airspeed": "6.5",
-		"airaccel": "0.7",
-		"jumpsquat": "2",
-		"g2a": "1",
-		"dashlength": "4",
-		"initialdash": "0",
-		"runspeed": "8",
-		"idlehurtbox": "https://i.imgur.com/PTzqmNE.png"
+		"Stats":{
+			"Height": "52",
+			"Width": "24",
+			"Weight": "100",
+			"Gravity": "1.2",
+			"Fall Speed": "14",
+			"Max Airspeed": "6.5",
+			"Air Acceleration": "0.7",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "1",
+			"Dash Length": "4",
+			"Dash Speed": "0",
+			"Run Speed": "8"
+		},
+		"Embed Info": {
+			"color": "D8D8D8",
+			"icon": "https://i.imgur.com/nR0o1Pr.png",
+			"image": "https://i.imgur.com/PTzqmNE.png"
+		}
 	},
 	"Sheik": {
-		"id": "38",
-		"height": "55",
-		"width": "36",
-		"weight": "86",
-		"gravity": "1.5",
-		"fallspeed": "14.5",
-		"airspeed": "6.8",
-		"airaccel": "0.95",
-		"jumpsquat": "2",
-		"g2a": "0.873",
-		"dashlength": "7",
-		"initialdash": "15.75",
-		"runspeed": "12.6",
-		"idlehurtbox": "https://i.imgur.com/nrKRMzN.png"
+		"Stats":{
+			"Height": "55",
+			"Width": "36",
+			"Weight": "86",
+			"Gravity": "1.5",
+			"Fall Speed": "14.5",
+			"Max Airspeed": "6.8",
+			"Air Acceleration": "0.95",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.873",
+			"Dash Length": "7",
+			"Dash Speed": "15.75",
+			"Run Speed": "12.6"
+		},
+		"Embed Info": {
+			"color": "BABABA",
+			"icon": "https://i.imgur.com/up20Hhe.png",
+			"image": "https://i.imgur.com/nrKRMzN.png"
+		}
 	},
 	"Simon": {
-		"id": "39",
-		"height": "58",
-		"width": "30",
-		"weight": "110",
-		"gravity": "1.65",
-		"fallspeed": "12.5",
-		"airspeed": "7",
-		"airaccel": "1",
-		"jumpsquat": "2",
-		"g2a": "0.941",
-		"dashlength": "8",
-		"initialdash": "9.35",
-		"runspeed": "8.5",
-		"idlehurtbox": "https://i.imgur.com/qWIru97.png"
+		"Stats":{
+			"Height": "58",
+			"Width": "30",
+			"Weight": "110",
+			"Gravity": "1.65",
+			"Fall Speed": "12.5",
+			"Max Airspeed": "7",
+			"Air Acceleration": "1",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.941",
+			"Dash Length": "8",
+			"Dash Speed": "9.35",
+			"Run Speed": "8.5"
+		},
+		"Embed Info": {
+			"color": "A01E27",
+			"icon": "https://i.imgur.com/Y9VgI0X.png",
+			"image": "https://i.imgur.com/qWIru97.png"
+		}
 	},
 	"Sonic": {
-		"id": "40",
-		"height": "52",
-		"width": "22",
-		"weight": "95",
-		"gravity": "1.3",
-		"fallspeed": "14",
-		"airspeed": "8.5",
-		"airaccel": "0.75",
-		"jumpsquat": "2",
-		"g2a": "0.859",
-		"dashlength": "5",
-		"initialdash": "19.6781",
-		"runspeed": "15.137",
-		"idlehurtbox": "https://i.imgur.com/hhoinMA.png"
+		"Stats":{
+			"Height": "52",
+			"Width": "22",
+			"Weight": "95",
+			"Gravity": "1.3",
+			"Fall Speed": "14",
+			"Max Airspeed": "8.5",
+			"Air Acceleration": "0.75",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.859",
+			"Dash Length": "5",
+			"Dash Speed": "19.6781",
+			"Run Speed": "15.137"
+		},
+		"Embed Info": {
+			"color": "003A96",
+			"icon": "https://i.imgur.com/EoCMkDN.png",
+			"image": "https://i.imgur.com/hhoinMA.png"
+		}
 	},
 	"Sora": {
-		"id": "41",
-		"height": "52",
-		"width": "31",
-		"weight": "90",
-		"gravity": "1.32",
-		"fallspeed": "11.5",
-		"airspeed": "8",
-		"airaccel": "1",
-		"jumpsquat": "2",
-		"g2a": "0.816",
-		"dashlength": "8",
-		"initialdash": "12.25",
-		"runspeed": "9.8",
-		"idlehurtbox": "https://i.imgur.com/LLHRQNE.png"
+		"Stats":{
+			"Height": "52",
+			"Width": "31",
+			"Weight": "90",
+			"Gravity": "1.32",
+			"Fall Speed": "11.5",
+			"Max Airspeed": "8",
+			"Air Acceleration": "1",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.816",
+			"Dash Length": "8",
+			"Dash Speed": "12.25",
+			"Run Speed": "9.8"
+		},
+		"Embed Info": {
+			"color": "9191A1",
+			"icon": "https://i.imgur.com/Uk32o0p.png",
+			"image": "https://i.imgur.com/LLHRQNE.png"
+		}
 	},
 	"Tails": {
-		"id": "42",
-		"height": "44",
-		"width": "26",
-		"weight": "82",
-		"gravity": "1.1",
-		"fallspeed": "14",
-		"airspeed": "7",
-		"airaccel": "0.9",
-		"jumpsquat": "2",
-		"g2a": "0.85",
-		"dashlength": "8",
-		"initialdash": "13.6",
-		"runspeed": "10",
-		"idlehurtbox": "https://i.imgur.com/uhBR1d2.png"
+		"Stats":{
+			"Height": "44",
+			"Width": "26",
+			"Weight": "82",
+			"Gravity": "1.1",
+			"Fall Speed": "14",
+			"Max Airspeed": "7",
+			"Air Acceleration": "0.9",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.85",
+			"Dash Length": "8",
+			"Dash Speed": "13.6",
+			"Run Speed": "10"
+		},
+		"Embed Info": {
+			"color": "F5C530",
+			"icon": "https://i.imgur.com/rXyV31U.png",
+			"image": "https://i.imgur.com/uhBR1d2.png"
+		}
 	},
 	"Waluigi": {
-		"id": "43",
-		"height": "58",
-		"width": "26",
-		"weight": "100",
-		"gravity": "1.6",
-		"fallspeed": "13",
-		"airspeed": "7.6",
-		"airaccel": "1.4",
-		"jumpsquat": "2",
-		"g2a": "0.762",
-		"dashlength": "5",
-		"initialdash": "11.55",
-		"runspeed": "10.5",
-		"idlehurtbox": "https://i.imgur.com/AsCMBNN.png"
+		"Stats":{
+			"Height": "58",
+			"Width": "26",
+			"Weight": "100",
+			"Gravity": "1.6",
+			"Fall Speed": "13",
+			"Max Airspeed": "7.6",
+			"Air Acceleration": "1.4",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.762",
+			"Dash Length": "5",
+			"Dash Speed": "11.55",
+			"Run Speed": "10.5"
+		},
+		"Embed Info": {
+			"color": "8A55BB",
+			"icon": "https://i.imgur.com/u7PT9ZQ.png",
+			"image": "https://i.imgur.com/AsCMBNN.png"
+		}
 	},
 	"Wario": {
-		"id": "44",
-		"height": "49",
-		"width": "31",
-		"weight": "107",
-		"gravity": "1.55",
-		"fallspeed": "12.91",
-		"airspeed": "8.5",
-		"airaccel": "1.75",
-		"jumpsquat": "3",
-		"g2a": "0.84",
-		"dashlength": "6",
-		"initialdash": "7.4004",
-		"runspeed": "8.81",
-		"idlehurtbox": "https://i.imgur.com/bVwWtEV.png"
+		"Stats":{
+			"Height": "49",
+			"Width": "31",
+			"Weight": "107",
+			"Gravity": "1.55",
+			"Fall Speed": "12.91",
+			"Max Airspeed": "8.5",
+			"Air Acceleration": "1.75",
+			"Jumpsquat": "3",
+			"Ground-to-Air": "0.84",
+			"Dash Length": "6",
+			"Dash Speed": "7.4004",
+			"Run Speed": "8.81"
+		},
+		"Embed Info": {
+			"color": "E8D70A",
+			"icon": "https://i.imgur.com/wk1Rz0N.png",
+			"image": "https://i.imgur.com/bVwWtEV.png"
+		}
 	},
 	"Yoshi": {
-		"id": "45",
-		"height": "49",
-		"width": "21",
-		"weight": "111",
-		"gravity": "1.4",
-		"fallspeed": "14",
-		"airspeed": "8.5",
-		"airaccel": "1.2",
-		"jumpsquat": "2",
-		"g2a": "0.874",
-		"dashlength": "7",
-		"initialdash": "11.55645",
-		"runspeed": "9.15",
-		"idlehurtbox": "https://i.imgur.com/d8N2u1j.png"
+		"Stats":{
+			"Height": "49",
+			"Width": "21",
+			"Weight": "111",
+			"Gravity": "1.4",
+			"Fall Speed": "14",
+			"Max Airspeed": "8.5",
+			"Air Acceleration": "1.2",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.874",
+			"Dash Length": "7",
+			"Dash Speed": "11.55645",
+			"Run Speed": "9.15"
+		},
+		"Embed Info": {
+			"color": "68CB5F",
+			"icon": "https://i.imgur.com/mnsWINs.png",
+			"image": "https://i.imgur.com/d8N2u1j.png"
+		}
 	},
 	"Zelda": {
-		"id": "46",
-		"height": "55",
-		"width": "36",
-		"weight": "86",
-		"gravity": "1.2",
-		"fallspeed": "8.5",
-		"airspeed": "6",
-		"airaccel": "0.95",
-		"jumpsquat": "3",
-		"g2a": "0.805",
-		"dashlength": "7",
-		"initialdash": "8.439",
-		"runspeed": "8.7",
-		"idlehurtbox": "https://i.imgur.com/B3Q54TI.png"
+		"Stats":{
+			"Height": "55",
+			"Width": "36",
+			"Weight": "86",
+			"Gravity": "1.2",
+			"Fall Speed": "8.5",
+			"Max Airspeed": "6",
+			"Air Acceleration": "0.95",
+			"Jumpsquat": "3",
+			"Ground-to-Air": "0.805",
+			"Dash Length": "7",
+			"Dash Speed": "8.439",
+			"Run Speed": "8.7"
+		},
+		"Embed Info": {
+			"color": "8C60EA",
+			"icon": "https://i.imgur.com/HlsKEWc.png",
+			"image": "https://i.imgur.com/B3Q54TI.png"
+		}
 	},
 	"Zero Suit Samus": {
-		"id": "47",
-		"height": "56",
-		"width": "30",
-		"weight": "81",
-		"gravity": "1.43",
-		"fallspeed": "12",
-		"airspeed": "7.4",
-		"airaccel": "1",
-		"jumpsquat": "2",
-		"g2a": "0.864",
-		"dashlength": "7",
-		"initialdash": "12.485",
-		"runspeed": "11",
-		"idlehurtbox": "https://i.imgur.com/6UWVqn6.png"
-	},
-	"King Dedede": {
-		"id": "48",
-		"height": "66",
-		"width": "50",
-		"weight": "112",
-		"gravity": "1.3",
-		"fallspeed": "11",
-		"airspeed": "6",
-		"airaccel": "0.5",
-		"jumpsquat": "3",
-		"g2a": "0.833",
-		"dashlength": "16",
-		"initialdash": "9.24",
-		"runspeed": "8.4",
-		"idlehurtbox": "https://i.imgur.com/hmBuB1W.png"
+		"Stats":{
+			"Height": "56",
+			"Width": "30",
+			"Weight": "81",
+			"Gravity": "1.43",
+			"Fall Speed": "12",
+			"Max Airspeed": "7.4",
+			"Air Acceleration": "1",
+			"Jumpsquat": "2",
+			"Ground-to-Air": "0.864",
+			"Dash Length": "7",
+			"Dash Speed": "12.485",
+			"Run Speed": "11"
+		},
+		"Embed Info": {
+			"color": "41B4E1",
+			"icon": "https://i.imgur.com/AnI2vVy.png",
+			"image": "https://i.imgur.com/6UWVqn6.png"
+		}
 	}
 }

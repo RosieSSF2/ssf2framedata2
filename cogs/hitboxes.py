@@ -128,7 +128,418 @@ class Hitboxes(commands.Cog):
     async def bandanadee(self, interaction: discord.Interaction, attack: moves):
         """Bandana Dee frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Bandana Dee', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
+        await interaction.response.send_message(embed=ssf2_embed, view=view)
+    
+    # Captain Falcon
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]
+
+    @app_commands.command(name='captainfalcon')
+    async def captainfalcon(self, interaction: discord.Interaction, attack: moves):
+        """Captain Falcon frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Captain Falcon', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed, view=view)
         
+    # Donkey Kong
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]
+
+    @app_commands.command(name='donkeykong')
+    async def donkeykong(self, interaction: discord.Interaction, attack: moves):
+        """Donkey Kong frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Donkey Kong', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        
+    # Ganondorf
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]
+
+    @app_commands.command(name='ganondorf')
+    async def ganondorf(self, interaction: discord.Interaction, attack: moves):
+        """Ganondorf frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Ganondorf', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed, view=view)
+
+    # Goku
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]
+
+    @app_commands.command(name='goku')
+    async def goku(self, interaction: discord.Interaction, attack: moves):
+        """Goku frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Goku', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed, view=view)
+    
+    # Ichigo
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]
+
+    @app_commands.command(name='ichigo')
+    async def ichigo(self, interaction: discord.Interaction, attack: moves):
+        """Ichigo frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Ichigo', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed, view=view)
+
+    # Isaac
+        
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]
+
+    @app_commands.command(name='isaac')
+    async def isaac(self, interaction: discord.Interaction, attack: moves):
+        """Isaac frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Isaac', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed, view=view)
+    
+    # Kirby
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]
+
+    @app_commands.command(name='kirby')
+    async def kirby(self, interaction: discord.Interaction, attack: moves):
+        """Kirby frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Kirby', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed, view=view)
+
+    # Link
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air', 'Z Aerial',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]   
+    
+    @app_commands.command(name='link')
+    async def link(self, interaction: discord.Interaction, attack: moves):
+        """Link frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Link', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed, view=view)
+
+    # Lloyd
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]   
+    
+    @app_commands.command(name='lloyd')
+    async def link(self, interaction: discord.Interaction, attack: moves):
+        """Lloyd frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Lloyd', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed, view=view)
+
+    # Luffy
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]   
+    
+    @app_commands.command(name='luffy')
+    async def luffy(self, interaction: discord.Interaction, attack: moves):
+        """Luffy frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Luffy', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed, view=view)
+
+    # Luigi
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw',
+        'Taunt'
+    ]   
+   
+    @app_commands.command(name='luigi')
+    async def luigi(self, interaction: discord.Interaction, attack: moves):
+        """Luigi frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Luigi', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed, view=view)
+
+    # Mario
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]   
+    
+    @app_commands.command(name='mario')
+    async def mario(self, interaction: discord.Interaction, attack: moves):
+        """Mario frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Mario', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        
+    # Marth
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]   
+    
+    @app_commands.command(name='marth')
+    async def marth(self, interaction: discord.Interaction, attack: moves):
+        """Marth frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Marth', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        
+    # Mr. Game and Watch
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]
+
+    @app_commands.command(name='mrgameandwatch')
+    async def mrgameandwatch(self, interaction: discord.Interaction, attack: moves):
+        """Mr. Game and Watch frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Mr. Game and Watch', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        
+    # Naruto
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]
+
+    @app_commands.command(name='naruto')
+    async def naruto(self, interaction: discord.Interaction, attack: moves):
+        """Naruto frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Naruto', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        
+    # PAC-MAN
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]
+
+    @app_commands.command(name='pacman')
+    async def pacman(self, interaction: discord.Interaction, attack: moves):
+        """PAC-MAN frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('PAC-MAN', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed, view=view)
+
+    # Pit
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]
+
+    @app_commands.command(name='pit')
+    async def pit(self, interaction: discord.Interaction, attack: moves):
+        """Pit frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Pit', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed, view=view)
+
+    # Samus
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air', 'Z Aerial',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]   
+    
+    @app_commands.command(name='samus')
+    async def samus(self, interaction: discord.Interaction, attack: moves):
+        """Samus frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Samus', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed, view=view)    
+        
+    # Sandbag
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]   
+    
+    @app_commands.command(name='sandbag')
+    async def sandbag(self, interaction: discord.Interaction, attack: moves):
+        """Sandbag frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Sandbag', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed, view=view)
+
+    # Simon
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw',
+        'Taunt'
+    ]   
+    
+    @app_commands.command(name='simon')
+    async def simon(self, interaction: discord.Interaction, attack: moves):
+        """Simon frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Simon', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed, view=view)
+
+    # Sonic
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]   
+    
+    @app_commands.command(name='sonic')
+    async def sonic(self, interaction: discord.Interaction, attack: moves):
+        """Sonic frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Sonic', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed, view=view)
+
+    # Waluigi
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]   
+    
+    @app_commands.command(name='waluigi')
+    async def waluigi(self, interaction: discord.Interaction, attack: moves):
+        """Waluigi frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Waluigi', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        
+    # Wario
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]   
+    
+    @app_commands.command(name='wario')
+    async def wario(self, interaction: discord.Interaction, attack: moves):
+        """Wario frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Wario', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        
+    # ZSS
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]   
+    
+    @app_commands.command(name='zerosuitsamus')
+    async def zerosuitsamus(self, interaction: discord.Interaction, attack: moves):
+        """Zero Suit Samus frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Zero Suit Samus', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed, view=view)
+
 async def setup(bot: commands.Bot):
     await bot.add_cog(Hitboxes(bot))

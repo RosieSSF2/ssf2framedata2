@@ -93,7 +93,7 @@
 	},
 	"Back Air": {
 		"Hitboxes": {
-			"Back Air":{"Startup": "1-4", "Active": "5-6, 7-9", "Endlag": "10-16", "Landing Lag": "6", "Sweetspot Damage": "13%", "Sourspot Damage": "8%", "Angle": "140°/130°"}
+			"Back Air":{"Startup": "1-4", "Active": "5-6, 7-9", "Endlag": "10-16", "Landing Lag": "6", "Sweetspot Damage": "13%", "Late Hit Damage": "8%", "Angle": "140°/130°"}
 		},
 		"Images": {
 			"Full Speed": {"Back Air": "https://i.imgur.com/lGN2HJy.gif"},

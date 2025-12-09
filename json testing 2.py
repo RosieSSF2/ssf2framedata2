@@ -3,6 +3,23 @@ import json
 char = 'Bandana Dee'
 move = 'Jab'
 
+
+with open('data/stats/stats.json', 'r') as i:
+        charinfo = json.load(i)
+      
+desc = ""
+             
+#for idx, j in enumerate(charinfo[char]):
+#    # Iterates through the different stats a character has
+#    desc = ""
+#    print(charinfo[char][j])
+    
+for idx, info in enumerate(charinfo[char]["Stats"]):
+    desc += f'{info}: {charinfo[char]["Stats"][info]}\n' 
+    
+print(charinfo[char]["Stats"])
+
+'''
 with open('data/characters.json', 'r') as c:
     charidentifier = json.load(c)
 
@@ -34,3 +51,4 @@ for i, hit in enumerate(charinfo[move]["Hitboxes"]):
     #print(f'Slowmo: {charinfo[move]["Images"]["Slowmo"][f"{hit}"]}')
     
 print(hits)
+'''

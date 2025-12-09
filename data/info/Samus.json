@@ -1,5 +1,5 @@
 {
-    	"Jab": {
+		"Jab": {
 		"Hitboxes": {
 			"Jab 1":{"Startup": "1", "Active": "2", "Endlag": "3-9", "Damage": "3%", "Angle": "0°"},
 			"Jab 2":{"Startup": "1", "Active": "2-4", "Endlag": "5-10", "Sweetspot Damage": "7%", "Sourspot Damage": "3%", "Angle": "40°/0°", "Notes": "Secondary hitbox incorrectly uses jab 1 stats"},
@@ -218,6 +218,15 @@
 		"Images": {
 			"Full Speed": {"Down Throw": "https://i.imgur.com/qsL0XFX.gif"},
 			"Slowmo": {"Down Throw": "https://i.imgur.com/i7BR6YY.gif"}
+		}
+	},
+	"Z Aerial": {
+		"Hitboxes": {
+			"Z Aerial":{"Startup": "1-2", "Active": "3-7", "Endlag": "8-21", "Landing Lag": "6", "Tipper Damage": "9%", "Sourspot Damage": "8%", "Angle": "70°", "Notes": "Ledgesnap on frames 5-14"}
+		},
+		"Images": {
+			"Full Speed": {"Z Aerial": "https://i.imgur.com/E3GQEln.gif"},
+			"Slowmo": {"Z Aerial": "https://i.imgur.com/2hSfNAP.gif"}
 		}
 	}
 }
