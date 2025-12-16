@@ -128,7 +128,7 @@ class Hitboxes(commands.Cog):
     async def bandanadee(self, interaction: discord.Interaction, attack: moves):
         """Bandana Dee frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Bandana Dee', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
     
     # Captain Falcon
     moves = Literal[
@@ -145,7 +145,7 @@ class Hitboxes(commands.Cog):
     async def captainfalcon(self, interaction: discord.Interaction, attack: moves):
         """Captain Falcon frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Captain Falcon', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
         
     # Donkey Kong
     moves = Literal[
@@ -162,7 +162,7 @@ class Hitboxes(commands.Cog):
     async def donkeykong(self, interaction: discord.Interaction, attack: moves):
         """Donkey Kong frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Donkey Kong', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
         
     # Ganondorf
     moves = Literal[
@@ -179,7 +179,7 @@ class Hitboxes(commands.Cog):
     async def ganondorf(self, interaction: discord.Interaction, attack: moves):
         """Ganondorf frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Ganondorf', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
 
     # Goku
     moves = Literal[
@@ -196,7 +196,7 @@ class Hitboxes(commands.Cog):
     async def goku(self, interaction: discord.Interaction, attack: moves):
         """Goku frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Goku', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
     
     # Ichigo
     moves = Literal[
@@ -213,7 +213,7 @@ class Hitboxes(commands.Cog):
     async def ichigo(self, interaction: discord.Interaction, attack: moves):
         """Ichigo frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Ichigo', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
 
     # Isaac
         
@@ -231,7 +231,7 @@ class Hitboxes(commands.Cog):
     async def isaac(self, interaction: discord.Interaction, attack: moves):
         """Isaac frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Isaac', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
     
     # Kirby
     moves = Literal[
@@ -248,7 +248,7 @@ class Hitboxes(commands.Cog):
     async def kirby(self, interaction: discord.Interaction, attack: moves):
         """Kirby frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Kirby', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
 
     # Link
     moves = Literal[
@@ -265,7 +265,7 @@ class Hitboxes(commands.Cog):
     async def link(self, interaction: discord.Interaction, attack: moves):
         """Link frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Link', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
 
     # Lloyd
     moves = Literal[
@@ -282,7 +282,24 @@ class Hitboxes(commands.Cog):
     async def link(self, interaction: discord.Interaction, attack: moves):
         """Lloyd frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Lloyd', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
+        
+    # Lucario
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]   
+    
+    @app_commands.command(name='lucario')
+    async def lucario(self, interaction: discord.Interaction, attack: moves):
+        """Lucario frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Lucario', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
 
     # Luffy
     moves = Literal[
@@ -299,7 +316,7 @@ class Hitboxes(commands.Cog):
     async def luffy(self, interaction: discord.Interaction, attack: moves):
         """Luffy frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Luffy', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
 
     # Luigi
     moves = Literal[
@@ -317,7 +334,7 @@ class Hitboxes(commands.Cog):
     async def luigi(self, interaction: discord.Interaction, attack: moves):
         """Luigi frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Luigi', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
 
     # Mario
     moves = Literal[
@@ -334,7 +351,7 @@ class Hitboxes(commands.Cog):
     async def mario(self, interaction: discord.Interaction, attack: moves):
         """Mario frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Mario', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
         
     # Marth
     moves = Literal[
@@ -351,7 +368,7 @@ class Hitboxes(commands.Cog):
     async def marth(self, interaction: discord.Interaction, attack: moves):
         """Marth frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Marth', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
         
     # Mr. Game and Watch
     moves = Literal[
@@ -368,7 +385,7 @@ class Hitboxes(commands.Cog):
     async def mrgameandwatch(self, interaction: discord.Interaction, attack: moves):
         """Mr. Game and Watch frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Mr. Game and Watch', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
         
     # Naruto
     moves = Literal[
@@ -385,7 +402,7 @@ class Hitboxes(commands.Cog):
     async def naruto(self, interaction: discord.Interaction, attack: moves):
         """Naruto frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Naruto', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
         
     # PAC-MAN
     moves = Literal[
@@ -402,7 +419,7 @@ class Hitboxes(commands.Cog):
     async def pacman(self, interaction: discord.Interaction, attack: moves):
         """PAC-MAN frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('PAC-MAN', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
 
     # Pit
     moves = Literal[
@@ -419,7 +436,7 @@ class Hitboxes(commands.Cog):
     async def pit(self, interaction: discord.Interaction, attack: moves):
         """Pit frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Pit', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
 
     # Samus
     moves = Literal[
@@ -436,7 +453,7 @@ class Hitboxes(commands.Cog):
     async def samus(self, interaction: discord.Interaction, attack: moves):
         """Samus frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Samus', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)    
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)    
         
     # Sandbag
     moves = Literal[
@@ -453,7 +470,7 @@ class Hitboxes(commands.Cog):
     async def sandbag(self, interaction: discord.Interaction, attack: moves):
         """Sandbag frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Sandbag', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
 
     # Simon
     moves = Literal[
@@ -471,7 +488,7 @@ class Hitboxes(commands.Cog):
     async def simon(self, interaction: discord.Interaction, attack: moves):
         """Simon frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Simon', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
 
     # Sonic
     moves = Literal[
@@ -488,7 +505,7 @@ class Hitboxes(commands.Cog):
     async def sonic(self, interaction: discord.Interaction, attack: moves):
         """Sonic frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Sonic', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
 
     # Waluigi
     moves = Literal[
@@ -505,7 +522,7 @@ class Hitboxes(commands.Cog):
     async def waluigi(self, interaction: discord.Interaction, attack: moves):
         """Waluigi frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Waluigi', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
         
     # Wario
     moves = Literal[
@@ -522,7 +539,7 @@ class Hitboxes(commands.Cog):
     async def wario(self, interaction: discord.Interaction, attack: moves):
         """Wario frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Wario', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
         
     # ZSS
     moves = Literal[
@@ -539,7 +556,7 @@ class Hitboxes(commands.Cog):
     async def zerosuitsamus(self, interaction: discord.Interaction, attack: moves):
         """Zero Suit Samus frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Zero Suit Samus', attack, interaction.user)
-        await interaction.response.send_message(embed=ssf2_embed, view=view)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
 
 async def setup(bot: commands.Bot):
     await bot.add_cog(Hitboxes(bot))
