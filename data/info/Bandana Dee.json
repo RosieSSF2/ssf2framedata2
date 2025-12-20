@@ -144,7 +144,7 @@
 			"Forward Smash": {
 				"Startup": "1-6",
 				"Active": "7-9",
-				"Endlag": "18-26",
+				"Endlag": "10-26",
 				"Damage": "13.5%",
 				"Angle": "45"
 			}
@@ -315,18 +315,15 @@
 				"Damage": "4x 2%",
 				"Angle": "70"
 			},
-			"Charged": {
+			"Charged Hurtbox": {
 				"Startup": "1-17",
 				"Active": "18-46",
-				"Endlag": "18-41",
-				"Damage": "8%",
-				"Angle": "50"
+				"Endlag": "18-41"
 			},
 			"Charged Projectile": {
-				"Startup": "1-17",
-				"Active": "18-46",
-				"Endlag": "18-41",
-				"Damage": "8%"
+				"Active": "1-30",
+				"Damage": "8%",
+				"Angle": "50"
 			}
 		},
 		"Images": {
