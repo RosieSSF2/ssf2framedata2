@@ -1,0 +1,490 @@
+{
+	"Jab": {
+		"Hitboxes": {
+			"Jab 1": {
+				"Startup": "1-2",
+				"Active": "3-4",
+				"Endlag": "5-9",
+				"Damage": "3%",
+				"Angle": "70"
+			},
+			"Jab 2": {
+				"Startup": "1-3",
+				"Active": "4",
+				"Endlag": "5-9",
+				"Damage": "3%",
+				"Angle": "30"
+			},
+			"Jab Combo": {
+				"Startup": "1-2",
+				"Active": "3-4, 13",
+				"Endlag": "14-18",
+				"Damage": "6%",
+				"Angle": "30"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Jab 1": "",
+				"Jab 2": "",
+				"Jab Combo": ""
+			},
+			"Slowmo": {
+				"Jab 1": "",
+				"Jab 2": "",
+				"Jab Combo": ""
+			}
+		}
+	},
+	"Dash Attack": {
+		"Hitboxes": {
+			"Dash Attack": {
+				"Startup": "1-3",
+				"Active": "4, 5-8",
+				"Endlag": "9-18",
+                "Early Hit Damage": "12%",
+				"Late Hit Damage": "8%",
+				"Angle": "59"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Dash Attack": ""
+			},
+			"Slowmo": {
+				"Dash Attack": ""
+			}
+		}
+	},
+	"Forward Tilt": {
+		"Hitboxes": {
+			"Forward Tilt": {
+				"Startup": "1-4",
+				"Active": "5-8",
+				"Endlag": "9-15",
+				"Damage": "10%",
+				"Angle": "45"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Forward Tilt": ""
+			},
+			"Slowmo": {
+				"Forward Tilt": ""
+			}
+		}
+	},
+	"Up Tilt": {
+		"Hitboxes": {
+			"Up Tilt": {
+				"Startup": "1-3",
+				"Active": "4-6",
+				"Endlag": "7-15",
+				"Damage": "7%",
+				"Angle": "90"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Up Tilt": ""
+			},
+			"Slowmo": {
+				"Up Tilt": ""
+			}
+		}
+	},
+	"Down Tilt": {
+		"Hitboxes": {
+			"Down Tilt": {
+				"Startup": "1-4",
+				"Active": "5-6",
+				"Endlag": "7-19",
+				"Damage": "10%",
+				"Angle": "22"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Down Tilt": ""
+			},
+			"Slowmo": {
+				"Down Tilt": ""
+			}
+		}
+	},
+	"Forward Smash": {
+		"Hitboxes": {
+			"Forward Smash": {
+				"Startup": "1-5",
+				"Active": "6-7, 8-10",
+				"Endlag": "",
+                "Early Hit Damage": "16%",
+				"Late Hit Damage": "13%",
+				"Angle": "40"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Forward Smash": ""
+			},
+			"Slowmo": {
+				"Forward Smash": ""
+			}
+		}
+	},
+	"Up Smash": {
+		"Hitboxes": {
+			"Up Smash": {
+				"Startup": "1-3",
+				"Active": "4-6",
+				"Endlag": "7-22",
+				"Damage": "15%",
+				"Angle": "90"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Up Smash": ""
+			},
+			"Slowmo": {
+				"Up Smash": ""
+			}
+		}
+	},
+	"Down Smash": {
+		"Hitboxes": {
+			"Down Smash": {
+				"Startup": "1-4",
+				"Active": "5-6",
+				"Endlag": "7-26",
+				"Damage": "12%",
+				"Angle": "15"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Down Smash": ""
+			},
+			"Slowmo": {
+				"Down Smash": ""
+			}
+		}
+	},
+	"Neutral Air": {
+		"Hitboxes": {
+			"Neutral Air": {
+				"Startup": "",
+				"Active": "",
+				"Endlag": "",
+				"Damage": "",
+				"Landing Lag": "",
+				"Autocancel": "",
+				"Angle": ""
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Neutral Air": ""
+			},
+			"Slowmo": {
+				"Neutral Air": ""
+			}
+		}
+	},
+	"Forward Air": {
+		"Hitboxes": {
+			"Forward Air": {
+				"Startup": "",
+				"Active": "",
+				"Endlag": "",
+				"Damage": "",
+				"Landing Lag": "",
+				"Autocancel": "",
+				"Angle": ""
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Forward Air": ""
+			},
+			"Slowmo": {
+				"Forward Air": ""
+			}
+		}
+	},
+	"Back Air": {
+		"Hitboxes": {
+			"Back Air": {
+				"Startup": "",
+				"Active": "",
+				"Endlag": "",
+				"Damage": "",
+				"Landing Lag": "",
+				"Autocancel": "",
+				"Angle": ""
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Back Air": ""
+			},
+			"Slowmo": {
+				"Back Air": ""
+			}
+		}
+	},
+	"Up Air": {
+		"Hitboxes": {
+			"Up Air": {
+				"Startup": "",
+				"Active": "",
+				"Endlag": "",
+				"Damage": "",
+				"Landing Lag": "",
+				"Autocancel": "",
+				"Angle": ""
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Up Air": ""
+			},
+			"Slowmo": {
+				"Up Air": ""
+			}
+		}
+	},
+	"Down Air": {
+		"Hitboxes": {
+			"Down Air": {
+				"Startup": "",
+				"Active": "",
+				"Endlag": "",
+				"Damage": "",
+				"Landing Lag": "",
+				"Autocancel": "",
+				"Angle": ""
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Down Air": ""
+			},
+			"Slowmo": {
+				"Down Air": ""
+			}
+		}
+	},
+	"Neutral Special": {
+		"Hitboxes": {
+			"Charging": {
+				"Startup": "",
+				"Active": "",
+				"Endlag": "",
+                "Notes": ""
+			},
+			"Release": {
+				"Startup": "",
+				"Active": "",
+				"Endlag": "",
+				"Damage": "",
+				"Angle": ""
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Charging": "",
+				"Release": ""
+			},
+			"Slowmo": {
+				"Charging": "",
+				"Release": ""
+			}
+		}
+	},
+	"Side Special": {
+		"Hitboxes": {
+			"Angled Up": {
+				"Startup": "",
+				"Active": "",
+				"Endlag": "",
+				"Damage": "",
+				"Angle": ""
+			},
+			"No Angle": {
+				"Startup": "",
+				"Active": "",
+				"Endlag": "",
+				"Damage": "",
+				"Angle": ""
+			},
+			"Angled Down": {
+				"Startup": "",
+				"Active": "",
+				"Endlag": "",
+				"Damage": "",
+				"Angle": ""
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Angled Up": "",
+				"No Angle": "",
+				"Angled Down": ""
+			},
+			"Slowmo": {
+				"Angled Up": "",
+				"No Angle": "",
+				"Angled Down": ""
+			}
+		}
+	},
+	"Up Special": {
+		"Hitboxes": {
+				"Up Special": {
+					"Startup": "",
+					"Active": "",
+					"Endlag": "",
+					"Damage": "",
+					"Ledgesnap": "",
+					"Sleep Timer": ""
+				}
+			},
+		"Images": {
+			"Full Speed": {
+				"Up Special": ""
+			},
+			"Slowmo": {
+				"Up Special": ""
+			}
+		}
+	},
+	"Down Special": {
+		"Hitboxes": {
+			"Down Special": {
+				"Startup": "",
+				"Active": "",
+				"Endlag": "",
+				"Damage": "",
+				"Angle": ""
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Down Special": ""
+			},
+			"Slowmo": {
+				"Down Special": ""
+			}
+		}
+	},
+	"Grab": {
+		"Hitboxes": {
+			"Standing Grab": {
+				"Startup": "",
+				"Active": "",
+				"Endlag": ""
+			},
+			"Dash Grab": {
+				"Startup": "",
+				"Active": "",
+				"Endlag": ""
+			},
+			"Pummel": {
+				"Startup": "",
+				"Active": "",
+				"Endlag": "",
+				"Damage": ""
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Standing Grab": "",
+				"Dash Grab": "",
+				"Pummel": ""
+			},
+			"Slowmo": {
+				"Standing Grab": "",
+				"Dash Grab": "",
+				"Pummel": ""
+			}
+		}
+	},
+	"Forward Throw": {
+		"Hitboxes": {
+			"Forward Throw": {
+				"Startup": "",
+				"Active": "",
+				"Endlag": "",
+				"Damage": "",
+				"Angle": ""
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Forward Throw": ""
+			},
+			"Slowmo": {
+				"Forward Throw": ""
+			}
+		}
+	},
+	"Back Throw": {
+		"Hitboxes": {
+			"Back Throw": {
+				"Startup": "",
+				"Active": "",
+				"Endlag": "",
+				"Damage": "",
+				"Angle": ""
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Back Throw": ""
+			},
+			"Slowmo": {
+				"Back Throw": ""
+			}
+		}
+	},
+	"Up Throw": {
+		"Hitboxes": {
+			"Up Throw": {
+				"Startup": "",
+				"Active": "",
+				"Endlag": "",
+				"Damage": "",
+				"Angle": ""
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Up Throw": ""
+			},
+			"Slowmo": {
+				"Up Throw": ""
+			}
+		}
+	},
+	"Down Throw": {
+		"Hitboxes": {
+			"Down Throw": {
+				"Startup": "",
+				"Active": "",
+				"Endlag": "",
+				"Damage": "",
+				"Angle": ""
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Down Throw": ""
+			},
+			"Slowmo": {
+				"Down Throw": ""
+			}
+		}
+	}
+}
