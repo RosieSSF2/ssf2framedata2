@@ -415,7 +415,7 @@ class Hitboxes(commands.Cog):
     @app_commands.command(name='mrgameandwatch')
     async def mrgameandwatch(self, interaction: discord.Interaction, attack: moves):
         """Mr. Game and Watch frame data and hitbox info"""
-        ssf2_embed, view = ssf2_hitbox('Mr. Game and Watch', attack, interaction.user)
+        ssf2_embed, view = ssf2_hitbox('Mr Game and Watch', attack, interaction.user)
         await interaction.response.send_message(embed=ssf2_embed[0], view=view)
         
     # Naruto
