@@ -12,15 +12,15 @@ class Info(commands.Cog):
     @app_commands.command(name='about')
     async def about_command(self, interaction: discord.Interaction):
         """About SSF2 Frame Data"""
-        desc = 'A Discord bot based off the Rivals of Aether Acadamy Mentorbot 3.0, modified by justsomeguy__'
+        desc = 'A Discord bot based off the Rivals of Aether Acadamy Mentorbot 3.0, modified by rosemaryrosie'
         desc += f'```ml\n{len(self.bot.guilds):,} servers / {len(self.bot.users):,} users```'
         embed = discord.Embed(description=desc)
         embed.set_author(
             name='About SSF2 Framedata',
             icon_url=self.bot.user.display_avatar.url)
         embed.add_field(
-            name='Developed by blair, adapted by justsomeguy',
-            value='https://github.com/blair-c/Mentorbot3.0\nhttps://github.com/JustSomeGuy2295/ssf2framedata2',
+            name='Developed by blair, adapted by Rosie',
+            value='https://github.com/blair-c/Mentorbot3.0\nhttps://github.com/RosieSSF2/ssf2framedata2',
             inline=False)
         embed.add_field(
             name='Data curated by the SSF2 Framedata team and craftyfurry',

@@ -334,6 +334,7 @@
 				"Active": "10-15, 20-22",
 				"Endlag": "16-35",
 				"Damage": "7%-10%",
+				"Intangability": "10-15",
 				"Angle": "65°",
 				"Notes": "Hitbox appears frame 6 after releasing charge, max charge time of 40 frames"
 			}
