@@ -203,13 +203,12 @@
 		"Hitboxes": {
 			"Forward Air": {
 				"Startup": "1-3",
-				"Active": "4-8",
+				"Active": "4-7 (sourspot), 5-8 (sweetspot)",
 				"Endlag": "9-21",
 				"Landing Lag": "7",
 				"Sweetspot Damage": "10%",
 				"Sourspot Damage": "12%",
-				"Angle": "270/56",
-				"Notes": "Sweetspot active from frame 5 onwards, sourspot active frames 4-7"
+				"Angle": "270/56"
 			}
 		},
 		"Images": {
