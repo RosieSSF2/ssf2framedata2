@@ -527,7 +527,7 @@
 			}
 		}
 	},
-	"Doube Jump": {
+	"Double Jump": {
 		"Hitboxes": {
 			"Double Jump": {
 				"Duration": "22 frames",

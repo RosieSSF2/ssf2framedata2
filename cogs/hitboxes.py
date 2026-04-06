@@ -615,7 +615,7 @@ class Hitboxes(commands.Cog):
         'Up Special', 'Neutral Special',
         'Down Special', 'Side Special',
         'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw',
-        'Doube Jump'
+        'Double Jump'
     ]   
     
     @app_commands.command(name='yoshi')
