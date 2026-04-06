@@ -1,5 +1,29 @@
-{
-		"Bandana Dee": {
+{	
+	"Average": {
+		"Stats":{
+			"Height": "51.9",
+			"Width": "32.34",
+			"Weight": "93.2",
+			"Gravity": "1.35",
+			"Fall Speed": "12.72",
+			"Max Airspeed": "7.42",
+			"Air Acceleration": "1.02",
+			"Jumpsquat": "2.24",
+			"Empty Landing Lag": "2.9",
+			"Airdodge Landing Lag": "5.6",
+			"Heavy Landing Lag": "10.44", 
+			"Ground-to-Air": "0.88",
+			"Dash Length": "7",
+			"Dash Speed": "12.3",
+			"Run Speed": "10.49"
+		},
+		"Embed Info": {
+			"color": "7F7F7F",
+			"icon": "https://i.imgur.com/KHXxpZP.png",
+			"image": "https://i.imgur.com/Yi5xSE1.png"
+		}
+	},
+	"Bandana Dee": {
 		"Stats":{
 			"Height": "41",
 			"Width": "30",
