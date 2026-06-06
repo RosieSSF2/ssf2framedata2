@@ -356,12 +356,12 @@
 			"Full Speed": {
 				"Detection": "https://i.imgur.com/lDajViQ.gif",
 				"Throw": "https://i.imgur.com/ISVItHD.gif",
-				"Heavy Landing": "https://i.imgur.com/n2hCOoL.gif"
+				"Landing": "https://i.imgur.com/n2hCOoL.gif"
 			},
 			"Slowmo": {
 				"Detection": "https://i.imgur.com/h0e2v4V.gif",
 				"Throw": "https://i.imgur.com/yOQqJzF.gif",
-				"Heavy Landing": "https://i.imgur.com/xz24zbQ.gif"
+				"Landing": "https://i.imgur.com/xz24zbQ.gif"
 			}
 		}
 	},
