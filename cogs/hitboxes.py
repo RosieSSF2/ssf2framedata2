@@ -160,7 +160,24 @@ class Hitboxes(commands.Cog):
         """Captain Falcon frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Captain Falcon', attack, interaction.user)
         await interaction.response.send_message(embed=ssf2_embed[0], view=view)
-        
+    
+    # Chibi-Robo
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]
+
+    @app_commands.command(name='chibirobo')
+    async def chibirobo(self, interaction: discord.Interaction, attack: moves):
+        """Chibi-Robo frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('ChibiRobo', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
+    
     # Donkey Kong
     moves = Literal[
         'Jab', 'Dash Attack',
