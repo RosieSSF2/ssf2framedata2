@@ -26,10 +26,10 @@ venv.bak/
 KEYS.json
 SECRETS.json
 duplicate finder.py
-json testing 2.py
 data/info/char.txt
 data/info/Blank.json
 data/academy.db
 readme/documentation.md
 stats csv.py
 data/stats/stats.csv
+json testing 2.py
