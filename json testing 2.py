@@ -1,6 +1,6 @@
 import json
 
-char = 'Bandana Dee'
+char = 'Sora'
 move = 'Jab'
 
 
@@ -13,11 +13,15 @@ desc = ""
 #    # Iterates through the different stats a character has
 #    desc = ""
 #    print(charinfo[char][j])
-    
+
+
+### DOESN'T WORK FOR GOKU
+# make kk goku a seperate character?
 for idx, info in enumerate(charinfo[char]["Stats"]):
-    desc += f'{info}: {charinfo[char]["Stats"][info]}\n' 
+    diff = float(charinfo[char]["Stats"][info]) - float(charinfo["Average"]["Stats"][info])
+    desc += f'{info}: {str(round(diff, 2))}\n'
     
-print(charinfo[char]["Stats"])
+print(desc)
 
 '''
 with open('data/characters.json', 'r') as c:
