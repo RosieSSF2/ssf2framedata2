@@ -1,0 +1,597 @@
+{
+	"Jab": {
+		"Hitboxes": {
+			"Rapid Jab": {
+				"Startup": "1, Every third frame (if held)",
+				"Active": "2",
+				"Endlag": "3-10",
+				"Damage": "2%",
+				"Angle": "20"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Rapid Jab": "https://i.imgur.com/EADq9WN.gif"
+			},
+			"Slowmo": {
+				"Rapid Jab": "https://i.imgur.com/AAje5yD.gif"
+			}
+		}
+	},
+	"Dash Attack": {
+		"Hitboxes": {
+			"Dash Attack": {
+				"Startup": "1-2",
+				"Active": "3-8",
+				"Endlag": "9-25",
+				"Damage": "8%",
+				"Angle": "45"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Dash Attack": "https://i.imgur.com/oApv9pl.gif"
+			},
+			"Slowmo": {
+				"Dash Attack": "https://i.imgur.com/JBQbXIr.gif"
+			}
+		}
+	},
+	"Forward Tilt": {
+		"Hitboxes": {
+			"Forward Tilt": {
+				"Startup": "1-3",
+				"Active": "4-8",
+				"Endlag": "9-14",
+				"Damage": "8%",
+				"Angle": "40"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Forward Tilt": "https://i.imgur.com/Dhh7N6H.gif"
+			},
+			"Slowmo": {
+				"Forward Tilt": "https://i.imgur.com/2I9dfml.gif"
+			}
+		}
+	},
+	"Up Tilt": {
+		"Hitboxes": {
+			"Up Tilt": {
+				"Startup": "1-3",
+				"Active": "4-8",
+				"Endlag": "9-14",
+				"Damage": "9%",
+				"Angle": "90"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Up Tilt": "https://i.imgur.com/fjvwe5u.gif"
+			},
+			"Slowmo": {
+				"Up Tilt": "https://i.imgur.com/6xML7cC.gif"
+			}
+		}
+	},
+	"Down Tilt": {
+		"Hitboxes": {
+			"Down Tilt": {
+				"Startup": "1-2",
+				"Active": "3-5 (sourspot), 4 (sweetspot)",
+				"Endlag": "6-11",
+				"Sourspot Damage": "8%",
+				"Sweetspot Damage": "8%",
+				"Angle": "75/35"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Down Tilt": "https://i.imgur.com/skVobJw.gif"
+			},
+			"Slowmo": {
+				"Down Tilt": "https://i.imgur.com/cqrezJH.gif"
+			}
+		}
+	},
+	"Forward Smash": {
+		"Hitboxes": {
+			"Normal": {
+				"Startup": "1-7",
+				"Active": "8-9, 10-11, 12-13, 14-15, 16",
+				"Endlag": "13-29",
+				"Damage": "%, %, %, %, 5%",
+				"Self Damage": "1.5%, 0% x5",
+				"Angle": "45",
+				"Notes": "First two frames deal damage twice in a single frame"
+			},
+			"Discharge": {
+				"Startup": "1-9",
+				"Active": "10-12",
+				"Endlag": "13-29",
+				"Damage": "%, %, %, %, %",
+				"Self Damage": "%, %, %, %, %",
+				"Angle": "35"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Normal": "https://i.imgur.com/318UMQC.gif",
+				"Discharge": "https://i.imgur.com/BifoMM2.gif"
+			},
+			"Slowmo": {
+				"Normal": "https://i.imgur.com/JzSJZNm.gif",
+				"Discharge": "https://i.imgur.com/VRXJE9g.gif"
+			}
+		}
+	},
+	"Up Smash": {
+		"Hitboxes": {
+			"Up Smash": {
+				"Startup": "1-3",
+				"Active": "4-6 (sweetspot), 7 (sourspot)",
+				"Endlag": "8-17",
+				"Sweetspot Damage": "14%",
+				"Sourspot Damage": "10%",
+				"Angle": "85"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Up Smash": "https://i.imgur.com/dbiI9CG.gif"
+			},
+			"Slowmo": {
+				"Up Smash": "https://i.imgur.com/mVS326D.gif"
+			}
+		}
+	},
+	"Down Smash": {
+		"Hitboxes": {
+			"Down Smash": {
+				"Startup": "1",
+				"Active": "2-5",
+				"Endlag": "6-24",
+				"Damage": "13%",
+				"Angle": "145"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Down Smash": "https://i.imgur.com/ba5tsEJ.gif"
+			},
+			"Slowmo": {
+				"Down Smash": "https://i.imgur.com/tlEcN1T.gif"
+			}
+		}
+	},
+	"Neutral Air": {
+		"Hitboxes": {
+			"Neutral Air": {
+				"Startup": "1",
+				"Active": "2-5 (sweetspot), 6-14 (sourspot)",
+				"Endlag": "15-18",
+				"Sweetspot Damage": "13%",
+				"Sourspot Damage": "9%",
+				"Landing Lag": "5",
+				"Angle": "45",
+				"Autocancel": "1-2/18"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Neutral Air": "https://i.imgur.com/aZ2Twkj.gif"
+			},
+			"Slowmo": {
+				"Neutral Air": "https://i.imgur.com/oJ54kC7.gif"
+			}
+		}
+	},
+	"Forward Air": {
+		"Hitboxes": {
+			"Forward Air": {
+				"Startup": "1-3",
+				"Active": "4, 6-7, 9-10",
+				"Endlag": "11-18",
+				"Landing Lag": "5",
+				"Damage": "2% x2, 3%",
+				"Self Damage": "1%, 0% x2",
+				"Angle": "Autolink/Autolink/35",
+				"Autocancel": "1-3/18",
+				"Notes": "Autolink angles cover from 0-50 and 270-310. Only autolink hitboxes in game to reverse hit"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Forward Air": "https://i.imgur.com/3NGYGvS.gif"
+			},
+			"Slowmo": {
+				"Forward Air": "https://i.imgur.com/k55VLrF.gif"
+			}
+		}
+	},
+	"Back Air": {
+		"Hitboxes": {
+			"Back Air": {
+				"Startup": "1-2",
+				"Active": "3-8, 9-20",
+				"Endlag": "21-24",
+				"Landing Lag": "9",
+				"Sweetspot Damage": "11%",
+				"Sourspot Damage": "9%",
+				"Angle": "45",
+				"Autocancel": "1-2/21-24"
+		    }
+        },
+		"Images": {
+			"Full Speed": {
+				"Back Air": "https://i.imgur.com/Yy6QOwX.gif"
+			},
+			"Slowmo": {
+				"Back Air": "https://i.imgur.com/e3pbhNR.gif"
+			}
+		}
+	},
+	"Up Air": {
+		"Hitboxes": {
+			"Up Air": {
+				"Startup": "1",
+				"Active": "2-7",
+				"Endlag": "8-13",
+				"Landing Lag": "5",
+				"Damage": "5%",
+				"Angle": "80",
+				"Autocancel": "1/9-13"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Up Air": "https://i.imgur.com/lRmSrgT.gif"
+			},
+			"Slowmo": {
+				"Up Air": "https://i.imgur.com/HSvw60I.gif"
+			}
+		}
+	},
+	"Down Air": {
+		"Hitboxes": {
+			"Aerial Finish": {
+				"Startup": "1-6",
+				"Active": "7-13",
+				"Endlag": "14-25",
+				"Landing Lag": "8",
+				"Damage": "11%",
+				"Angle": "270",
+				"Autocancel": "1-6/21-25"
+			},
+			"Landing Hitbox": {
+				"Active": "1-4",
+				"Endlag": "5-8",
+				"Damage": "4%",
+				"Angle": "90",
+				"Notes": "When landing with this move the same frame as it comes out, it will deal 10% instead"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Aerial Finish": "https://i.imgur.com/n3dtxXp.gif",
+				"Landing Hitbox": "https://i.imgur.com/F4RPORv.gif"
+			},
+			"Slowmo": {
+				"Aerial Finish": "https://i.imgur.com/IeopEA1.gif",
+				"Landing Hitbox": "https://i.imgur.com/AfkGNZG.gif"
+			}
+		}
+	},
+	"Neutral Special": {
+		"Hitboxes": {
+			"Normal (Ground)": {
+				"Startup": "1-10",
+				"Active": "11 (Projectile Spawn)",
+				"Self Damage": "1%",
+				"Endlag": "12-26"
+			},
+			"Normal (Air)": {
+				"Startup": "1-8",
+				"Active": "9 (Projectile Spawn)",
+				"Self Damage": "1%",
+				"Endlag": "10-26"
+			},
+			"Normal (Projectile)": {
+				"Active": "1-89",
+				"Damage": "7%",
+				"Angle": "70",
+				"Notes": "Paralysis time of 10 frames"
+			},
+			"Discharge (Ground)": {
+				"Startup": "1-10",
+				"Active": "11 (Projectile Spawn)",
+				"Endlag": "12-32"
+			},
+			"Discharge (Air)": {
+				"Startup": "1-10",
+				"Active": "11 (Projectile Spawn)",
+				"Endlag": "12-26"
+			},
+			"Discharge (Projectile)": {
+				"Active": "1-89",
+				"Damage": "7%",
+				"Angle": "70",
+				"Notes": "Paralysis time of 35 frames"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Normal (Ground)": "https://i.imgur.com/bhlgsvC.gif",
+				"Normal (Air)": "https://i.imgur.com/yInXgCa.gif",
+				"Normal (Projectile)": "https://i.imgur.com/03sgHFv.gif",
+				"Discharge (Ground)": "https://i.imgur.com/cbONSHe.gif",
+				"Discharge (Air)": "https://i.imgur.com/9miXWWs.gif",
+				"Discharge (Projectile)": "https://i.imgur.com/03sgHFv.gif"
+			},
+			"Slowmo": {
+				"Normal (Ground)": "https://i.imgur.com/ogChYFg.gif",
+				"Normal (Air)": "https://i.imgur.com/SVgdoLH.gif",
+				"Normal (Projectile)": "https://i.imgur.com/a7q3a2E.gif",
+				"Discharge (Ground)": "https://i.imgur.com/H7xNax0.gif",
+				"Discharge (Air)": "https://i.imgur.com/7O1UJju.gif",
+				"Discharge (Projectile)": "https://i.imgur.com/a7q3a2E.gif"
+			}
+		}
+	},
+	"Side Special": {
+		"Hitboxes": {
+			"Normal": {
+				"Startup": "1-5",
+				"Active": "6-19",
+				"Endlag": "20-29",
+				"Damage": "12% -> 17% (no charge; full charge)",
+				"Selfdamage": "1% (on startup), 1.5% (when active)",
+				"Landing Lag": "15 while active, 16 while in endlag",
+				"Angle": "40",
+				"Notes": "Charge starts at 6th frame. Holding charge increases speed and damage. Endlag on hit: 14 frames"
+			},
+			"Discharge": {
+				"Startup": "1-7",
+				"Active": "8-21",
+				"Endlag": "22-28",
+				"Damage": "13%",
+				"Selfdamage": "3% (on startup), 4% (when active)",
+				"Landing Lag": "16",
+				"Angle": "50",
+				"Autocancel": "24-28",
+				"Notes": "Endlag on hit: 14 frames"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Normal": "https://i.imgur.com/oc9bJys.gif",
+				"Discharge": "https://i.imgur.com/ml4Pr5N.gif"
+			},
+			"Slowmo": {
+				"Normal": "https://i.imgur.com/Eb0i3Iq.gif",
+				"Discharge": "https://i.imgur.com/G5EFB8Z.gif"
+			}
+		}
+	},
+	"Up Special": {
+		"Hitboxes": {
+			"Normal Upb1": {
+				"Startup": "1-9",
+				"Active": "10-15",
+				"Endlag": "16-29",
+				"Damage": "3%",
+				"Self Damage": "0.5%",
+				"Landing Lag": "11",
+				"Angle": "60",
+				"Ledgegrab": "10-18 (angled down) or 16-18 (otherwise), 21-29",
+				"Notes": "The direction is determined by the inputs on frame 7. In frames 21-23 it can cancel into Upb2. Has a landing hitbox with the same properties if landing while the move's active that lasts for 1 frame before entering landing lag"
+			},
+			"Normal Upb2": {
+				"Active": "1-6",
+				"Endlag": "7-15",
+				"Damage": "5%",
+				"Self Damage": "1%",
+				"Landing Lag": "11",
+				"Angle": "60",
+				"Ledgegrab": "1-15 (angled down) or 7-15 (otherwise)",
+				"Notes": "Same landing hitbox as Upb2"
+			},
+			"Discharge Upb1": {
+				"Startup": "1-9",
+				"Active": "10-15, 18-22",
+				"Endlag": "23-36",
+				"Damage": "3%, 4% (angled down) or 6% (otherwise)",
+				"Self Damage": "2%, 4%",
+				"Landing Lag": "17",
+				"Angle": "autolink/60",
+				"Ledgegrab": "15-17, 24-36",
+				"Notes": "The direction is determined by the inputs on frame 7. At frameR 25 it can cancel into Upb2. Has a landing hitbox with the same properties as the first hitbox if landing while the move's active that lasts for 1 frame before entering landing lag. Autolink angles correspond to the 8 cardinal directions"
+			},
+			"Discharge Upb2": {
+				"Active": "1-6, 9-13",
+				"Endlag": "14-26",
+				"Damage": "5%, 4% (angled down) or 6% (otherwise)",
+				"Self Damage": "1.5%, 4%",
+				"Landing Lag": "17",
+				"Angle": "autolink/60",
+				"Ledgegrab": "6-8, 15-26",
+				"Notes": "Same landing hitbox as Upb1. Autolink corresponds to the 8 cardinal directions"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Normal Upb1": "https://i.imgur.com/qy0Npt6.gif",
+				"Normal Upb2": "https://i.imgur.com/T5TRZ6u.gif",
+				"Discharge Upb1": "https://i.imgur.com/Gre4X7R.gif",
+				"Discharge Upb2": "https://i.imgur.com/xQVbVGA.gif"
+			},
+			"Slowmo": {
+				"Normal Upb1": "https://i.imgur.com/xrRzeQi.gif",
+		 		"Normal Upb2": "https://i.imgur.com/qIYZFmd.gif",
+				"Discharge Upb1": "https://i.imgur.com/T7LwR8Y.gif",
+				"Discharge Upb2": "https://i.imgur.com/tHa3T7A.gif"
+			}
+		}
+	},
+	"Down Special": {
+		"Hitboxes": {
+			"Normal (Thunder)": {
+				"Startup": "1-12",
+				"Active": "13 (Projectile Spawn)",
+				"Endlag": "14-29"
+			},
+			"Normal (Contact)": {
+				"Active": "1-5",
+				"Damage": "17%",
+				"Self Damage": "3.5%",
+				"Endlag": "6-21",
+				"Angle": "55"
+			},
+			"Discharge (Thunder)": {
+				"Startup": "1-13",
+				"Active": "14 (Projectile Spawn)",
+				"Endlag": "15-29"
+			},
+			"Discharge (Contact)": {
+				"Active": "1-2",
+				"Damage": "17%",
+				"Self Damage": "10%",
+				"Angle": "90",
+				"Notes": "Discharge Side b and Up b will carry on the momentum of the height boost after entering tumble"
+			},
+			"Thunder (Projectile)": {
+				"Active": "1+",
+				"Damage": "2%",
+				"Angle": "270"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Normal (Thunder)": "https://i.imgur.com/L2j6WbJ.gif",
+				"Normal (Contact)": "https://i.imgur.com/BIKcT5c.gif",
+				"Discharge (Thunder)": "https://i.imgur.com/Y5SsoFq.gif",
+				"Discharge (Contact)": "https://i.imgur.com/Z8trDb8.gif",
+				"Thunder (Projectile)": "https://i.imgur.com/g1O2zUR.gif"
+
+			},
+			"Slowmo": {
+				"Normal (Thunder)": "https://i.imgur.com/rQR7dlb.gif",
+				"Normal (Contact)": "https://i.imgur.com/Kp7blx0.gif",
+				"Discharge (Thunder)": "https://i.imgur.com/rCUAX83.gif",
+				"Discharge (Contact)": "https://i.imgur.com/xLnM4SY.gif",
+				"Thunder (Projectile)": "https://i.imgur.com/g1O2zUR.gif"
+			}
+		}
+	},
+	"Grab": {
+		"Hitboxes": {
+			"Standing Grab": {
+				"Startup": "1-3",
+				"Active": "4",
+				"Endlag": "5-15"
+			},
+			"Dash Grab": {
+				"Startup": "1-5",
+				"Active": "6",
+				"Endlag": "7-20"
+			},
+			"Pummel": {
+				"Startup": "1",
+				"Active": "2",
+				"Endlag": "3-8",
+				"Damage": "2%",
+				"Self Damage": "0.5%"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Standing Grab": "https://i.imgur.com/5ieLC3N.gif",
+				"Dash Grab": "https://i.imgur.com/qoI5ywl.gif",
+				"Pummel": "https://i.imgur.com/8ZW4Yxx.gif"
+			},
+			"Slowmo": {
+				"Standing Grab": "https://i.imgur.com/hgqcK7A.gif",
+				"Dash Grab": "https://i.imgur.com/1biJmub.gif",
+				"Pummel": "https://i.imgur.com/tXtksDp.gif"
+			}
+		}
+	},
+	"Forward Throw": {
+		"Hitboxes": {
+			"Forward Throw": {
+				"Startup": "1-8",
+				"Active": "9-20",
+				"Endlag": "21-24",
+				"Damage": "2% x4",
+				"Self Damage": "0.5% x4", 
+				"Angle": "65"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Forward Throw": "https://i.imgur.com/GbaouXj.gif"
+			},
+			"Slowmo": {
+				"Forward Throw": "https://i.imgur.com/wtcNQjg.gif"
+			}
+		}
+	},
+	"Back Throw": {
+		"Hitboxes": {
+			"Back Throw": {
+				"Startup": "1-12",
+				"Active": "13",
+				"Endlag": "14-22",
+				"Damage": "9%",
+				"Angle": "135"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Back Throw": "https://i.imgur.com/8aJrv6G.gif"
+			},
+			"Slowmo": {
+				"Back Throw": "https://i.imgur.com/VSqWPPi.gif"
+			}
+		}
+	},
+	"Up Throw": {
+		"Hitboxes": {
+			"Up Throw": {
+				"Startup": "1-8",
+				"Active": "9-10",
+				"Endlag": "11-15",
+				"Damage": "5%",
+				"Angle": "90"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Up Throw": "https://i.imgur.com/LOUNrzk.gif"
+			},
+			"Slowmo": {
+				"Up Throw": "https://i.imgur.com/h13xfJk.gif"
+			}
+		}
+	},
+	"Down Throw": {
+		"Hitboxes": {
+			"Down Throw": {
+				"Startup": "1-8",
+				"Active": "9-10",
+				"Endlag": "11-15",
+				"Damage": "5%",
+				"Angle": "55"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Down Throw": "https://i.imgur.com/w940lud.gif"
+			},
+			"Slowmo": {
+				"Down Throw": "https://i.imgur.com/j1aJ9zu.gif"
+			}
+		}
+	}
+}
