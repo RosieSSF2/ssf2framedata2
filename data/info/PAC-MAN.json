@@ -394,8 +394,7 @@
 				"Startup": "1-2",
 				"Active": "3-4, 5-8, 11-14",
 				"Endlag": "7",
-				"Damage": "6%, 5%",
-				"Sweetspot Damage": "8%",
+				"Damage": "8%, 6%, 5%",
 				"Angle": "60",
 				"Notes": "Trampoline spawns on frame 3"
 			},

@@ -68,7 +68,7 @@
         "Hitboxes": {
             "Forward Tilt": {
                 "Startup": "1-4",
-                "Active": "4, 5-7",
+                "Active": "5, 6-8",
                 "Endlag": "9-19",
                 "Damage": "4%, 11% x aura",
                 "Angle": "20"

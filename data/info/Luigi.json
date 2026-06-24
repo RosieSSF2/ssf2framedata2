@@ -274,7 +274,7 @@
 				"Damage": "12%",
 				"Landing Lag": "7",
 				"Autocancel": "1, 14-17",
-				"Angle": "270%, 47%",
+				"Angle": "270, 47",
 				"Notes": "Meteor hitbox is on first active frame"
 			}
 		},
