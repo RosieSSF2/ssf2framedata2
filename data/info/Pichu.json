@@ -101,8 +101,8 @@
 				"Startup": "1-7",
 				"Active": "8-9, 10-11, 12-13, 14-15, 16",
 				"Endlag": "13-29",
-				"Damage": "%, %, %, %, 5%",
-				"Self Damage": "1.5%, 0% x5",
+				"Damage": "5x 1.5%, 5%",
+				"Self Damage": "1.5%",
 				"Angle": "45",
 				"Notes": "First two frames deal damage twice in a single frame"
 			},
@@ -110,9 +110,9 @@
 				"Startup": "1-9",
 				"Active": "10-12",
 				"Endlag": "13-29",
-				"Damage": "%, %, %, %, %",
-				"Self Damage": "%, %, %, %, %",
-				"Angle": "35"
+				"Damage": "6x 1.5%, 7%%",
+				"Self Damage": "6x 0.75%, 1.75%",
+				"Angle": "37"
 			}
 		},
 		"Images": {

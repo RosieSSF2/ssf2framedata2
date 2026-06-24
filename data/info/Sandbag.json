@@ -379,14 +379,20 @@
 	},
 	"Taunt": {
 		"Hitboxes": {
-			"Taunt": {}
+			"Taunt": {
+				"Startup": "1-19",
+				"Active": "20-21",
+				"Endlag": "22-61",
+				"Damage": "6%",
+				"Angle": "270"
+			}
 		},
 		"Images": {
 			"Full Speed": {
-				"Taunt": "https://i.imgur.com/Al0toNn.gif"
+				"Taunt": "https://i.imgur.com/ujhg5aW.gif"
 			},
 			"Slowmo": {
-				"Taunt": "https://i.imgur.com/Al0toNn.gif"
+				"Taunt": "https://i.imgur.com/0MTfD5z.gif"
 			}
 		}
 	},
