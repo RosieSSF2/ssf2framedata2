@@ -100,19 +100,19 @@
 			"Normal": {
 				"Startup": "1-7",
 				"Active": "8-9, 10-11, 12-13, 14-15, 16",
-				"Endlag": "13-29",
+				"Endlag": "17-31",
 				"Damage": "5x 1.5%, 5%",
 				"Self Damage": "1.5%",
 				"Angle": "45",
 				"Notes": "First two frames deal damage twice in a single frame"
 			},
 			"Discharge": {
-				"Startup": "1-9",
-				"Active": "10-12",
-				"Endlag": "13-29",
+				"Startup": "1-7",
+				"Active": "8-9, 10-11, 12-13, 14-15, 16-17",
+				"Endlag": "18-32",
 				"Damage": "6x 1.5%, 7%%",
 				"Self Damage": "6x 0.75%, 1.75%",
-				"Angle": "37"
+				"Angle": "35"
 			}
 		},
 		"Images": {
