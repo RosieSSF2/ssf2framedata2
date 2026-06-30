@@ -100,7 +100,7 @@
 			"Normal": {
 				"Startup": "1-7",
 				"Active": "8-15, 16",
-				"Endlag": "13-29",
+				"Endlag": "17-31",
 				"Damage": "3x 1.5%, 5%",
 				"Self Damage": "1.5%",
 				"Angle": "45",
@@ -109,8 +109,8 @@
 			"Discharge": {
 				"Startup": "1-9",
 				"Active": "8-16, 17",
-				"Endlag": "13-29",
-				"Damage": "6x 1.5%, 7%%",
+				"Endlag": "18-32",
+				"Damage": "6x 1.5%, 7%",
 				"Self Damage": "6x 0.75%, 1.75%",
 				"Angle": "37"
 			}
