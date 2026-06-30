@@ -34,16 +34,16 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Jab 1": "",
-				"Jab 2": "",
-				"Jab 3": "",
-				"Jab Combo": ""
+				"Jab 1": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/jab1.gif?raw=true",
+				"Jab 2": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/jab2.gif?raw=true",
+				"Jab 3": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/jab3.gif?raw=true",
+				"Jab Combo": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/jabcombo.gif?raw=true"
 			},
 			"Slowmo": {
-				"Jab 1": "",
-				"Jab 2": "",
-				"Jab 3": "",
-				"Jab Combo": ""
+				"Jab 1": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/jab1.gif?raw=true",
+				"Jab 2": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/jab2.gif?raw=true",
+				"Jab 3": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/jab3.gif?raw=true",
+				"Jab Combo": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/jabcombo.gif?raw=true"
 			}
 		}
 	},
@@ -59,10 +59,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Dash Attack": ""
+				"Dash Attack": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/dashattack.gif?raw=true"
 			},
 			"Slowmo": {
-				"Dash Attack": ""
+				"Dash Attack": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/dashattack.gif?raw=true"
 			}
 		}
 	},
@@ -78,10 +78,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Forward Tilt": ""
+				"Forward Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/ftilt.gif?raw=true"
 			},
 			"Slowmo": {
-				"Forward Tilt": ""
+				"Forward Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/ftilt.gif?raw=true"
 			}
 		}
 	},
@@ -97,10 +97,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Up Tilt": ""
+				"Up Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/utilt.gif?raw=true"
 			},
 			"Slowmo": {
-				"Up Tilt": ""
+				"Up Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmoutilt.gif?raw=true"
 			}
 		}
 	},
@@ -116,10 +116,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Down Tilt": ""
+				"Down Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/dtilt.gif?raw=true"
 			},
 			"Slowmo": {
-				"Down Tilt": ""
+				"Down Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/dtilt.gif?raw=true"
 			}
 		}
 	},
@@ -137,10 +137,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Forward Smash": ""
+				"Forward Smash": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/fsmash.gif?raw=true"
 			},
 			"Slowmo": {
-				"Forward Smash": ""
+				"Forward Smash": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/fsmash.gif?raw=true"
 			}
 		}
 	},
@@ -156,10 +156,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Up Smash": ""
+				"Up Smash": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/usmash.gif?raw=true"
 			},
 			"Slowmo": {
-				"Up Smash": ""
+				"Up Smash": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/usmash.gif?raw=true"
 			}
 		}
 	},
@@ -181,12 +181,12 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Ground Pound": "",
-                "Shockwave" : ""
+				"Ground Pound": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/dsmash.gif?raw=true",
+                "Shockwave" : "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/dsmash-quake.gif?raw=true"
 			},
 			"Slowmo": {
-				"Ground Pound": "",
-                "Shockwave" : ""
+				"Ground Pound": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/dsmash.gif?raw=true",
+                "Shockwave" : "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/dsmash-quake.gif?raw=true"
 			}
 		}
 	},
@@ -204,10 +204,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Neutral Air": ""
+				"Neutral Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/nair.gif?raw=true"
 			},
 			"Slowmo": {
-				"Neutral Air": ""
+				"Neutral Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/nair.gif?raw=true"
 			}
 		}
 	},
@@ -225,10 +225,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Forward Air": ""
+				"Forward Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/fair.gif?raw=true"
 			},
 			"Slowmo": {
-				"Forward Air": ""
+				"Forward Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/fair.gif?raw=true"
 			}
 		}
 	},
@@ -246,10 +246,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Back Air": ""
+				"Back Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/bair.gif?raw=true"
 			},
 			"Slowmo": {
-				"Back Air": ""
+				"Back Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/bair.gif?raw=true"
 			}
 		}
 	},
@@ -268,10 +268,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Up Air": ""
+				"Up Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/uair.gif?raw=true"
 			},
 			"Slowmo": {
-				"Up Air": ""
+				"Up Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/uair.gif?raw=true"
 			}
 		}
 	},
@@ -292,10 +292,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Down Air": ""
+				"Down Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/dair.gif?raw=true"
 			},
 			"Slowmo": {
-				"Down Air": ""
+				"Down Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/dair.gif?raw=true"
 			}
 		}
 	},
@@ -315,12 +315,12 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Hurtbox": "",
-				"Projectile": ""
+				"Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/NeutralSpecial-Hurtbox.gif?raw=true",
+				"Projectile": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/NeutralSpecial-Projectilegif.gif?raw=true"
 			},
 			"Slowmo": {
-				"Hurtbox": "",
-				"Projectile": ""
+				"Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/NeutralSpecial-Hurtbox.gif?raw=true",
+				"Projectile": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/NeutralSpecial-Projectilegif.gif?raw=true"
 			}
 		}
 	},
@@ -342,12 +342,12 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Detection": "",
-				"Bounce": ""
+				"Detection": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/SideSpecial-Detection.gif?raw=true",
+				"Bounce": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/SideSpecial-Bounce.gif?raw=true"
 			},
 			"Slowmo": {
-				"Detection": "",
-				"Bounce": ""
+				"Detection": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/SideSpecial-Detection.gif?raw=true",
+				"Bounce": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/SideSpecial-Bounce.gif?raw=true"
 			}
 		}
 	},
@@ -364,29 +364,41 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Up Special": ""
+				"Up Special": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/UpSpecial.gif?raw=true"
 			},
 			"Slowmo": {
-				"Up Special": ""
+				"Up Special": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/UpSpecial.gif?raw=true"
 			}
 		}
 	},
 	"Down Special": {
 		"Hitboxes": {
-			"Down Special": {
-				"Startup": "",
-				"Active": "",
-				"Endlag": "",
-				"Damage": "",
-				"Angle": ""
+			"Throw": {
+				"Startup": "1-9",
+				"Active": "10 (Projectile Spawn)",
+				"Endlag": "11-26",
+				"Max Charge": "30 frames",
+				"Notes": "Grenade releases 5 frames after releasing charge"
+			},
+			"Grenade Detection": {
+				"Active": "Loop"
+			},
+			"Grenade Explosion": {
+				"Active": "1-2, 3-4, 5-6, 7-8, 9-10",
+				"Damage": "4x 0.75%, 6%",
+				"Angle": "45"
 			}
 		},
 		"Images": {
 			"Full Speed": {
-				"Down Special": ""
+				"Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/DownSpecial-Throw.gif?raw=true",
+				"Grenade Detection": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/DownSpecial-GrenadeDetection.gif?raw=true",
+				"Grenade Explosion": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/DownSpecial-GrenadeExplosion.gif?raw=true"
 			},
 			"Slowmo": {
-				"Down Special": ""
+				"Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/DownSpecial-Throw.gif?raw=true",
+				"Grenade Detection": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/DownSpecial-GrenadeDetection.gif?raw=true",
+				"Grenade Explosion": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/DownSpecial-GrenadeExplosion.gif?raw=true"
 			}
 		}
 	},
@@ -411,14 +423,14 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Standing Grab": "",
-				"Dash Grab": "",
-				"Pummel": ""
+				"Standing Grab": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/Grab-StandingGrab.gif?raw=true",
+				"Dash Grab": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/Grab-DashGrab.gif?raw=true",
+				"Pummel": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/Grab-Pummel.gif?raw=true"
 			},
 			"Slowmo": {
-				"Standing Grab": "",
-				"Dash Grab": "",
-				"Pummel": ""
+				"Standing Grab": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/Grab-StandingGrab.gif?raw=true",
+				"Dash Grab": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/Grab-DashGrab.gif?raw=true",
+				"Pummel": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/Grab-Pummel.gif?raw=true"
 			}
 		}
 	},
@@ -434,10 +446,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Forward Throw": ""
+				"Forward Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/ForwardThrow.gif?raw=true"
 			},
 			"Slowmo": {
-				"Forward Throw": ""
+				"Forward Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/ForwardThrow.gif?raw=true"
 			}
 		}
 	},
@@ -453,10 +465,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Back Throw": ""
+				"Back Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/BackThrow.gif?raw=true"
 			},
 			"Slowmo": {
-				"Back Throw": ""
+				"Back Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/BackThrow.gif?raw=true"
 			}
 		}
 	},
@@ -472,10 +484,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Up Throw": ""
+				"Up Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/UpThrow.gif?raw=true"
 			},
 			"Slowmo": {
-				"Up Throw": ""
+				"Up Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/UpThrow.gif?raw=true"
 			}
 		}
 	},
@@ -491,10 +503,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Down Throw": ""
+				"Down Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Full%20Speed/DownThrow.gif?raw=true"
 			},
 			"Slowmo": {
-				"Down Throw": ""
+				"Down Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Krystal/Slowmo/DownThrow.gif?raw=true"
 			}
 		}
 	}

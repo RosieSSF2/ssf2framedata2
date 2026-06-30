@@ -297,6 +297,23 @@ class Hitboxes(commands.Cog):
         """Kirby frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Kirby', attack, interaction.user)
         await interaction.response.send_message(embed=ssf2_embed[0], view=view)
+        
+    # Krystal
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]
+
+    @app_commands.command(name='krystal')
+    async def krystal(self, interaction: discord.Interaction, attack: moves):
+        """Krystal frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Krystal', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
 
     # Link
     moves = Literal[
