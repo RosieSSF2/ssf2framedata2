@@ -112,7 +112,6 @@ class Info(commands.Cog):
             # Ground Bounce
             '\n**Ground Bounce**\n'
             'When missing the tech on a meteor smash you will bounce on the stage while still being in hitstun. The window to tech the bounce is 1 frame.\n'
-
             # Wall Tech
             '\n**Wall Tech**'
             '\nWall techs recover instantly, if teching off a wall gravity takes effect immediately.'
