@@ -101,7 +101,7 @@
 				"Startup": "1-7",
 				"Active": "8-15, 16",
 				"Endlag": "17-31",
-				"Damage": "3x 1.5%, 5%",
+				"Damage": "5x 1.5%, 5%",
 				"Self Damage": "1.5%",
 				"Angle": "45",
 				"Notes": "First two frames deal damage twice in a single frame"
@@ -113,6 +113,7 @@
 				"Damage": "6x 1.5%, 7%",
 				"Self Damage": "6x 0.75%, 1.75%",
 				"Angle": "35"
+				"Notes": "First two frames deal damage twice in a single frame"
 			}
 		},
 		"Images": {
