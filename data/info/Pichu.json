@@ -112,7 +112,7 @@
 				"Endlag": "18-32",
 				"Damage": "6x 1.5%, 7%",
 				"Self Damage": "6x 0.75%, 1.75%",
-				"Angle": "35"
+				"Angle": "35",
 				"Notes": "First two frames deal damage twice in a single frame"
 			}
 		},

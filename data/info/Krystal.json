@@ -167,7 +167,7 @@
 		"Hitboxes": {
 			"Ground Pound": {
 				"Startup": "1-14",
-				"Active": "15-17 (Falling), 18-19 (Landing), (Shockwave Spawn)",
+				"Active": "15-17 (Falling), 18-19 (Landing, Shockwave Spawn)",
 				"Endlag": "20-34",
 				"Damage": "16%",
 				"Angle": "40"
