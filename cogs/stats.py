@@ -22,7 +22,7 @@ def ssf2_charinfo(char: str):
         embed = discord.Embed(description=f'```py\n{desc}```', color=int(charinfo[char]['Embed Info']['color'], 16))
         embed.set_image(url=charinfo[char]['Embed Info']['image'])
         embed.set_author(name=f'{char} Information', icon_url=charinfo[char]['Embed Info']['icon'], url = "https://docs.google.com/spreadsheets/d/1VcHU6YIGG0LBQ7lHXAgolLiIgIINWnmdw6jHj-NBIz4/edit?usp=sharing")
-        embed.set_footer(text='Up to date as of patch 1.4.0.1')
+        embed.set_footer(text='Up to date as of patch 1.4.0.1, click on title for spreadsheet')
         
     return embed        
 

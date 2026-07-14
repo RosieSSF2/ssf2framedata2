@@ -1,0 +1,508 @@
+{
+	"Jab": {
+		"Hitboxes": {
+			"Jab 1": {
+				"Startup": "1-2",
+				"Active": "3-6",
+				"Endlag": "7-9",
+				"Damage": "3%",
+				"Angle": "40",
+                "Cancellable": "6-9"
+			},
+			"Jab 2": {
+				"Startup": "1-2",
+				"Active": "3-6",
+				"Endlag": "7-10",
+				"Damage": "2%",
+				"Angle": "40",
+                "Cancellable": "7-10"
+			},
+			"Jab 3": {
+                "Startup": "1-2",
+				"Active": "3-6",
+				"Endlag": "7-16",
+				"Damage": "5%",
+				"Angle": "50"
+			},
+			"Jab Combo": {
+				"Startup": "1-2",
+				"Active": "3-6, 9-12, 15-18",
+				"Endlag": "19-28",
+				"Damage": "10%",
+				"Angle": "50"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Jab 1": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/Jab-Jab1.gif?raw=true",
+				"Jab 2": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/Jab-Jab2.gif?raw=true",
+				"Jab 3": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/Jab-Jab3.gif?raw=true",
+				"Jab Combo": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/Jab-JabCombo.gif?raw=true"
+			},
+			"Slowmo": {
+				"Jab 1": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/Jab-Jab1.gif?raw=true",
+				"Jab 2": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/Jab-Jab2.gif?raw=true",
+				"Jab 3": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/Jab-Jab3.gif?raw=true",
+				"Jab Combo": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/Jab-JabCombo.gif?raw=true"
+			}
+		}
+	},
+	"Dash Attack": {
+		"Hitboxes": {
+			"Dash Attack": {
+				"Startup": "1-2",
+				"Active": "3-9",
+				"Endlag": "10-16",
+				"Damage": "7%",
+				"Angle": "60"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Dash Attack": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/DashAttack.gif?raw=true"
+			},
+			"Slowmo": {
+				"Dash Attack": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/DashAttack.gif?raw=true"
+			}
+		}
+	},
+	"Forward Tilt": {
+		"Hitboxes": {
+			"Forward Tilt": {
+				"Startup": "1-5",
+				"Active": "6-8 (Sourspot), 6-10 (Sweetspot)",
+				"Endlag": "11-19",
+				"Damage": "5%, 7%",
+				"Angle": "45"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Forward Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/ForwardTilt.gif?raw=true"
+			},
+			"Slowmo": {
+				"Forward Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/ForwardTilt.gif?raw=true"
+			}
+		}
+	},
+	"Up Tilt": {
+		"Hitboxes": {
+			"Up Tilt": {
+				"Startup": "1-3",
+				"Active": "4-8",
+				"Endlag": "9-15",
+				"Damage": "7%",
+				"Angle": "85"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Up Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/UpTilt.gif?raw=true"
+			},
+			"Slowmo": {
+				"Up Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/UpTilt.gif?raw=true"
+			}
+		}
+	},
+	"Down Tilt": {
+		"Hitboxes": {
+			"Down Tilt": {
+				"Startup": "1-2",
+				"Active": "3-9",
+				"Endlag": "10-14",
+				"Damage": "8%",
+				"Angle": "75"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Down Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/DownTilt.gif?raw=true"
+			},
+			"Slowmo": {
+				"Down Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/DownTilt.gif?raw=true"
+			}
+		}
+	},
+	"Forward Smash": {
+		"Hitboxes": {
+			"Forward Smash": {
+				"Startup": "1-9",
+				"Active": "10-11, 12",
+				"Endlag": "13-21",
+				"Damage": "16%, 14%",
+				"Angle": "50"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Forward Smash": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/ForwardSmash.gif?raw=true"
+			},
+			"Slowmo": {
+				"Forward Smash": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/ForwardSmash.gif?raw=true"
+			}
+		}
+	},
+	"Up Smash": {
+		"Hitboxes": {
+			"Up Smash": {
+				"Startup": "1-6",
+				"Active": "7-9",
+				"Endlag": "10-17",
+				"Damage": "16%",
+				"Angle": "83"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Up Smash": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/UpSmash.gif?raw=true"
+			},
+			"Slowmo": {
+				"Up Smash": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/UpSmash.gif?raw=true"
+			}
+		}
+	},
+	"Down Smash": {
+		"Hitboxes": {
+			"Down Smash": {
+				"Startup": "1-5",
+				"Active": "6-9",
+				"Endlag": "10-21",
+				"Damage": "12%",
+				"Angle": "55"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Down Smash": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/DownSmash.gif?raw=true"
+			},
+			"Slowmo": {
+				"Down Smash": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/DownSmash.gif?raw=true"
+			}
+		}
+	},
+	"Neutral Air": {
+		"Hitboxes": {
+			"Neutral Air": {
+				"Startup": "1-2",
+				"Active": "3-8, 12-16",
+				"Endlag": "17-26",
+				"Damage": "5%, 7%",
+				"Landing Lag": "7",
+				"Autocancel": "1-2, 24-26",
+				"Angle": "55"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Neutral Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/NeutralAerial.gif?raw=true"
+			},
+			"Slowmo": {
+				"Neutral Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/NeutralAerial.gif?raw=true"
+			}
+		}
+	},
+	"Forward Air": {
+		"Hitboxes": {
+			"Forward Air": {
+				"Startup": "1-3",
+				"Active": "4-7",
+				"Endlag": "8-15",
+				"Damage": "8%",
+				"Landing Lag": "5",
+				"Autocancel": "1, 11-15",
+				"Angle": "45"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Forward Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/ForwardAerial.gif?raw=true"
+			},
+			"Slowmo": {
+				"Forward Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/ForwardAerial.gif?raw=true"
+			}
+		}
+	},
+	"Back Air": {
+		"Hitboxes": {
+			"Back Air": {
+				"Startup": "1-2",
+				"Active": "3, 4, 5-7",
+				"Endlag": "8-19",
+				"Damage": "5%, 10%, 5%",
+				"Landing Lag": "5",
+				"Autocancel": "1-5, 16-19",
+				"Angle": "40"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Back Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/BackAerial.gif?raw=true"
+			},
+			"Slowmo": {
+				"Back Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/BackAerial.gif?raw=true"
+			}
+		}
+	},
+	"Up Air": {
+		"Hitboxes": {
+			"Up Air": {
+				"Startup": "1-3",
+				"Active": "4-5, 6, 7-8",
+				"Endlag": "9-19",
+				"Damage": "7%, 10%, 7%",
+				"Landing Lag": "5",
+				"Autocancel": "1-3, 12-19",
+				"Angle": "95"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Up Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/UpAerial.gif?raw=true"
+			},
+			"Slowmo": {
+				"Up Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/UpAerial.gif?raw=true"
+			}
+		}
+	},
+	"Down Air": {
+		"Hitboxes": {
+			"Down Air": {
+				"Startup": "1-4",
+				"Active": "5-7, 9-11, 13-15, 17-19, 22-23",
+				"Endlag": "24-32",
+				"Damage": "5x 2%",
+				"Landing Lag": "6",
+				"Autocancel": "1-4, 30-32",
+				"Angle": "Autolink"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Down Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/DownAerial.gif?raw=true"
+			},
+			"Slowmo": {
+				"Down Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/DownAerial.gif?raw=true"
+			}
+		}
+	},
+	"Neutral Special": {
+		"Hitboxes": {
+			"Grounded Hurtbox": {
+				"Startup": "1-6",
+				"Active": "7-12",
+				"Endlag": "13-24"
+			},
+			"Aerial Hurtbox": {
+				"Startup": "1-6",
+				"Active": "7-12",
+				"Endlag": "13-21",
+				"Landing Lag": "8",
+				"Autocancel": "1-6, 15-21"
+			},
+			"Throw": {
+				"Startup": "1-17",
+				"Active": "18-21",
+				"Endlag": "22-27",
+				"Damage": "6%",
+				"Angle": "55"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Grounded Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/NeutralSpecial-GroundedlHurtbox.gif?raw=true",
+				"Aerial Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/NeutralSpecial-AerialHurtbox.gif?raw=true",
+				"Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/NeutralSpecial-Throw.gif?raw=true"
+			},
+			"Slowmo": {
+				"Grounded Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/NeutralSpecial-GroundedlHurtbox.gif?raw=true",
+				"Aerial Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/NeutralSpecial-AerialHurtbox.gif?raw=true",
+				"Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/NeutralSpecial-Throw.gif?raw=true"
+			}
+		}
+	},
+	"Side Special": {
+		"Hitboxes": {
+			"Hurtbox": {
+				"Startup": "1-14",
+				"Active": "15 (Projectile Spawn)",
+				"Endlag": "16-24"
+			},
+			"Projectile Detection": {
+				"Active": "1-6"
+			},
+			"Projectile Activation": {
+				"Damage": "0.00000001%, 5%",
+				"Angle": "90",
+				"Trap Timer": "30 + 0.25*damage (max trap time 200 frames)",
+				"Mash Timer Deduction": "10 - 0.1*damage",
+				"Notes": "Launches 6 frames after trap timer reaches 0"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/SideSpecial-Hurtbox.gif?raw=true",
+				"Projectile Detection": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/SideSpecial-ProjectileDetection.gif?raw=true",
+				"Projectile Activation": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/SideSpecial-ProjectileActivation.gif?raw=true"
+			},
+			"Slowmo": {
+				"Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/SideSpecial-Hurtbox.gif?raw=true",
+				"Projectile Detection": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/SideSpecial-ProjectileDetection.gif?raw=true",
+				"Projectile Activation": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/SideSpecial-ProjectileActivation.gif?raw=true"
+			}
+		}
+	},
+	"Up Special": {
+		"Hitboxes": {
+				"Up Special": {
+					"Startup": "1",
+					"Active": "2+",
+					"Windbox Active": "3-10",
+					"Ledgegrab": "7+",
+					"Damage": "2% every 4 frames",
+					"Landing Lag": "Empty landing lag (frames 1-19), heavy landing lag (frames 20+)",
+					"Angle": "80"
+				}
+			},
+		"Images": {
+			"Full Speed": {
+				"Up Special": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/UpSpecial.gif?raw=true"
+			},
+			"Slowmo": {
+				"Up Special": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/UpSpecial.gif?raw=true"
+			}
+		}
+	},
+	"Down Special": {
+		"Hitboxes": {
+			"Hurtbox": {
+				"Startup": "1-12",
+				"Active": "13 (Plum Spawn)",
+				"Endlag": "13-17"
+			},
+			"Plum": {
+				"Alive": "12 seconds (resets when plum is damaged)",
+				"Active": "Hitbox dies on second bounce",
+				"Damage": "5% (spawn), 7% (level 1), 10% (level 2), 13% (level 3)",
+				"Angle": "60, 45, 45, 40"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/DownSpecial-Hurtbox.gif?raw=true",
+				"Plum": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/DownSpecial-Plum.gif?raw=true"
+			},
+			"Slowmo": {
+				"Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/DownSpecial-Hurtbox.gif?raw=true",
+				"Plum": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/SlowmoDownSpecial-Plum.gif?raw=true"
+			}
+		}
+	},
+	"Grab": {
+		"Hitboxes": {
+			"Standing Grab": {
+				"Startup": "1-7",
+				"Active": "8-16",
+				"Endlag": "17-29"
+			},
+			"Dash Grab": {
+				"Startup": "1-9",
+				"Active": "10-18",
+				"Endlag": "19-34"
+			},
+			"Pummel": {
+				"Startup": "1-3",
+				"Active": "4",
+				"Endlag": "5-9",
+				"Damage": "2%"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Standing Grab": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/Grab-StandingGrab.gif?raw=true",
+				"Dash Grab": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/Grab-DashGrab.gif?raw=true",
+				"Pummel": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/Grab-Pummel.gif?raw=true"
+			},
+			"Slowmo": {
+				"Standing Grab": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/Grab-StandingGrab.gif?raw=true",
+				"Dash Grab": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/Grab-DashGrab.gif?raw=true",
+				"Pummel": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/Grab-Pummel.gif?raw=true"
+			}
+		}
+	},
+	"Forward Throw": {
+		"Hitboxes": {
+			"Forward Throw": {
+				"Startup": "1-13",
+				"Active": "14",
+				"Endlag": "15-21",
+				"Damage": "8%",
+				"Angle": "58"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Forward Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/ForwardThrow.gif?raw=true"
+			},
+			"Slowmo": {
+				"Forward Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/ForwardThrow.gif?raw=true"
+			}
+		}
+	},
+	"Back Throw": {
+		"Hitboxes": {
+			"Back Throw": {
+				"Startup": "1-3",
+				"Active": "4-6",
+				"Endlag": "7-14",
+				"Damage": "8%",
+				"Angle": "40"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Back Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/BackThrow.gif?raw=true"
+			},
+			"Slowmo": {
+				"Back Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/BackThrow.gif?raw=true"
+			}
+		}
+	},
+	"Up Throw": {
+		"Hitboxes": {
+			"Up Throw": {
+				"Startup": "1-8",
+				"Active": "9-15, 16",
+				"Endlag": "17-24",
+				"Damage": "5x 1%, 3%",
+				"Angle": "75"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Up Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/UpThrow.gif?raw=true"
+			},
+			"Slowmo": {
+				"Up Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/UpThrow.gif?raw=true"
+			}
+		}
+	},
+	"Down Throw": {
+		"Hitboxes": {
+			"Down Throw": {
+				"Startup": "1-21",
+				"Active": "22",
+				"Endlag": "23-28",
+				"Damage": "8%",
+				"Angle": "80"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Down Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/DownThrow.gif?raw=true"
+			},
+			"Slowmo": {
+				"Down Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/DownThrow.gif?raw=true"
+			}
+		}
+	}
+}
