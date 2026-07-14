@@ -34,16 +34,16 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Jab 1": "",
-				"Jab 2": "",
-				"Jab 3": "",
-				"Jab Combo": ""
+				"Jab 1": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/Jab-Jab1.gif?raw=true",
+				"Jab 2": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/Jab-Jab2.gif?raw=true",
+				"Jab 3": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/Jab-Jab3.gif?raw=true",
+				"Jab Combo": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/Jab-JabCombo.gif?raw=true"
 			},
 			"Slowmo": {
-				"Jab 1": "",
-				"Jab 2": "",
-				"Jab 3": "",
-				"Jab Combo": ""
+				"Jab 1": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/Jab-Jab1.gif?raw=true",
+				"Jab 2": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/Jab-Jab2.gif?raw=true",
+				"Jab 3": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/Jab-Jab3.gif?raw=true",
+				"Jab Combo": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/Jab-JabCombo.gif?raw=true"
 			}
 		}
 	},
@@ -59,10 +59,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Dash Attack": ""
+				"Dash Attack": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/DashAttack.gif?raw=true"
 			},
 			"Slowmo": {
-				"Dash Attack": ""
+				"Dash Attack": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/DashAttack.gif?raw=true"
 			}
 		}
 	},
@@ -78,10 +78,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Forward Tilt": ""
+				"Forward Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/ForwardTilt.gif?raw=true"
 			},
 			"Slowmo": {
-				"Forward Tilt": ""
+				"Forward Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/ForwardTilt.gif?raw=true"
 			}
 		}
 	},
@@ -97,10 +97,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Up Tilt": ""
+				"Up Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/UpTilt.gif?raw=true"
 			},
 			"Slowmo": {
-				"Up Tilt": ""
+				"Up Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/UpTilt.gif?raw=true"
 			}
 		}
 	},
@@ -116,10 +116,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Down Tilt": ""
+				"Down Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/DownTilt.gif?raw=true"
 			},
 			"Slowmo": {
-				"Down Tilt": ""
+				"Down Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/DownTilt.gif?raw=true"
 			}
 		}
 	},
@@ -135,10 +135,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Forward Smash": ""
+				"Forward Smash": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/ForwardSmash.gif?raw=true"
 			},
 			"Slowmo": {
-				"Forward Smash": ""
+				"Forward Smash": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/ForwardSmash.gif?raw=true"
 			}
 		}
 	},
@@ -154,10 +154,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Up Smash": ""
+				"Up Smash": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/UpSmash.gif?raw=true"
 			},
 			"Slowmo": {
-				"Up Smash": ""
+				"Up Smash": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/UpSmash.gif?raw=true"
 			}
 		}
 	},
@@ -173,10 +173,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Down Smash": ""
+				"Down Smash": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/DownSmash.gif?raw=true"
 			},
 			"Slowmo": {
-				"Down Smash": ""
+				"Down Smash": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/DownSmash.gif?raw=true"
 			}
 		}
 	},
@@ -194,10 +194,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Neutral Air": ""
+				"Neutral Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/NeutralAerial.gif?raw=true"
 			},
 			"Slowmo": {
-				"Neutral Air": ""
+				"Neutral Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/NeutralAerial.gif?raw=true"
 			}
 		}
 	},
@@ -215,10 +215,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Forward Air": ""
+				"Forward Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/ForwardAerial.gif?raw=true"
 			},
 			"Slowmo": {
-				"Forward Air": ""
+				"Forward Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/ForwardAerial.gif?raw=true"
 			}
 		}
 	},
@@ -236,10 +236,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Back Air": ""
+				"Back Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/BackAerial.gif?raw=true"
 			},
 			"Slowmo": {
-				"Back Air": ""
+				"Back Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/BackAerial.gif?raw=true"
 			}
 		}
 	},
@@ -257,10 +257,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Up Air": ""
+				"Up Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/UpAerial.gif?raw=true"
 			},
 			"Slowmo": {
-				"Up Air": ""
+				"Up Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/UpAerial.gif?raw=true"
 			}
 		}
 	},
@@ -278,10 +278,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Down Air": ""
+				"Down Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/DownAerial.gif?raw=true"
 			},
 			"Slowmo": {
-				"Down Air": ""
+				"Down Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/DownAerial.gif?raw=true"
 			}
 		}
 	},
@@ -309,12 +309,14 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Hurtbox": "",
-				"Projectile": ""
+				"Grounded Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/NeutralSpecial-GroundedlHurtbox.gif?raw=true",
+				"Aerial Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/NeutralSpecial-AerialHurtbox.gif?raw=true",
+				"Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/NeutralSpecial-Throw.gif?raw=true"
 			},
 			"Slowmo": {
-				"Hurtbox": "",
-				"Projectile": ""
+				"Grounded Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/NeutralSpecial-GroundedlHurtbox.gif?raw=true",
+				"Aerial Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/NeutralSpecial-AerialHurtbox.gif?raw=true",
+				"Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/NeutralSpecial-Throw.gif?raw=true"
 			}
 		}
 	},
@@ -338,10 +340,14 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Side Special": ""
+				"Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/SideSpecial-Hurtbox.gif?raw=true",
+				"Projectile Detection": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/SideSpecial-ProjectileDetection.gif?raw=true",
+				"Projectile Activation": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/SideSpecial-ProjectileActivation.gif?raw=true"
 			},
 			"Slowmo": {
-				"Side Special": ""
+				"Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/SideSpecial-Hurtbox.gif?raw=true",
+				"Projectile Detection": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/SideSpecial-ProjectileDetection.gif?raw=true",
+				"Projectile Activation": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/SideSpecial-ProjectileActivation.gif?raw=true"
 			}
 		}
 	},
@@ -351,6 +357,7 @@
 					"Startup": "1",
 					"Active": "2+",
 					"Windbox Active": "3-10",
+					"Ledgegrab": "7+",
 					"Damage": "2% every 4 frames",
 					"Landing Lag": "Empty landing lag (frames 1-19), heavy landing lag (frames 20+)",
 					"Angle": "80"
@@ -358,10 +365,10 @@
 			},
 		"Images": {
 			"Full Speed": {
-				"Up Special": ""
+				"Up Special": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/UpSpecial.gif?raw=true"
 			},
 			"Slowmo": {
-				"Up Special": ""
+				"Up Special": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/UpSpecial.gif?raw=true"
 			}
 		}
 	},
@@ -381,10 +388,12 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Down Special": ""
+				"Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/DownSpecial-Hurtbox.gif?raw=true",
+				"Plum": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/DownSpecial-Plum.gif?raw=true"
 			},
 			"Slowmo": {
-				"Down Special": ""
+				"Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/DownSpecial-Hurtbox.gif?raw=true",
+				"Plum": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/SlowmoDownSpecial-Plum.gif?raw=true"
 			}
 		}
 	},
@@ -409,14 +418,14 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Standing Grab": "",
-				"Dash Grab": "",
-				"Pummel": ""
+				"Standing Grab": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/Grab-StandingGrab.gif?raw=true",
+				"Dash Grab": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/Grab-DashGrab.gif?raw=true",
+				"Pummel": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/Grab-Pummel.gif?raw=true"
 			},
 			"Slowmo": {
-				"Standing Grab": "",
-				"Dash Grab": "",
-				"Pummel": ""
+				"Standing Grab": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/Grab-StandingGrab.gif?raw=true",
+				"Dash Grab": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/Grab-DashGrab.gif?raw=true",
+				"Pummel": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/Grab-Pummel.gif?raw=true"
 			}
 		}
 	},
@@ -432,10 +441,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Forward Throw": ""
+				"Forward Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/ForwardThrow.gif?raw=true"
 			},
 			"Slowmo": {
-				"Forward Throw": ""
+				"Forward Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/ForwardThrow.gif?raw=true"
 			}
 		}
 	},
@@ -451,10 +460,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Back Throw": ""
+				"Back Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/BackThrow.gif?raw=true"
 			},
 			"Slowmo": {
-				"Back Throw": ""
+				"Back Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/BackThrow.gif?raw=true"
 			}
 		}
 	},
@@ -470,10 +479,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Up Throw": ""
+				"Up Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/UpThrow.gif?raw=true"
 			},
 			"Slowmo": {
-				"Up Throw": ""
+				"Up Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/UpThrow.gif?raw=true"
 			}
 		}
 	},
@@ -489,10 +498,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Down Throw": ""
+				"Down Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Full%20Speed/DownThrow.gif?raw=true"
 			},
 			"Slowmo": {
-				"Down Throw": ""
+				"Down Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Rayman/Slowmo/DownThrow.gif?raw=true"
 			}
 		}
 	}
