@@ -1,0 +1,554 @@
+{
+	"Jab": {
+		"Hitboxes": {
+			"Jab 1": {
+				"Startup": "1-2",
+				"Active": "3-5",
+				"Endlag": "6-9",
+				"Damage": "2%",
+				"Angle": "80",
+				"Cancellable": "6-9"
+			},
+			"Jab 2": {
+				"Startup": "1",
+				"Active": "2-4",
+				"Endlag": "5-8",
+				"Damage": "5%",
+				"Angle": "25"
+			},
+			"Jab Combo": {
+				"Startup": "1-2",
+				"Active": "3-5, 7-9",
+				"Endlag": "10-13",
+				"Damage": "7%",
+				"Angle": "25"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Jab 1": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/Jab-Jab1.gif?raw=true",
+				"Jab 2": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/Jab-Jab2.gif?raw=true",
+				"Jab Combo": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/Jab-JabCombo.gif?raw=true"
+			},
+			"Slowmo": {
+				"Jab 1": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/Jab-Jab1.gif?raw=true",
+				"Jab 2": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/Jab-Jab2.gif?raw=true",
+				"Jab Combo": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/Jab-JabCombo.gif?raw=true"
+			}
+		}
+	},
+	"Dash Attack": {
+		"Hitboxes": {
+			"Dash Attack": {
+				"Startup": "1-9",
+				"Active": "10-12, 13-18",
+				"Endlag": "19-30",
+				"Super Armour": "6-18",
+				"Damage": "14%, 8%",
+				"Angle": "35, 30"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Dash Attack": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/DashAttack.gif?raw=true"
+			},
+			"Slowmo": {
+				"Dash Attack": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/DashAttack.gif?raw=true"
+			}
+		}
+	},
+	"Forward Tilt": {
+		"Hitboxes": {
+			"Forward Tilt": {
+				"Startup": "1-3",
+				"Active": "4-6",
+				"Endlag": "7-14",
+				"Damage": "8%",
+				"Angle": "45"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Forward Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/ForwardTilt.gif?raw=true"
+			},
+			"Slowmo": {
+				"Forward Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/ForwardTilt.gif?raw=true"
+			}
+		}
+	},
+	"Up Tilt": {
+		"Hitboxes": {
+			"Up Tilt": {
+				"Startup": "1",
+				"Active": "2-7",
+				"Endlag": "8-14",
+				"Damage": "9%",
+				"Angle": "45"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Up Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/UpTilt.gif?raw=true"
+			},
+			"Slowmo": {
+				"Up Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/UpTilt.gif?raw=true"
+			}
+		}
+	},
+	"Down Tilt": {
+		"Hitboxes": {
+			"Down Tilt": {
+				"Startup": "1-2",
+				"Active": "3-9",
+				"Endlag": "10-13",
+				"Damage": "7%",
+				"Angle": "30"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Down Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/DownTilt.gif?raw=true"
+			},
+			"Slowmo": {
+				"Down Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/DownTilt.gif?raw=true"
+			}
+		}
+	},
+	"Forward Smash": {
+		"Hitboxes": {
+			"No Charge": {
+				"Startup": "1-10",
+				"Active": "11-17, 18-27",
+				"Endlag": "28-33",
+				"Damage": "14.5%, 10%",
+				"Angle": "45"
+			},
+			"Full Charge Hurtbox": {
+				"Startup": "1-56",
+				"Active": "57 (Projectile Spawn)",
+				"Endlag": "58-67"
+			},
+			"Full Charge Projectile": {
+				"Startup": "1-9",
+				"Active": "10-39",
+				"Endlag": "40-76",
+				"Damage": "28",
+				"Angle": "35",
+				"Notes": "Loops frames 10-76 when active, lives for max 200 frames"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"No Charge": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/ForwardSmash-NoCharge.gif?raw=true",
+				"Full Charge Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/ForwardSmash-FullChargeHurtbox.gif?raw=true",
+				"Full Charge Projectile": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/ForwardSmash-FullChargeProjectile.gif?raw=true"
+			},
+			"Slowmo": {
+				"No Charge": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/ForwardSmash-NoCharge.gif?raw=true",
+				"Full Charge Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/ForwardSmash-FullChargeHurtbox.gif?raw=true",
+				"Full Charge Projectile": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/ForwardSmash-FullChargeProjectile.gif?raw=true"
+			}
+		}
+	},
+	"Up Smash": {
+		"Hitboxes": {
+			"No Charge": {
+				"Startup": "1-6",
+				"Active": "7-10",
+				"Endlag": "11-21",
+				"Damage": "15%",
+				"Angle": "90"
+			},
+			"Full Charge": {
+				"Startup": "1-44",
+				"Active": "45-62, 63-65, 70-78",
+				"Endlag": "79-109",
+				"Invulnerability": "67-99",
+				"Damage": "10x 1.4%, 1.4%, 21%",
+				"Angle": "160, 160, 90"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"No Charge": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/UpSmash-NoCharge.gif?raw=true",
+				"Full Charge": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/UpSmash-FullCharge.gif?raw=true"
+			},
+			"Slowmo": {
+				"No Charge": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/UpSmash-NoCharge.gif?raw=true",
+				"Full Charge": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/UpSmash-FullCharge.gif?raw=true"
+			}
+		}
+	},
+	"Down Smash": {
+		"Hitboxes": {
+			"No Charge": {
+				"Startup": "1-9",
+				"Active": "10-20 (Front Hit), 19-29 (Back Hit)",
+				"Endlag": "30-31",
+				"Damage": "9%, 9%",
+				"Angle": "30, 150"
+			},
+			"Full Charge Hurtbox": {
+				"Startup": "1-56",
+				"Active": "57 (Projectiles Spawn)",
+				"Endlag": "58-67"
+			},
+			"Full Charge Projectile": {
+				"Startup": "1-7",
+				"Active": "8-20",
+				"Endlag": "21-25",
+				"Damage": "14%",
+				"Angle": "85",
+				"Notes": "New projectile spawns 10 frames after previous"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"No Charge": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/DownSmash-NoCharge.gif?raw=true",
+				"Full Charge Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/DownSmash-FullChargeHurtbox.gif?raw=true",
+				"Full Charge Projectile": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/DownSmash-FullChargeProjectile.gif?raw=true"
+			},
+			"Slowmo": {
+				"No Charge": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/DownSmash-NoCharge.gif?raw=true",
+				"Full Charge Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/DownSmash-FullChargeHurtbox.gif?raw=true",
+				"Full Charge Projectile": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/DownSmash-FullChargeProjectile.gif?raw=true"
+			}
+		}
+	},
+	"Neutral Air": {
+		"Hitboxes": {
+			"Aerial Finish": {
+				"Startup": "1-2",
+				"Active": "3-16, 17",
+				"Endlag": "18-22",
+				"Damage": "7x 1.5%, 1.5%",
+				"Landing Lag": "8",
+				"Autocancel": "1-3, 17-22",
+				"Angle": "Autolink, 45"
+			},
+			"Landing Hit": {
+				"Active": "1",
+				"Endlag": "2-8",
+				"Damage": "2%",
+				"Angle": "45"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Aerial Finish": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/NeutralAir-AerialFinish.gif?raw=true",
+				"Landing Hit": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/NeutralAir-LandingHit.gif?raw=true"
+			},
+			"Slowmo": {
+				"Aerial Finish": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/NeutralAir-AerialFinish.gif?raw=true",
+				"Landing Hit": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/NeutralAir-LandingHit.gif?raw=true"
+			}
+		}
+	},
+	"Forward Air": {
+		"Hitboxes": {
+			"Forward Air": {
+				"Startup": "1-3",
+				"Active": "4-7",
+				"Endlag": "8-13",
+				"Damage": "9%",
+				"Landing Lag": "4",
+				"Autocancel": "1-2, 11-13",
+				"Angle": "40"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Forward Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/ForwardAir.gif?raw=true"
+			},
+			"Slowmo": {
+				"Forward Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/ForwardAir.gif?raw=true"
+			}
+		}
+	},
+	"Back Air": {
+		"Hitboxes": {
+			"Back Air": {
+				"Startup": "1-2",
+				"Active": "3-5, 6-11",
+				"Endlag": "12-16",
+				"Damage": "9%, 6%",
+				"Landing Lag": "5",
+				"Autocancel": "1, 13-16",
+				"Angle": "150, 125"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Back Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/BackAir.gif?raw=true"
+			},
+			"Slowmo": {
+				"Back Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/BackAir.gif?raw=true"
+			}
+		}
+	},
+	"Up Air": {
+		"Hitboxes": {
+			"Hurtbox": {
+				"Startup": "1-2",
+				"Active": "3, 5, 7, 9",
+				"Endlag": "10-15",
+				"Landing Lag": "6",
+				"Autocancel": "1-2, 13-15",
+				"Notes": "Projectile order is weak/strong/strong/weak"
+			},
+			"Projectile": {
+				"Active": "1-6",
+				"Endlag": "7-10",
+				"Damage": "5% (strong) / 2% (weak)",
+				"Angle": "90"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/UpAir-Hurtbox.gif?raw=true",
+				"Projectile": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/UpAir-Projectile.gif?raw=true"
+			},
+			"Slowmo": {
+				"Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/UpAir-Hurtbox.gif?raw=true",
+				"Projectile": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/UpAir-Projectile.gif?raw=true"
+			}
+		}
+	},
+	"Down Air": {
+		"Hitboxes": {
+			"Scythe": {
+				"Startup": "1-6",
+				"Active": "7-8, 9, 10, 11 (Death Detection), 12",
+				"Endlag": "13-20",
+				"Damage": "8%, 10%, 8%, 8%, 8%",
+				"Landing Lag": "12",
+				"Autocancel": "1-4, 18-20",
+				"Angle": "270, 270, 200, 200, 150"
+			},
+			"Death": {
+				"Startup": "1-89",
+				"Active": "90-97",
+				"Damage": "6%",
+				"Angle": "270"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Scythe": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/DownAir-Scythe.gif?raw=true",
+				"Death": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/DownAir-Death.gif?raw=true"
+			},
+			"Slowmo": {
+				"Scythe": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/DownAir-Scythe.gif?raw=true",
+				"Death": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/DownAir-Death.gif?raw=true"
+			}
+		}
+	},
+	"Neutral Special": {
+		"Hitboxes": {
+			"Charging": {
+				"Duration": "1-21 (lvl 1), 22-37 (lvl 2), 38-53 (lvl 3), 54-69 (lvl4), 60-85 (lvl 5), 86-102 (lvl 6)"
+			},
+			"Attack": {
+				"Startup": "1-11",
+				"Active": "12-15",
+				"Endlag": "16-24",
+				"Angle": "50",
+				"Stun Timer": "15 * charge"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Charging": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/NeutralSpecial-Charging.gif?raw=true",
+				"Attack": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/NeutralSpecial-Attack.gif?raw=true"
+			},
+			"Slowmo": {
+				"Charging": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/NeutralSpecial-Charging.gif?raw=true",
+				"Attack": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/NeutralSpecial-Attack.gif?raw=true"
+			}
+		}
+	},
+	"Side Special": {
+		"Hitboxes": {
+			"Detection": {
+				"Startup": "1-8",
+				"Active": "9-14",
+				"Endlag": "15-34 (ground), 15-28 (air)"
+			},
+			"Attack": {
+				"Startup": "1-15",
+				"Active": "16, 19, 22, 25, 29, 33, 37, 41-42",
+				"Endlag": "43-53",
+				"Damage": "4x 2%, 3x 1%, 7%",
+				"Angle": "40"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Detection": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/SideSpecial-Detection.gif?raw=true",
+				"Attack": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/SideSpecial-Attack.gif?raw=true"
+			},
+			"Slowmo": {
+				"Detection": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/SideSpecial-Detection.gif?raw=true",
+				"Attack": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/SideSpecial-Attack.gif?raw=true"
+			}
+		}
+	},
+	"Up Special": {
+		"Hitboxes": {
+			"Up Special": {
+				"Startup": "1-6",
+				"Active": "Charge time of 34 frames maximum",
+				"Endlag": "11-21",
+				"Intangible": "14-17, 19"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Up Special": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/UpSpecial.gif?raw=true"
+			},
+			"Slowmo": {
+				"Up Special": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/UpSpecial.gif?raw=true"
+			}
+		}
+	},
+	"Down Special": {
+		"Hitboxes": {
+			"Grounded Hurtbox": {
+				"Startup": "22 + charge (max 45 frames)",
+				"Active": "23 (projectile spawn)",
+				"Endlag": "24-28"
+			},
+			"Aerial Hurtbox": {
+				"Startup": "14 + charge (max 45 frames)",
+				"Active": "15 (projectile spawn)",
+				"Endlag": "16-22"
+			},
+			"Meteor": {
+				"Startup": "Loop",
+				"Active": "1-8",
+				"Damage": "5%-28%",
+				"Angle": "50"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Grounded Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/DownSpecial-GroundedHurtbox.gif?raw=true",
+				"Aerial Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/DownSpecial-AerialHurtbox.gif?raw=true",
+				"Meteor": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/DownSpecial-Meteor.gif?raw=true"
+			},
+			"Slowmo": {
+				"Grounded Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/DownSpecial-GroundedHurtbox.gif?raw=true",
+				"Aerial Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/DownSpecial-AerialHurtbox.gif?raw=true",
+				"Meteor": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/DownSpecial-Meteor.gif?raw=true"
+			}
+		}
+	},
+	"Grab": {
+		"Hitboxes": {
+			"Standing Grab": {
+				"Startup": "1-3",
+				"Active": "4",
+				"Endlag": "5-15"
+			},
+			"Dash Grab": {
+				"Startup": "1-5",
+				"Active": "6",
+				"Endlag": "7-20"
+			},
+			"Pummel": {
+				"Startup": "1-3",
+				"Active": "4",
+				"Endlag": "5-9",
+				"Damage": "1%"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Standing Grab": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/Grab-StandingGrab.gif?raw=true",
+				"Dash Grab": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/Grab-DashGrab.gif?raw=true",
+				"Pummel": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/Grab-Pummel.gif?raw=true"
+			},
+			"Slowmo": {
+				"Standing Grab": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/Grab-StandingGrab.gif?raw=true",
+				"Dash Grab": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/Grab-DashGrab.gif?raw=true",
+				"Pummel": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/Grab-Pummel.gif?raw=true"
+			}
+		}
+	},
+	"Forward Throw": {
+		"Hitboxes": {
+			"Forward Throw": {
+				"Startup": "1-5",
+				"Active": "6-16, 17-18",
+				"Endlag": "19-25",
+				"Damage": "4x 1%, 5%",
+				"Angle": "25"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Forward Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/ForwardThrow.gif?raw=true"
+			},
+			"Slowmo": {
+				"Forward Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/ForwardThrow.gif?raw=true"
+			}
+		}
+	},
+	"Back Throw": {
+		"Hitboxes": {
+			"Back Throw": {
+				"Startup": "1-8",
+				"Active": "9-11",
+				"Endlag": "12-23",
+				"Damage": "8%",
+				"Angle": "130"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Back Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/BackThrow.gif?raw=true"
+			},
+			"Slowmo": {
+				"Back Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/BackThrow.gif?raw=true"
+			}
+		}
+	},
+	"Up Throw": {
+		"Hitboxes": {
+			"Up Throw": {
+				"Startup": "1-12",
+				"Active": "13-18",
+				"Endlag": "19-21",
+				"Damage": "3x Varied, 1% (17% cap, inversely scales with opponent damage)",
+				"Angle": "95"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Up Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/UpThrow.gif?raw=true"
+			},
+			"Slowmo": {
+				"Up Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/UpThrow.gif?raw=true"
+			}
+		}
+	},
+	"Down Throw": {
+		"Hitboxes": {
+			"Down Throw": {
+				"Startup": "1-12",
+				"Active": "13",
+				"Endlag": "14-25",
+				"Damage": "2% + 18%",
+				"Angle": "50"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Down Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/DownThrow.gif?raw=true"
+			},
+			"Slowmo": {
+				"Down Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/DownThrow.gif?raw=true"
+			}
+		}
+	}
+}
