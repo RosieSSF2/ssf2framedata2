@@ -26,14 +26,14 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Jab 1": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/Jab-Jab1.gif?raw=true",
-				"Jab 2": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/Jab-Jab2.gif?raw=true",
-				"Jab Combo": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/Jab-JabCombo.gif?raw=true"
+				"Jab 1": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/Jab-Jab1.gif?raw=true",
+				"Jab 2": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/Jab-Jab2.gif?raw=true",
+				"Jab Combo": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/Jab-JabCombo.gif?raw=true"
 			},
 			"Slowmo": {
-				"Jab 1": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/Jab-Jab1.gif?raw=true",
-				"Jab 2": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/Jab-Jab2.gif?raw=true",
-				"Jab Combo": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/Jab-JabCombo.gif?raw=true"
+				"Jab 1": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/Jab-Jab1.gif?raw=true",
+				"Jab 2": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/Jab-Jab2.gif?raw=true",
+				"Jab Combo": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/Jab-JabCombo.gif?raw=true"
 			}
 		}
 	},
@@ -50,10 +50,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Dash Attack": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/DashAttack.gif?raw=true"
+				"Dash Attack": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/DashAttack.gif?raw=true"
 			},
 			"Slowmo": {
-				"Dash Attack": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/DashAttack.gif?raw=true"
+				"Dash Attack": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/DashAttack.gif?raw=true"
 			}
 		}
 	},
@@ -69,10 +69,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Forward Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/ForwardTilt.gif?raw=true"
+				"Forward Tilt": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/ForwardTilt.gif?raw=true"
 			},
 			"Slowmo": {
-				"Forward Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/ForwardTilt.gif?raw=true"
+				"Forward Tilt": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/ForwardTilt.gif?raw=true"
 			}
 		}
 	},
@@ -88,10 +88,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Up Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/UpTilt.gif?raw=true"
+				"Up Tilt": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/UpTilt.gif?raw=true"
 			},
 			"Slowmo": {
-				"Up Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/UpTilt.gif?raw=true"
+				"Up Tilt": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/UpTilt.gif?raw=true"
 			}
 		}
 	},
@@ -107,10 +107,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Down Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/DownTilt.gif?raw=true"
+				"Down Tilt": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/DownTilt.gif?raw=true"
 			},
 			"Slowmo": {
-				"Down Tilt": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/DownTilt.gif?raw=true"
+				"Down Tilt": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/DownTilt.gif?raw=true"
 			}
 		}
 	},
@@ -139,14 +139,14 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"No Charge": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/ForwardSmash-NoCharge.gif?raw=true",
-				"Full Charge Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/ForwardSmash-FullChargeHurtbox.gif?raw=true",
-				"Full Charge Projectile": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/ForwardSmash-FullChargeProjectile.gif?raw=true"
+				"No Charge": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/ForwardSmash-NoCharge.gif?raw=true",
+				"Full Charge Hurtbox": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/ForwardSmash-FullChargeHurtbox.gif?raw=true",
+				"Full Charge Projectile": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/ForwardSmash-FullChargeProjectile.gif?raw=true"
 			},
 			"Slowmo": {
-				"No Charge": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/ForwardSmash-NoCharge.gif?raw=true",
-				"Full Charge Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/ForwardSmash-FullChargeHurtbox.gif?raw=true",
-				"Full Charge Projectile": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/ForwardSmash-FullChargeProjectile.gif?raw=true"
+				"No Charge": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/ForwardSmash-NoCharge.gif?raw=true",
+				"Full Charge Hurtbox": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/ForwardSmash-FullChargeHurtbox.gif?raw=true",
+				"Full Charge Projectile": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/ForwardSmash-FullChargeProjectile.gif?raw=true"
 			}
 		}
 	},
@@ -170,12 +170,12 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"No Charge": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/UpSmash-NoCharge.gif?raw=true",
-				"Full Charge": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/UpSmash-FullCharge.gif?raw=true"
+				"No Charge": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/UpSmash-NoCharge.gif?raw=true",
+				"Full Charge": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/UpSmash-FullCharge.gif?raw=true"
 			},
 			"Slowmo": {
-				"No Charge": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/UpSmash-NoCharge.gif?raw=true",
-				"Full Charge": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/UpSmash-FullCharge.gif?raw=true"
+				"No Charge": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/UpSmash-NoCharge.gif?raw=true",
+				"Full Charge": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/UpSmash-FullCharge.gif?raw=true"
 			}
 		}
 	},
@@ -204,14 +204,14 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"No Charge": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/DownSmash-NoCharge.gif?raw=true",
-				"Full Charge Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/DownSmash-FullChargeHurtbox.gif?raw=true",
-				"Full Charge Projectile": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/DownSmash-FullChargeProjectile.gif?raw=true"
+				"No Charge": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/DownSmash-NoCharge.gif?raw=true",
+				"Full Charge Hurtbox": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/DownSmash-FullChargeHurtbox.gif?raw=true",
+				"Full Charge Projectile": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/DownSmash-FullChargeProjectile.gif?raw=true"
 			},
 			"Slowmo": {
-				"No Charge": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/DownSmash-NoCharge.gif?raw=true",
-				"Full Charge Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/DownSmash-FullChargeHurtbox.gif?raw=true",
-				"Full Charge Projectile": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/DownSmash-FullChargeProjectile.gif?raw=true"
+				"No Charge": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/DownSmash-NoCharge.gif?raw=true",
+				"Full Charge Hurtbox": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/DownSmash-FullChargeHurtbox.gif?raw=true",
+				"Full Charge Projectile": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/DownSmash-FullChargeProjectile.gif?raw=true"
 			}
 		}
 	},
@@ -235,12 +235,12 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Aerial Finish": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/NeutralAir-AerialFinish.gif?raw=true",
-				"Landing Hit": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/NeutralAir-LandingHit.gif?raw=true"
+				"Aerial Finish": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/NeutralAir-AerialFinish.gif?raw=true",
+				"Landing Hit": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/NeutralAir-LandingHit.gif?raw=true"
 			},
 			"Slowmo": {
-				"Aerial Finish": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/NeutralAir-AerialFinish.gif?raw=true",
-				"Landing Hit": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/NeutralAir-LandingHit.gif?raw=true"
+				"Aerial Finish": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/NeutralAir-AerialFinish.gif?raw=true",
+				"Landing Hit": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/NeutralAir-LandingHit.gif?raw=true"
 			}
 		}
 	},
@@ -258,10 +258,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Forward Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/ForwardAir.gif?raw=true"
+				"Forward Air": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/ForwardAir.gif?raw=true"
 			},
 			"Slowmo": {
-				"Forward Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/ForwardAir.gif?raw=true"
+				"Forward Air": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/ForwardAir.gif?raw=true"
 			}
 		}
 	},
@@ -279,10 +279,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Back Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/BackAir.gif?raw=true"
+				"Back Air": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/BackAir.gif?raw=true"
 			},
 			"Slowmo": {
-				"Back Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/BackAir.gif?raw=true"
+				"Back Air": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/BackAir.gif?raw=true"
 			}
 		}
 	},
@@ -305,12 +305,12 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/UpAir-Hurtbox.gif?raw=true",
-				"Projectile": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/UpAir-Projectile.gif?raw=true"
+				"Hurtbox": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/UpAir-Hurtbox.gif?raw=true",
+				"Projectile": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/UpAir-Projectile.gif?raw=true"
 			},
 			"Slowmo": {
-				"Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/UpAir-Hurtbox.gif?raw=true",
-				"Projectile": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/UpAir-Projectile.gif?raw=true"
+				"Hurtbox": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/UpAir-Hurtbox.gif?raw=true",
+				"Projectile": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/UpAir-Projectile.gif?raw=true"
 			}
 		}
 	},
@@ -334,12 +334,12 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Scythe": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/DownAir-Scythe.gif?raw=true",
-				"Death": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/DownAir-Death.gif?raw=true"
+				"Scythe": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/DownAir-Scythe.gif?raw=true",
+				"Death": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/DownAir-Death.gif?raw=true"
 			},
 			"Slowmo": {
-				"Scythe": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/DownAir-Scythe.gif?raw=true",
-				"Death": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/DownAir-Death.gif?raw=true"
+				"Scythe": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/DownAir-Scythe.gif?raw=true",
+				"Death": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/DownAir-Death.gif?raw=true"
 			}
 		}
 	},
@@ -358,12 +358,12 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Charging": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/NeutralSpecial-Charging.gif?raw=true",
-				"Attack": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/NeutralSpecial-Attack.gif?raw=true"
+				"Charging": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/NeutralSpecial-Charging.gif?raw=true",
+				"Attack": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/NeutralSpecial-Attack.gif?raw=true"
 			},
 			"Slowmo": {
-				"Charging": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/NeutralSpecial-Charging.gif?raw=true",
-				"Attack": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/NeutralSpecial-Attack.gif?raw=true"
+				"Charging": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/NeutralSpecial-Charging.gif?raw=true",
+				"Attack": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/NeutralSpecial-Attack.gif?raw=true"
 			}
 		}
 	},
@@ -384,12 +384,12 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Detection": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/SideSpecial-Detection.gif?raw=true",
-				"Attack": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/SideSpecial-Attack.gif?raw=true"
+				"Detection": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/SideSpecial-Detection.gif?raw=true",
+				"Attack": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/SideSpecial-Attack.gif?raw=true"
 			},
 			"Slowmo": {
-				"Detection": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/SideSpecial-Detection.gif?raw=true",
-				"Attack": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/SideSpecial-Attack.gif?raw=true"
+				"Detection": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/SideSpecial-Detection.gif?raw=true",
+				"Attack": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/SideSpecial-Attack.gif?raw=true"
 			}
 		}
 	},
@@ -404,10 +404,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Up Special": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/UpSpecial.gif?raw=true"
+				"Up Special": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/UpSpecial.gif?raw=true"
 			},
 			"Slowmo": {
-				"Up Special": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/UpSpecial.gif?raw=true"
+				"Up Special": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/UpSpecial.gif?raw=true"
 			}
 		}
 	},
@@ -432,14 +432,14 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Grounded Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/DownSpecial-GroundedHurtbox.gif?raw=true",
-				"Aerial Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/DownSpecial-AerialHurtbox.gif?raw=true",
-				"Meteor": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/DownSpecial-Meteor.gif?raw=true"
+				"Grounded Hurtbox": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/DownSpecial-GroundedHurtbox.gif?raw=true",
+				"Aerial Hurtbox": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/DownSpecial-AerialHurtbox.gif?raw=true",
+				"Meteor": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/DownSpecial-Meteor.gif?raw=true"
 			},
 			"Slowmo": {
-				"Grounded Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/DownSpecial-GroundedHurtbox.gif?raw=true",
-				"Aerial Hurtbox": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/DownSpecial-AerialHurtbox.gif?raw=true",
-				"Meteor": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/DownSpecial-Meteor.gif?raw=true"
+				"Grounded Hurtbox": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/DownSpecial-GroundedHurtbox.gif?raw=true",
+				"Aerial Hurtbox": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/DownSpecial-AerialHurtbox.gif?raw=true",
+				"Meteor": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/DownSpecial-Meteor.gif?raw=true"
 			}
 		}
 	},
@@ -464,14 +464,14 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Standing Grab": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/Grab-StandingGrab.gif?raw=true",
-				"Dash Grab": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/Grab-DashGrab.gif?raw=true",
-				"Pummel": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/Grab-Pummel.gif?raw=true"
+				"Standing Grab": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/Grab-StandingGrab.gif?raw=true",
+				"Dash Grab": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/Grab-DashGrab.gif?raw=true",
+				"Pummel": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/Grab-Pummel.gif?raw=true"
 			},
 			"Slowmo": {
-				"Standing Grab": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/Grab-StandingGrab.gif?raw=true",
-				"Dash Grab": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/Grab-DashGrab.gif?raw=true",
-				"Pummel": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/Grab-Pummel.gif?raw=true"
+				"Standing Grab": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/Grab-StandingGrab.gif?raw=true",
+				"Dash Grab": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/Grab-DashGrab.gif?raw=true",
+				"Pummel": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/Grab-Pummel.gif?raw=true"
 			}
 		}
 	},
@@ -487,10 +487,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Forward Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/ForwardThrow.gif?raw=true"
+				"Forward Throw": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/ForwardThrow.gif?raw=true"
 			},
 			"Slowmo": {
-				"Forward Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/ForwardThrow.gif?raw=true"
+				"Forward Throw": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/ForwardThrow.gif?raw=true"
 			}
 		}
 	},
@@ -506,10 +506,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Back Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/BackThrow.gif?raw=true"
+				"Back Throw": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/BackThrow.gif?raw=true"
 			},
 			"Slowmo": {
-				"Back Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/BackThrow.gif?raw=true"
+				"Back Throw": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/BackThrow.gif?raw=true"
 			}
 		}
 	},
@@ -525,10 +525,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Up Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/UpThrow.gif?raw=true"
+				"Up Throw": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/UpThrow.gif?raw=true"
 			},
 			"Slowmo": {
-				"Up Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/UpThrow.gif?raw=true"
+				"Up Throw": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/UpThrow.gif?raw=true"
 			}
 		}
 	},
@@ -544,10 +544,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Down Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Full%20Speed/DownThrow.gif?raw=true"
+				"Down Throw": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Full%20Speed/DownThrow.gif?raw=true"
 			},
 			"Slowmo": {
-				"Down Throw": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Slowmo/DownThrow.gif?raw=true"
+				"Down Throw": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Black%20Mage/Slowmo/DownThrow.gif?raw=true"
 			}
 		}
 	}
