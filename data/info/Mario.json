@@ -240,10 +240,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Back Air": "https://i.imgur.com/GGHwiAV.gif"
+				"Back Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Mario/Full%20Speed/backair.gif?raw=true"
 			},
 			"Slowmo": {
-				"Back Air": "https://i.imgur.com/goUAoun.gif"
+				"Back Air": "https://raw.githubusercontent.com/RosieSSF2/ssf2framedata2/refs/heads/main/data/images/Mario/Slowmo/backair.gif?raw=true"
 			}
 		}
 	},

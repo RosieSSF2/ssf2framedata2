@@ -53,16 +53,6 @@ class Info(commands.Cog):
             description='Informational data collected and maintained by craftyfurry. Contains more info about each move than the bot does. Not all characters are included.')
         embed.set_thumbnail(url='https://i.imgur.com/ScoQwQk.png')
         await interaction.response.send_message(embed=embed)
-
-    @app_commands.command(name='angles')
-    async def di_max_angles(self, interaction: discord.Interaction):
-        '''The DI direction which will give you the maximum angle change'''
-        embed = discord.Embed(
-            description=
-            '```py\n337° to 22°  :  Up & Down \n 22° to 23°  :  Down & Down+Away\n 23° to 44°  :  Down+Away\n 45°         :  Down+Away & Up+In\n 46° to 67°  :  Up+In\n 67° to 68°  :  In & Up+In\n 68° to 112° :  In & Away```'
-            )
-        embed.set_author(name='The DI which will most influence the direction you\'re sent in')
-        await interaction.response.send_message(embed=embed)
     
     @app_commands.command(name='aura')
     async def formulas_kb_hs_hp(self, interaction: discord.Interaction):
