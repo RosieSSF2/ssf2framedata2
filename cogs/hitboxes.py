@@ -485,6 +485,23 @@ class Hitboxes(commands.Cog):
         """Naruto frame data and hitbox info"""
         ssf2_embed, view = ssf2_hitbox('Naruto', attack, interaction.user)
         await interaction.response.send_message(embed=ssf2_embed[0], view=view)
+
+    # Ness
+    moves = Literal[
+        'Jab', 'Dash Attack',
+        'Down Tilt', 'Up Tilt', 'Forward Tilt',
+        'Neutral Air', 'Down Air', 'Up Air', 'Forward Air', 'Back Air',
+        'Down Smash', 'Up Smash', 'Forward Smash', 
+        'Up Special', 'Neutral Special',
+        'Down Special', 'Side Special',
+        'Grab', 'Forward Throw', 'Back Throw', 'Up Throw', 'Down Throw'
+    ]
+
+    @app_commands.command(name='ness')
+    async def ness(self, interaction: discord.Interaction, attack: moves):
+        """Ness frame data and hitbox info"""
+        ssf2_embed, view = ssf2_hitbox('Ness', attack, interaction.user)
+        await interaction.response.send_message(embed=ssf2_embed[0], view=view)
         
     # PAC-MAN
     moves = Literal[

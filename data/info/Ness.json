@@ -1,0 +1,512 @@
+{
+	"Jab": {
+		"Hitboxes": {
+			"Jab 1": {
+				"Startup": "1",
+				"Active": "2",
+				"Endlag": "3-9",
+                "Cancellable": "4-9",
+				"Damage": "3%",
+				"Angle": "70"
+			},
+			"Jab 2": {
+				"Startup": "1-2",
+				"Active": "3",
+				"Endlag": "4-10",
+                "Cancellable": "5-10",
+				"Damage": "2%",
+				"Angle": "60"
+			},
+			"Jab 3": {
+                "Startup": "1",
+				"Active": "2",
+				"Endlag": "3-12",
+				"Damage": "2%",
+				"Angle": "40"
+			},
+			"Jab Combo": {
+				"Startup": "1",
+				"Active": "2, 6, 9",
+				"Endlag": "10-19",
+				"Damage": "7%",
+				"Angle": "40"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Jab 1": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/jab-jab1.gif?raw=true",
+				"Jab 2": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/jab-jab2.gif?raw=true",
+				"Jab 3": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/jab-jab3.gif?raw=true",
+				"Jab Combo": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/jab-jabcombo.gif?raw=true"
+			},
+			"Slowmo": {
+				"Jab 1": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/jab-jab1.gif?raw=true",
+				"Jab 2": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/jab-jab2.gif?raw=true",
+				"Jab 3": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/jab-jab3.gif?raw=true",
+				"Jab Combo": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/jab-jabcombo.gif?raw=true"
+			}
+		}
+	},
+	"Dash Attack": {
+		"Hitboxes": {
+			"Dash Attack": {
+				"Startup": "1-3",
+				"Active": "4, 7, 10",
+				"Endlag": "11-20",
+				"Damage": "3%, 3%, 7%",
+				"Angle": "20, 20, 80"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Dash Attack": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/dashattack.gif?raw=true"
+			},
+			"Slowmo": {
+				"Dash Attack": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/dashattack.gif?raw=true"
+			}
+		}
+	},
+	"Forward Tilt": {
+		"Hitboxes": {
+			"Forward Tilt": {
+				"Startup": "1-2",
+				"Active": "3-4",
+				"Endlag": "5-13",
+				"Damage": "11%",
+				"Angle": "43"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Forward Tilt": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/forwardtilt.gif?raw=true"
+			},
+			"Slowmo": {
+				"Forward Tilt": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/forwardtilt.gif?raw=true"
+			}
+		}
+	},
+	"Up Tilt": {
+		"Hitboxes": {
+			"Up Tilt": {
+				"Startup": "1-2",
+				"Active": "3-5",
+				"Endlag": "6-14",
+				"interruptible": "12-14",
+				"Damage": "7%",
+				"Angle": "105"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Up Tilt": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/uptilt.gif?raw=true"
+			},
+			"Slowmo": {
+				"Up Tilt": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/uptilt.gif?raw=true"
+			}
+		}
+	},
+	"Down Tilt": {
+		"Hitboxes": {
+			"Down Tilt": {
+				"Startup": "1",
+				"Active": "2-4",
+				"Endlag": "5-6",
+				"Cancellable": "5-6",
+				"Damage": "3%",
+				"Angle": "82"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Down Tilt": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/downtilt.gif?raw=true"
+			},
+			"Slowmo": {
+				"Down Tilt": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/downtilt.gif?raw=true"
+			}
+		}
+	},
+	"Forward Smash": {
+		"Hitboxes": {
+			"Forward Smash": {
+				"Startup": "1-7",
+				"Active": "8, 9",
+				"Endlag": "10-23",
+				"Reflector": "8",
+				"Damage": "(16%, 20%, 22%), 16%",
+				"Angle": "50",
+				"Notes": "(Hilt, Mid, Tipper) decreasing order of priority"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Forward Smash": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/forwardsmash.gif?raw=true"
+			},
+			"Slowmo": {
+				"Forward Smash": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/forwardsmash.gif?raw=true"
+			}
+		}
+	},
+	"Up Smash": {
+		"Hitboxes": {
+			"Up Smash": {
+				"Startup": "1-2",
+				"Active": "3-6, 7-15",
+				"Endlag": "16-24",
+				"Damage": "5%, 12%",
+				"Angle": "90, 70"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Up Smash": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/upsmash.gif?raw=true"
+			},
+			"Slowmo": {
+				"Up Smash": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/upsmash.gif?raw=true"
+			}
+		}
+	},
+	"Down Smash": {
+		"Hitboxes": {
+			"Down Smash": {
+				"Startup": "1-5",
+				"Active": "6, 7-15",
+				"Endlag": "16-32",
+				"Damage": "12%, 7%",
+				"Angle": "50, 31"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Down Smash": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/downsmash.gif?raw=true"
+			},
+			"Slowmo": {
+				"Down Smash": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/downsmash.gif?raw=true"
+			}
+		}
+	},
+	"Neutral Air": {
+		"Hitboxes": {
+			"Neutral Air": {
+				"Startup": "1-2",
+				"Active": "3-4, 5-14",
+				"Endlag": "15-18",
+				"Damage": "11%, 8%",
+				"Landing Lag": "4",
+				"Autocancel": "1",
+				"Angle": "45, 67"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Neutral Air": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/neutralair.gif?raw=true"
+			},
+			"Slowmo": {
+				"Neutral Air": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/neutralair.gif?raw=true"
+			}
+		}
+	},
+	"Forward Air": {
+		"Hitboxes": {
+			"Forward Air": {
+				"Startup": "1-3",
+				"Active": "4, 6, 8, 10-11",
+				"Endlag": "12-21",
+				"Damage": "4x 3%",
+				"Landing Lag": "6",
+				"Autocancel": "1-3, 18-21",
+				"Angle": "45"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Forward Air": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/forwardair.gif?raw=true"
+			},
+			"Slowmo": {
+				"Forward Air": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/forwardair.gif?raw=true"
+			}
+		}
+	},
+	"Back Air": {
+		"Hitboxes": {
+			"Back Air": {
+				"Startup": "1-4",
+				"Active": "5-6, 7-10",
+				"Endlag": "11-19",
+				"Damage": "12%, 5%",
+				"Landing Lag": "5",
+				"Autocancel": "14-19",
+				"Angle": "50"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Back Air": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/backair.gif?raw=true"
+			},
+			"Slowmo": {
+				"Back Air": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/backair.gif?raw=true"
+			}
+		}
+	},
+	"Up Air": {
+		"Hitboxes": {
+			"Up Air": {
+				"Startup": "1-3",
+				"Active": "4-5",
+				"Endlag": "6-21",
+				"Damage": "13%",
+				"Landing Lag": "5",
+				"Autocancel": "1-2",
+				"Angle": "90"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Up Air": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/upair.gif?raw=true"
+			},
+			"Slowmo": {
+				"Up Air": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/upair.gif?raw=true"
+			}
+		}
+	},
+	"Down Air": {
+		"Hitboxes": {
+			"Down Air": {
+				"Startup": "1-7",
+				"Active": "8-11",
+				"Endlag": "12-22",
+				"Damage": "14%",
+				"Landing Lag": "6",
+				"Autocancel": "1-7, 21-22",
+				"Angle": "270"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Down Air": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/downair.gif?raw=true"
+			},
+			"Slowmo": {
+				"Down Air": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/downair.gif?raw=true"
+			}
+		}
+	},
+	"Neutral Special": {
+		"Hitboxes": {
+			"Hurtbox": {
+				"Startup": "1-13 + Charge",
+				"Active": "14 (Detonation Starts)",
+				"Endlag": "15-47",
+				"Notes": "Charge is always in multiples of 5"
+			},
+			"Explosion": {
+				"Startup": "1-14 (time from detonation start) + Charge",
+				"Active": "20-24",
+				"Endlag": "25-37",
+				"Damage": "25*charge/70 + 5",
+				"Angle": "58",
+				"Notes": "Charge is always in multiples of 5"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Hurtbox": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/neutralspecial-hurtbox.gif?raw=true",
+				"Explosion": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/neutralspecial-projectile.gif?raw=true"
+			},
+			"Slowmo": {
+				"Hurtbox": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/neutralspecial-hurtbox.gif?raw=true",
+				"Explosion": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/neutralspecial-projectile.gif?raw=true"
+			}
+		}
+	},
+	"Side Special": {
+		"Hitboxes": {
+			"Hurtbox": {
+				"Startup": "1-12",
+				"Active": "13 (Projectile Spawn)",
+				"Endlag": "14-28"
+			},
+			"Detection": {
+				"Startup": "13",
+				"Notes": "Dies when it hits the ground"
+			},
+			"Multihits": {
+				"Active": "1-44",
+				"Damage": "4%, 9x 1%",
+				"Angle": "68"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Hurtbox": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/sidespecial-hurtbox.gif?raw=true",
+				"Detection": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/sidespecial-detection.gif?raw=true",
+				"Multihits": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/sidespecial-multihits.gif?raw=true"
+			},
+			"Slowmo": {
+				"Hurtbox": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/sidespecial-hurtbox.gif?raw=true",
+				"Detection": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/sidespecial-detection.gif?raw=true",
+				"Multihits": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/sidespecial-multihits.gif?raw=true"
+			}
+		}
+	},
+	"Up Special": {
+		"Hitboxes": {
+			"Hurtbox": {
+					"Startup": "1-8",
+					"Active": "9 (Projectile Spawn)",
+					"Endlag": "10-26 (if cancelled immediately)",
+					"Notes": "Cancel animation 13 frames long"
+			},
+			"PK Thunder": {
+					"Active": "1-70",
+					"Damage": "8%",
+					"Angle": "55"
+			},
+			"PK Rocket": {
+					"Active": "1-17",
+					"Endlag": "18-26",
+					"Ledgegrab": "18-26",
+					"Damage": "25%",
+					"Angle": "45"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Hurtbox": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/upspecial-hurtbox.gif?raw=true",
+				"PK Thunder": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/upspecial-pkthunder.gif?raw=true",
+				"PK Rocket": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/upspecial-pkrocket.gif?raw=true"
+			},
+			"Slowmo": {
+				"Hurtbox": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/upspecial-hurtbox.gif?raw=true",
+				"PK Thunder": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/upspecial-pkthunder.gif?raw=true",
+				"PK Rocket": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/upspecial-pkrocket.gif?raw=true"
+			}
+		}
+	},
+	"Down Special": {
+		"Hitboxes": {
+			"Down Special": {
+				"Startup": "1-2",
+				"Active": "3-14 (absorber)",
+				"Endlag": "15-20",
+				"Windbox Active": "16-19 (windbox)",
+				"Damage": "0%",
+				"Angle": "-4"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Down Special": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/downspecial.gif?raw=true"
+			},
+			"Slowmo": {
+				"Down Special": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/downspecial.gif?raw=true"
+			}
+		}
+	},
+	"Grab": {
+		"Hitboxes": {
+			"Standing Grab": {
+				"Startup": "1-3",
+				"Active": "4",
+				"Endlag": "5-15"
+			},
+			"Dash Grab": {
+				"Startup": "1-5",
+				"Active": "6",
+				"Endlag": "7-20"
+			},
+			"Pummel": {
+				"Startup": "1-3",
+				"Active": "4",
+				"Endlag": "5-7",
+				"Damage": "2%"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Standing Grab": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/grab-standing.gif?raw=true",
+				"Dash Grab": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/grab-dash.gif?raw=true",
+				"Pummel": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/grab-pummel.gif?raw=true"
+			},
+			"Slowmo": {
+				"Standing Grab": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/grab-standing.gif?raw=true",
+				"Dash Grab": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/grab-dash.gif?raw=true",
+				"Pummel": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/grab-pummel.gif?raw=true"
+			}
+		}
+	},
+	"Forward Throw": {
+		"Hitboxes": {
+			"Forward Throw": {
+				"Startup": "1-14",
+				"Active": "15",
+				"Endlag": "16-22",
+				"Damage": "10%",
+				"Angle": "39"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Forward Throw": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/forwardthrow.gif?raw=true"
+			},
+			"Slowmo": {
+				"Forward Throw": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/forwardthrow.gif?raw=true"
+			}
+		}
+	},
+	"Back Throw": {
+		"Hitboxes": {
+			"Back Throw": {
+				"Startup": "1-11",
+				"Active": "12",
+				"Endlag": "13-19",
+				"Damage": "13%",
+				"Angle": "140"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Back Throw": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/backthrow.gif?raw=true"
+			},
+			"Slowmo": {
+				"Back Throw": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/backthrow.gif?raw=true"
+			}
+		}
+	},
+	"Up Throw": {
+		"Hitboxes": {
+			"Up Throw": {
+				"Startup": "1-20",
+				"Active": "21",
+				"Endlag": "22-27",
+				"Damage": "11%",
+				"Angle": "90"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Up Throw": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/upthrow.gif?raw=true"
+			},
+			"Slowmo": {
+				"Up Throw": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/upthrow.gif?raw=true"
+			}
+		}
+	},
+	"Down Throw": {
+		"Hitboxes": {
+			"Down Throw": {
+				"Startup": "1-4",
+				"Active": "5-14, 15",
+				"Endlag": "16-20",
+				"Damage": "5x 2%",
+				"Angle": "270, 66"
+			}
+		},
+		"Images": {
+			"Full Speed": {
+				"Down Throw": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/downthrow.gif?raw=true"
+			},
+			"Slowmo": {
+				"Down Throw": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/downthrow.gif?raw=true"
+			}
+		}
+	}
+}
