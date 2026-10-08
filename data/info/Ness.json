@@ -34,16 +34,16 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Jab 1": "",
-				"Jab 2": "",
-				"Jab 3": "",
-				"Jab Combo": ""
+				"Jab 1": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/jab-jab1.gif?raw=true",
+				"Jab 2": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/jab-jab2.gif?raw=true",
+				"Jab 3": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/jab-jab3.gif?raw=true",
+				"Jab Combo": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/jab-jabcombo.gif?raw=true"
 			},
 			"Slowmo": {
-				"Jab 1": "",
-				"Jab 2": "",
-				"Jab 3": "",
-				"Jab Combo": ""
+				"Jab 1": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/jab-jab1.gif?raw=true",
+				"Jab 2": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/jab-jab2.gif?raw=true",
+				"Jab 3": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/jab-jab3.gif?raw=true",
+				"Jab Combo": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/jab-jabcombo.gif?raw=true"
 			}
 		}
 	},
@@ -59,10 +59,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Dash Attack": ""
+				"Dash Attack": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/dashattack.gif?raw=true"
 			},
 			"Slowmo": {
-				"Dash Attack": ""
+				"Dash Attack": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/dashattack.gif?raw=true"
 			}
 		}
 	},
@@ -78,10 +78,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Forward Tilt": ""
+				"Forward Tilt": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/forwardtilt.gif?raw=true"
 			},
 			"Slowmo": {
-				"Forward Tilt": ""
+				"Forward Tilt": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/forwardtilt.gif?raw=true"
 			}
 		}
 	},
@@ -98,10 +98,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Up Tilt": ""
+				"Up Tilt": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/uptilt.gif?raw=true"
 			},
 			"Slowmo": {
-				"Up Tilt": ""
+				"Up Tilt": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/uptilt.gif?raw=true"
 			}
 		}
 	},
@@ -118,10 +118,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Down Tilt": ""
+				"Down Tilt": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/downtilt.gif?raw=true"
 			},
 			"Slowmo": {
-				"Down Tilt": ""
+				"Down Tilt": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/downtilt.gif?raw=true"
 			}
 		}
 	},
@@ -139,10 +139,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Forward Smash": ""
+				"Forward Smash": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/forwardsmash.gif?raw=true"
 			},
 			"Slowmo": {
-				"Forward Smash": ""
+				"Forward Smash": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/forwardsmash.gif?raw=true"
 			}
 		}
 	},
@@ -158,10 +158,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Up Smash": ""
+				"Up Smash": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/upsmash.gif?raw=true"
 			},
 			"Slowmo": {
-				"Up Smash": ""
+				"Up Smash": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/upsmash.gif?raw=true"
 			}
 		}
 	},
@@ -177,10 +177,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Down Smash": ""
+				"Down Smash": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/downsmash.gif?raw=true"
 			},
 			"Slowmo": {
-				"Down Smash": ""
+				"Down Smash": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/downsmash.gif?raw=true"
 			}
 		}
 	},
@@ -198,10 +198,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Neutral Air": ""
+				"Neutral Air": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/neutralair.gif?raw=true"
 			},
 			"Slowmo": {
-				"Neutral Air": ""
+				"Neutral Air": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/neutralair.gif?raw=true"
 			}
 		}
 	},
@@ -219,10 +219,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Forward Air": ""
+				"Forward Air": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/forwardair.gif?raw=true"
 			},
 			"Slowmo": {
-				"Forward Air": ""
+				"Forward Air": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/forwardair.gif?raw=true"
 			}
 		}
 	},
@@ -240,10 +240,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Back Air": ""
+				"Back Air": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/backair.gif?raw=true"
 			},
 			"Slowmo": {
-				"Back Air": ""
+				"Back Air": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/backair.gif?raw=true"
 			}
 		}
 	},
@@ -261,10 +261,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Up Air": ""
+				"Up Air": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/upair.gif?raw=true"
 			},
 			"Slowmo": {
-				"Up Air": ""
+				"Up Air": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/upair.gif?raw=true"
 			}
 		}
 	},
@@ -282,10 +282,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Down Air": ""
+				"Down Air": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/downair.gif?raw=true"
 			},
 			"Slowmo": {
-				"Down Air": ""
+				"Down Air": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/downair.gif?raw=true"
 			}
 		}
 	},
@@ -308,12 +308,12 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Hurtbox": "",
-				"Explosion": ""
+				"Hurtbox": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/neutralspecial-hurtbox.gif?raw=true",
+				"Explosion": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/neutralspecial-projectile.gif?raw=true"
 			},
 			"Slowmo": {
-				"Hurtbox": "",
-				"Explosion": ""
+				"Hurtbox": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/neutralspecial-hurtbox.gif?raw=true",
+				"Explosion": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/neutralspecial-projectile.gif?raw=true"
 			}
 		}
 	},
@@ -336,14 +336,14 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Hurtbox": "",
-				"Detection": "",
-				"Multihits": ""
+				"Hurtbox": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/sidespecial-hurtbox.gif?raw=true",
+				"Detection": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/sidespecial-detection.gif?raw=true",
+				"Multihits": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/sidespecial-multihits.gif?raw=true"
 			},
 			"Slowmo": {
-				"Hurtbox": "",
-				"Detection": "",
-				"Multihits": ""
+				"Hurtbox": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/sidespecial-hurtbox.gif?raw=true",
+				"Detection": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/sidespecial-detection.gif?raw=true",
+				"Multihits": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/sidespecial-multihits.gif?raw=true"
 			}
 		}
 	},
@@ -370,14 +370,14 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Hurtbox": "",
-				"PK Thunder": "",
-				"PK Rocket": ""
+				"Hurtbox": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/upspecial-hurtbox.gif?raw=true",
+				"PK Thunder": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/upspecial-pkthunder.gif?raw=true",
+				"PK Rocket": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/upspecial-pkrocket.gif?raw=true"
 			},
 			"Slowmo": {
-				"Hurtbox": "",
-				"PK Thunder": "",
-				"PK Rocket": ""
+				"Hurtbox": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/upspecial-hurtbox.gif?raw=true",
+				"PK Thunder": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/upspecial-pkthunder.gif?raw=true",
+				"PK Rocket": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/upspecial-pkrocket.gif?raw=true"
 			}
 		}
 	},
@@ -394,10 +394,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Down Special": ""
+				"Down Special": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/downspecial.gif?raw=true"
 			},
 			"Slowmo": {
-				"Down Special": ""
+				"Down Special": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/downspecial.gif?raw=true"
 			}
 		}
 	},
@@ -422,14 +422,14 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Standing Grab": "",
-				"Dash Grab": "",
-				"Pummel": ""
+				"Standing Grab": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/grab-standing.gif?raw=true",
+				"Dash Grab": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/grab-dash.gif?raw=true",
+				"Pummel": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/grab-pummel.gif?raw=true"
 			},
 			"Slowmo": {
-				"Standing Grab": "",
-				"Dash Grab": "",
-				"Pummel": ""
+				"Standing Grab": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/grab-standing.gif?raw=true",
+				"Dash Grab": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/grab-dash.gif?raw=true",
+				"Pummel": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/grab-pummel.gif?raw=true"
 			}
 		}
 	},
@@ -445,10 +445,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Forward Throw": ""
+				"Forward Throw": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/forwardthrow.gif?raw=true"
 			},
 			"Slowmo": {
-				"Forward Throw": ""
+				"Forward Throw": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/forwardthrow.gif?raw=true"
 			}
 		}
 	},
@@ -464,10 +464,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Back Throw": ""
+				"Back Throw": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/backthrow.gif?raw=true"
 			},
 			"Slowmo": {
-				"Back Throw": ""
+				"Back Throw": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/backthrow.gif?raw=true"
 			}
 		}
 	},
@@ -483,10 +483,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Up Throw": ""
+				"Up Throw": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/upthrow.gif?raw=true"
 			},
 			"Slowmo": {
-				"Up Throw": ""
+				"Up Throw": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/upthrow.gif?raw=true"
 			}
 		}
 	},
@@ -502,10 +502,10 @@
 		},
 		"Images": {
 			"Full Speed": {
-				"Down Throw": ""
+				"Down Throw": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Full%20Speed/downthrow.gif?raw=true"
 			},
 			"Slowmo": {
-				"Down Throw": ""
+				"Down Throw": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Ness/Slowmo/downthrow.gif?raw=true"
 			}
 		}
 	}
