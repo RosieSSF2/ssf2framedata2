@@ -15,7 +15,9 @@ class MyBot(commands.Bot):
         super().__init__(
             activity=discord.CustomActivity(name='Ness just added!'),
             command_prefix=commands.when_mentioned,
-            intents=intents
+            intents=intents,
+            allowed_installs = discord.app_commands.AppInstallationType(guild=True, user=True),
+            allowed_contexts=discord.app_commands.AppCommandContext(guild=True, dm_channel=True, private_channel=True)
         )
     
     async def setup_hook(self):
