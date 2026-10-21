@@ -315,32 +315,33 @@
 	"Up Special": {
 		"Hitboxes": {
 			"Self Detonation": {
-				"Startup": "1-11",
-				"Active": "12-27",
+				"Startup": "1-3",
+				"Active": "4 (projectile spawn), 28 (bomb explosion)",
 				"Damage": "17.85%",
 				"Angle": "75"
 			},
 			"Opponent Explosion": {
 				"Startup": "1-11",
-				"Active": "12-27",
-				"Damage": "17.85%",
+				"Active": "12-27 (bomb detection)",
+				"Damage": "26.25%",
 				"Angle": "45"
 			},
 			"Bomb Toss": {
 				"Active": "1+",
-				"Notes": "Orange is catchbox"
-			},
-			"Up Special": {
-				"Damage": "17.85%",
-				"Angle": "45"
+				"Damage": "26.25%",
+				"Notes": "Green is catchbox"
 			}
 		},
 		"Images": {
 			"Full Speed": {
-				"Up Special": "https://i.imgur.com/UCx3zlz.gif"
+				"Self Detonation": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Sandbag/Full%20Speed/upspecial-selfdetonation.gif?raw=true",
+				"Opponent Explosion": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Sandbag/Full%20Speed/upspecial-opponentexplosion.gif?raw=true",
+				"Bomb Toss": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Sandbag/Full%20Speed/upspecial-bombtoss.gif?raw=true"
 			},
 			"Slowmo": {
-				"Up Special": "https://i.imgur.com/UCx3zlz.gif"
+				"Self Detonation": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Sandbag/Slowmo/upspecial-selfdetonation.gif?raw=true",
+				"Opponent Explosion": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Sandbag/Slowmo/upspecial-opponentexplosion.gif?raw=true",
+				"Bomb Toss": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Sandbag/Slowmo/upspecial-bombtoss.gif?raw=true"
 			}
 		}
 	},

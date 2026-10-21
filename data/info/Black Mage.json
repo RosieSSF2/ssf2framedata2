@@ -516,9 +516,9 @@
 	"Up Throw": {
 		"Hitboxes": {
 			"Up Throw": {
-				"Startup": "1-12",
-				"Active": "13-18",
-				"Endlag": "19-21",
+				"Startup": "1-13",
+				"Active": "14-17",
+				"Endlag": "18-20",
 				"Damage": "3x Varied, 1% (17% cap, inversely scales with opponent damage)",
 				"Angle": "95"
 			}
