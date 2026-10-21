@@ -24,18 +24,27 @@
 				"Damage": "5%",
 				"Angle": "45",
 				"Notes": "The input for this move can be read until 2 frames after jab 2 ended"
+			},
+			"Jab Combo": {
+				"Startup": "1",
+				"Active": "2, 7, 12",
+				"Endlag": "13-24",
+				"Damage": "10%",
+				"Angle": "45"
 			}
 		},
 		"Images": {
 			"Full Speed": {
 				"Jab 1": "https://i.imgur.com/9l4apPR.gif",
 				"Jab 2": "https://i.imgur.com/YKWkqCN.gif",
-				"Jab 3": "https://i.imgur.com/6QmJvPp.gif"
+				"Jab 3": "https://i.imgur.com/6QmJvPp.gif",
+				"Jab Combo": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Luigi/Full%20Speed/jab-jabcombo.gif?raw=true"
 			},
 			"Slowmo": {
 				"Jab 1": "https://i.imgur.com/E9b5lhi.gif",
 				"Jab 2": "https://i.imgur.com/ZDi1Tqr.gif",
-				"Jab 3": "https://i.imgur.com/ecN3w5h.gif"
+				"Jab 3": "https://i.imgur.com/ecN3w5h.gif",
+				"Jab Combo": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Luigi/slowmo/jab-jabcombo.gif?raw=true"
 			}
 		}
 	},

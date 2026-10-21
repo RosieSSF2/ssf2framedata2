@@ -519,7 +519,7 @@
 				"Endlag": "5-15"
 			},
 			"Dash Grab": {
-				"Startup": "1-4",
+				"Startup": "1-5",
 				"Active": "6",
 				"Endlag": "7-20"
 			},

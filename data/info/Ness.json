@@ -387,9 +387,10 @@
 				"Startup": "1-2",
 				"Active": "3-14 (absorber)",
 				"Endlag": "15-20",
-				"Windbox Active": "16-19 (windbox)",
+				"Windbox Active": "16-19",
 				"Damage": "0%",
-				"Angle": "-4"
+				"Angle": "-4",
+				"Jump Cancellable": "Frame 5 onwards"
 			}
 		},
 		"Images": {
