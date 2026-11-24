@@ -390,7 +390,7 @@
 				"Windbox Active": "16-19",
 				"Damage": "0%",
 				"Angle": "-4",
-				"Jump Cancellable": "Frame 5 onwards"
+				"Jump Cancellable": "Frame 5 onwards (ground), frame 1 onwards (air)"
 			}
 		},
 		"Images": {
