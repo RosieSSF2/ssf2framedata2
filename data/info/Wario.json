@@ -293,7 +293,7 @@
 				"Active": "3-5",
 				"Endlag": "6-7",
 				"Damage": "2%",
-				"Notes": "Can be input from frame 16 of Grab with the Attack or Special button, as long as neither of each buttons was held the frame before"
+				"Notes": "Can be input from frame 16 of Grab with the Attack or Special button, or from the 3rd frame of connecting Grab if it connects past frame 16, as long as neither of each buttons was held the frame before. 2 Bites maximum, 1st Bite accessible if the opponent is at 4%, 2nd is accessible if the opponent is at 12% after 1st. Bite. "
 			},
 			"Throw": {
 				"Startup": "1-6",
@@ -301,7 +301,7 @@
 				"Endlag": "9-11",
 				"Damage": "6%",
 				"Angle": "56",
-				"Notes": "Comes out as soon as frame 15 of Grab if a direction is held, or a frame after the oppponent is grabbed if it connects past frame 15. Takes priority over Bite"
+				"Notes": "Comes out as soon as 15 of Grab if a direction is held, or as soon as the 2nd frame of connecting Grab if it connects past frame 15. Takes priority over Bite, and is buffered by an Attack/Special input if Bite has been used twice"
 			}
 		},
 		"Images": {
