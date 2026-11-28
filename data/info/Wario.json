@@ -77,9 +77,9 @@
 	"Up Tilt": {
 		"Hitboxes": {
 			"Up Tilt": {
-				"Startup": "1-6",
-				"Active": "7-9",
-				"Endlag": "10-18",
+				"Startup": "1-4",
+				"Active": "5-7",
+				"Endlag": "8-16",
 				"Damage": "11%",
 				"Angle": "90"
 			}
@@ -255,27 +255,27 @@
 		"Hitboxes": {
 			"Aerial Finish": {
 				"Startup": "1-2",
-				"Active": "3-14",
-				"Endlag": "15-19",
+				"Active": "3-13",
+				"Endlag": "15-18",
 				"Damage": "3x 2%, 4%",
 				"Landing Lag": "6",
 				"Angle": "74"
 			},
 			"Landing Hitbox": {
 				"Active": "1",
-				"Endlag": "2-6",
+				"Endlag": "2-7",
 				"Damage": "2%",
 				"Angle": "80"
 			}
 		},
 		"Images": {
 			"Full Speed": {
-				"Aerial Finish": "https://i.imgur.com/HiBA2jm.gif",
-				"Landing Hitbox": "https://i.imgur.com/GSEMPqY.gif"
+				"Aerial Finish": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Wario/Full%20Speed/dair-aerialfinish.gif?raw=true",
+				"Landing Hitbox": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Wario/Full%20Speed/dair-landinghit.gif?raw=true"
 			},
 			"Slowmo": {
-				"Aerial Finish": "https://i.imgur.com/wef9d4e.gif",
-				"Landing Hitbox": "https://i.imgur.com/27bm9tt.gif"
+				"Aerial Finish": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Wario/Slowmo/dair-aerialfinish.gif?raw=true",
+				"Landing Hitbox": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Wario/Slowmo/dair-landinghit.gif?raw=true"
 			}
 		}
 	},
@@ -283,21 +283,28 @@
 		"Hitboxes": {
 			"Grab": {
 				"Startup": "1-2",
-				"Active": "3-13, 15 ",
+				"Active": "3-13, 15",
 				"Endlag": "16-18",
 				"Damage": "10%",
 				"Angle": "50"
 			},
 			"Bite": {
 				"Startup": "1-2",
-				"Active": "3-4",
-				"Endlag": "5-6",
+				"Active": "3-5",
+				"Endlag": "6-7",
 				"Damage": "2%"
 			},
-			"Throw": {
+			"Throw Forward": {
 				"Startup": "1-5",
 				"Active": "6-7",
-				"Endlag": "8-11",
+				"Endlag": "9-11",
+				"Damage": "6%",
+				"Angle": "56"
+			},
+			"Throw Back": {
+				"Startup": "1-4",
+				"Active": "5-6",
+				"Endlag": "7-13",
 				"Damage": "6%",
 				"Angle": "56"
 			}
@@ -306,12 +313,14 @@
 			"Full Speed": {
 				"Grab": "https://i.imgur.com/eHW5lgZ.gif",
 				"Bite": "https://i.imgur.com/F97uS6G.gif",
-				"Throw": "https://i.imgur.com/vYjpwT8.gif"
+				"Throw Forward": "https://i.imgur.com/vYjpwT8.gif",
+				"Throw Back": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Wario/Full%20Speed/special-throwback.gif?raw=true"
 			},
 			"Slowmo": {
 				"Grab": "https://i.imgur.com/FsGwbn3.gif",
 				"Bite": "https://i.imgur.com/6hvlsVT.gif",
-				"Throw": "https://i.imgur.com/X7MLkbS.gif"
+				"Throw Forward": "https://i.imgur.com/X7MLkbS.gif",
+				"Throw Back": "https://github.com/RosieSSF2/ssf2framedata2/blob/main/data/images/Wario/Slowmo/special-throwback.gif?raw=true"
 			}
 		}
 	},
@@ -320,7 +329,7 @@
 			"Whiff": {
 				"Startup": "1-5",
 				"Active": "6-11, 12-14, 15-17, 18-19, 20, 21-22",
-				"Endlag": "23-49",
+				"Endlag": "23-39",
 				"Damage": "8%, 12%, 14%, 16%, 18%, 20%",
 				"Angle": "40"
 			},
@@ -371,7 +380,7 @@
 			"Level 1": {
 				"Startup": "1-5",
 				"Active": "6-7",
-				"Endlag": "8-21",
+				"Endlag": "8-22",
 				"Damage": "12%",
 				"Angle": "45",
 				"Notes": "Takes 15 seconds to reach"
