@@ -13,7 +13,7 @@ class MyBot(commands.Bot):
 
     def __init__(self, *, intents: discord.Intents):
         super().__init__(
-            activity=discord.CustomActivity(name='Ness just added!'),
+            activity=discord.CustomActivity(name='Fox just added!'),
             command_prefix=commands.when_mentioned,
             intents=intents,
             allowed_installs = discord.app_commands.AppInstallationType(guild=True, user=True),

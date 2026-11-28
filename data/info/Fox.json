@@ -363,7 +363,7 @@
 	"Down Special": {
 		"Hitboxes": {
 			"Down Special": {
-				"Active": "2 (attackbox), 2-14 (reflectbox)",
+				"Active": "1 (attackbox), 2-14 (reflectbox)",
 				"Endlag": "15-23",
 				"Damage": "6%",
 				"Angle": "0",
